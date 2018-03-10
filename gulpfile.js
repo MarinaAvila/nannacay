@@ -9,7 +9,7 @@ var sourcemaps = require( 'gulp-sourcemaps' );
 var uglify = require( 'gulp-uglify' );
 var del = require('del');
 
-var themePath = './';
+var themePath = './wp-content/themes/nannacay';
 var isProduction = false;
 
 gulp.task( 'sass', function() {
