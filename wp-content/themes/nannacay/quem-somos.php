@@ -1,10 +1,10 @@
 <?php
-  /* Template Name: Home */
+  /* Template Name: Quem Somos */
 
   get_header();
 ?>
 
-<h1>Home</h1>
+<h1>quem somos</h1>
   
 <?php 
 	get_footer();
