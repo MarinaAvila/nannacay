@@ -4,7 +4,9 @@
   get_header();
 ?>
 
-<h1>Home</h1>
+<div class="cover" style="background-image:url('<?php echo get_field('cover') ?>"> 
+  <div class="logo" style="background-image:url(<?php echo get_field('logo') ?>"></div>
+</div>
   
 <?php 
 	get_footer();

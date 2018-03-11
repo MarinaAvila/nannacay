@@ -1,0 +1,72 @@
+
+#header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+    .menu-lines {
+        right: 15px;
+        top: 10px;
+        position: absolute;
+        z-index: 2;
+
+        .line {
+            width: 35px;
+            height: 4px;
+            background-color: black;
+            margin: 6px 0;
+            
+           
+        }
+    }
+
+    .menu {
+        width: 100%;
+        background-color: white;
+        color: black;
+        transform: scaleX(0);
+        transition: transform 0.5s ease-in;
+        transform-origin: left;
+
+        
+        .menu-list {
+            
+            .menu-item {
+                padding: 20px;
+                display: block;
+                border-bottom: .5px solid #ddd;
+
+            }
+        }
+    }
+
+    .social-media {
+        .facebook {
+
+        }
+        .instagram {
+
+        }
+    }
+
+    .logo-menu {
+
+    }
+}
+
+body.menu-open {
+    #header {
+
+        height: 100vh;
+        width: 100vw;
+
+        .menu {
+            transform: scaleX(1);
+        }
+
+        .menu-lines {
+          
+        }
+            
+    }
+}
