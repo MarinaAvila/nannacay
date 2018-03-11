@@ -18,17 +18,26 @@
     }
   }
 
-  // @media (min-width: 1000px) {
-  //   #header {
-  //     .logo-menu {
-  //       display: none;
-  //     }
+  @media (min-width: 1000px) {
+    #header {
+      position: absolute;
+
+      .menu {
+        position: absolute;
+        top: 50vh;
+      }
+
+      .logo-menu {
+        display: none;
+      }
   
-  //     .social-media {
-  //       display: block;
-  //     }
-  //   }
-  // }
+      .social-media {
+        display: block;
+        position: absolute;
+        top: 6vh;
+      }
+    }
+  }
 
   .cover {
     width: 100vw;
@@ -44,7 +53,7 @@
       position: absolute;
       text-align: center;
       top: 0%;
-      transform: translateY(-50%);
+      // transform: translateY(-50%);
       bottom: 0;
       right: 0;
       left: 0;
