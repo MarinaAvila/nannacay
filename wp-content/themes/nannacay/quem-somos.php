@@ -5,7 +5,7 @@
 ?>
 
 <div class="cover">
-  <h1 class="title">Quem somos</h1>
+  <h1 class="section-name">Quem somos</h1>
 </div>
 
 <p class="title">nannacay®</p>
@@ -17,7 +17,7 @@
 </p>
 
 <div class="image-subtitle">
-  <img class="image" src="">
+  <img class="image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_artesa.jpg">
   <p class="subtitle">Vivamus id diam sit amet orci porta eleifend sit amet malesuada nisl.</p>
 </div>
 
@@ -35,7 +35,7 @@
 </p>
 
 <div class="image-subtitle">
-  <img class="image" src="">
+  <img class="image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_1.jpg">
 </div>
 
 <div class="video">video</div>
@@ -45,7 +45,7 @@
   <p class="author">Consectetur Adipiscing</p>
 </div>
 
-<img src="" class="full-image">
+<img class="full-image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_2.jpg">
 
 
   

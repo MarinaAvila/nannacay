@@ -4,6 +4,11 @@ $path-fonts: "../../assets/fonts/";
 $pure-black: #000000;
 $pure-white: #FFFFFF;
 
+$small-font-size : 12px;
+$big-font-size: 18px;
+$margin-bottom: 30px;
+$margin-bottom-small: 20px;
+
 $easeOutQuart: cubic-bezier(0.165, 0.84, 0.44, 1);
 
 @function responsive($value1, $value2, $width1: 320, $width2: 1920) {

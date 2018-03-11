@@ -8,9 +8,11 @@
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: blue;
-  color: $pure-white;
+
+  color: black;
   font-family: 'Open Sans', sans-serif;
+
+  font-size: 15px;
 
   ul { 
     list-style: none;
