@@ -15,18 +15,32 @@
             height: 4px;
             background-color: black;
             margin: 6px 0;
-            
-           
+            transition: background-color .5s ease-in-out;
+             
         }
+    }
+
+
+
+    .logo-menu {
+        display: block;
+
+        background-image: url(./../../assets/images/logo-nannacay-black.png);
+        width: 200px;
+        height: 25px;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 3% auto;
     }
 
     .menu {
         width: 100%;
         background-color: white;
         color: black;
-        transform: scaleX(0);
-        transition: transform 0.5s ease-in;
-        transform-origin: left;
+        transform: scaleY(0);
+        transition: transform 0.5s ease-in-out;
+        transform-origin: top;
 
         text-transform: uppercase;
 
@@ -42,13 +56,16 @@
 
     .social-media {
 
+        position: fixed;
+        top: 6%;
+        left: 5%;
 
         .facebook,
         .instagram {
             position: relative;
             width: 20px;
             height: 20px;
-            margin: 5px;
+            margin: 0 5px 0 0;
             display: inline-block;
 
             &:before,
@@ -59,7 +76,7 @@
                 right: 0;
                 bottom: 0;
                 left: 0;
-                background-size: 100%;
+                background-size: contain;
                 background-repeat: no-repeat;
                 transition: opacity 0.5s;
             }
@@ -84,11 +101,13 @@
 
     @media (min-width: 1000px) {
 
-        margin: 20px 0 0 20px;
+        margin: 0;
 
         .menu-lines {
             display: none;
         }
+
+       
 
         .menu {
             width: 30%;
@@ -96,14 +115,17 @@
             color: white;
             transform: scaleX(1);
 
-            margin-top: 20%;
+            position: fixed;
+            top: 50%;
+            left: 5%;
+            transform: translateY(-50%);
 
             // font-size: 
             
             .menu-list {
                 
                 .menu-item {
-                    padding: 0 5px;
+                    padding: 1px 0;
                     display: block;
                     border-bottom: none;
                 }
@@ -120,11 +142,13 @@ body.menu-open {
         width: 100vw;
 
         .menu {
-            transform: scaleX(1);
+            transform: scaleY(1);
         }
 
         .menu-lines {
-          
+          .line {
+            background-color: black;
+          }
         }
             
     }

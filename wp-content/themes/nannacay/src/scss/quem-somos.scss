@@ -1,5 +1,5 @@
 
-.page-template-index {
+.page-template-quem-somos-php {
 
   #header {
     .logo-menu {
@@ -18,17 +18,17 @@
     }
   }
 
-  @media (min-width: 1000px) {
-    #header {
-      .logo-menu {
-        display: none;
-      }
+  // @media (min-width: 1000px) {
+  //   #header {
+  //     .logo-menu {
+  //       display: none;
+  //     }
   
-      .social-media {
-        display: block;
-      }
-    }
-  }
+  //     .social-media {
+  //       display: block;
+  //     }
+  //   }
+  // }
 
   .cover {
     width: 100vw;
@@ -36,19 +36,18 @@
     background-size: cover;
     position: relative;
     background-position: center center;
+    background-image: url(./../../assets/images/quem_somos_img__topo.jpg);
   
-    .logo {
-      width: responsive(280, 500);
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center center;
+    .title {
+      height: 50px;
       margin: auto;
       position: absolute;
-      top: 0;
+      text-align: center;
+      top: 0%;
+      transform: translateY(-50%);
       bottom: 0;
       right: 0;
       left: 0;
-
     }
   }
 }
