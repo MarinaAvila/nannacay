@@ -28,28 +28,87 @@
         transition: transform 0.5s ease-in;
         transform-origin: left;
 
-        
+        text-transform: uppercase;
+
         .menu-list {
             
             .menu-item {
                 padding: 20px;
                 display: block;
                 border-bottom: .5px solid #ddd;
-
             }
         }
     }
 
     .social-media {
-        .facebook {
 
+
+        .facebook,
+        .instagram {
+            position: relative;
+            width: 20px;
+            height: 20px;
+            margin: 5px;
+            display: inline-block;
+
+            &:before,
+            &:after {
+                position: absolute;
+                content: '';
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                transition: opacity 0.5s;
+            }
+            
         }
         .instagram {
 
+            &:before {
+                background-image: url(./../../assets/images/instagram_white.svg);
+                opacity: 1;
+            }
+        }
+
+        .facebook {
+
+            &:before {
+                background-image: url(./../../assets/images/facebook-white.svg);
+                opacity: 1;
+            }
         }
     }
 
-    .logo-menu {
+    @media (min-width: 1000px) {
+
+        margin: 20px 0 0 20px;
+
+        .menu-lines {
+            display: none;
+        }
+
+        .menu {
+            width: 30%;
+            background-color: transparent;
+            color: white;
+            transform: scaleX(1);
+
+            margin-top: 20%;
+
+            // font-size: 
+            
+            .menu-list {
+                
+                .menu-item {
+                    padding: 0 5px;
+                    display: block;
+                    border-bottom: none;
+                }
+            }
+        }
 
     }
 }

@@ -9,8 +9,8 @@
 <body <?php body_class(); ?>>
   <header id="header">
     <div class="social-media">
-      <a class="facebook" href=""></a>
-      <a class='instagram' href=""></a>
+      <a class='instagram' href="https://www.instagram.com/nannacay/"></a>
+      <a class="facebook" href="https://www.facebook.com/nannacay.creativehands/"></a>
     </div>
     <div class="logo-menu"></div>
     <div class="menu-lines">
