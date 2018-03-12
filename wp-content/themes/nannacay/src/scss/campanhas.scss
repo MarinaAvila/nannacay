@@ -61,8 +61,30 @@
       left: 0;
 
       color: white;
+      
       .section-name {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        position: relative;
 
+        &:before,
+        &:after {
+          content: '';
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: white;
+          position: absolute;
+          top: 45%;
+        }
+
+        &:after {
+          margin-left: 10px;
+        }
+
+        &:before {
+          margin-left: -20px;
+        }
       }
 
       .campaigns {
