@@ -1,0 +1,97 @@
+
+.page-template-onde-php {
+
+  #header {
+    .logo-menu {
+      display: none;
+    }
+
+    .social-media {
+      display: none;
+    }
+
+    .menu-lines {
+      .line {
+        background-color: white;
+
+      }
+    }
+  }
+
+  @media (min-width: 1000px) {
+    #header {
+      position: absolute;
+
+      .menu {
+        position: absolute;
+        top: 50vh;
+      }
+
+      .logo-menu {
+        display: none;
+      }
+  
+      .social-media {
+        display: block;
+        position: absolute;
+        top: 6vh;
+      }
+    }
+  }
+
+  .cover {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    background-image: url(./../../assets/images/onde_cover.jpg);
+    background-attachment: fixed;
+  
+    .section-info {
+      height: 50px;
+      margin: auto;
+      position: absolute;
+      text-align: center;
+     
+      top: 0%;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      transform: translateY(-50%);
+
+      color: white;
+
+      .section-name {
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .stores-lists {
+    background-size: cover;
+    background-position: 42% 50%;
+    background-image: url(./../../assets/images/onde_img.jpg);
+    padding: 40px 0;
+
+    @media (min-width: 1000px) {
+      background-position: center center;
+    }
+
+    ul {
+      padding: 10px 5%;
+      color: white;
+    }
+
+    .wholesale-title {
+      margin-top: 40px;
+      padding: 0 5%;
+      color: white;
+    }
+
+    .coutry,
+    .store {
+      margin: 15px 0 5px;
+    }
+  }
+}

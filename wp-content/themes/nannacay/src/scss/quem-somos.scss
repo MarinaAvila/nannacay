@@ -46,7 +46,9 @@
     position: relative;
     background-position: center center;
     background-image: url(./../../assets/images/quem_somos_img__topo.jpg);
-  
+    background-attachment: fixed;
+    text-transform: uppercase;
+    
     .section-name {
       height: 50px;
       margin: auto;
@@ -164,10 +166,7 @@
           height: 20vw;
           background-color: pink;
         }
-
       }
-
-      
     }
   }
 }

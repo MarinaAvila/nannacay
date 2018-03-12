@@ -46,7 +46,6 @@
     </div>
   </div>
   <img class="full-image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_2.jpg">
-  
 </div>
 
   
