@@ -1,0 +1,74 @@
+
+.page-template-campanhas-php {
+
+  #header {
+    .logo-menu {
+      display: none;
+    }
+
+    .social-media {
+      display: none;
+    }
+
+    .menu-lines {
+      .line {
+        background-color: white;
+
+      }
+    }
+  }
+
+  @media (min-width: 1000px) {
+    #header {
+      position: absolute;
+
+      .menu {
+        position: absolute;
+        top: 50vh;
+        display: none;
+      }
+
+      .logo-menu {
+        display: none;
+      }
+  
+      .social-media {
+        display: block;
+        position: absolute;
+        top: 6vh;
+      }
+    }
+  }
+
+  .cover {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    background-image: url(./../../assets/images/campanhas-cover.jpg);
+    background-attachment: fixed;
+    text-transform: uppercase;
+    
+    .section-info {
+      margin: auto;
+      position: absolute;
+      text-align: center;
+      top: 45%;
+      
+      bottom: 0;
+      right: 0;
+      left: 0;
+
+      color: white;
+      .section-name {
+
+      }
+
+      .campaigns {
+
+      }
+
+    }
+  }
+}
