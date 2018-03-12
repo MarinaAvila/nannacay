@@ -12,6 +12,7 @@
 </div>
 
 <div class="stores-lists">
+  <div class="section">Onde</div>
   <ul class="stores-list">
     <li class="coutry">BRASIL</li>
     <li>Dona Coisa - Rio de Janeiro</li>
