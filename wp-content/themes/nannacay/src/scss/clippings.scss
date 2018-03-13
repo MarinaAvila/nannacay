@@ -1,0 +1,106 @@
+
+.page-template-clippings {
+
+  #header {
+    .logo-menu {
+      display: none;
+    }
+
+    .social-media {
+      display: none;
+    }
+
+    .menu-lines {
+      .line {
+        background-color: white;
+
+      }
+    }
+  }
+
+  @media (min-width: 1000px) {
+    #header {
+       position: absolute;
+
+      .menu {
+        position: fixed;
+        color: black;
+        top: 50vh;
+        display: block;
+      }
+
+      .logo-menu {
+        display: block;
+        position: fixed;
+        right: 0;
+        left: 0;
+      }
+  
+      .social-media {
+        display: block;
+        position: absolute;
+        top: 6vh;
+      }
+    }
+  }
+
+  .cover {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
+    text-transform: uppercase;
+    
+    .section-name {
+      margin: auto;
+      position: absolute;
+      text-align: center;
+      top: 45%;
+      
+      bottom: 0;
+      right: 0;
+      left: 0;
+
+      color: black;
+      text-transform: uppercase;
+    }
+  }
+
+  .clippings {
+
+    padding: responsive( 30, 60 ) responsive( 60, 120 );
+
+    @media (min-width: 1000px) {
+      padding: 120px 20px 30px 22%;
+      flex-wrap: wrap;
+      display: flex;
+    }
+
+    .clipping {
+      width: 100%;
+      padding: responsive(30, 60) 0;
+
+      @media (min-width: 1000px) {
+        width: calc(20% - 60px);
+        margin-left: 60px;
+        padding: 30px 0;
+      }
+
+      .clipping_image {
+        width: 100%;
+      }
+
+      .clipping_text {
+
+        .magazine {
+
+        }
+        .date {
+
+        }
+      }
+    }
+  }
+}

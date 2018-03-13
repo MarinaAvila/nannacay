@@ -21,17 +21,18 @@
     }
 
 
-
     .logo-menu {
         display: block;
-
         background-image: url(./../../assets/images/logo-nannacay-black.png);
-        width: 200px;
+        width: 120px;
         height: 25px;
         background-position: center center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin: 3% auto;
+        margin: 2% auto;
+        position: fixed;
+        right: 0;
+        left: 0;
     }
 
     .menu {

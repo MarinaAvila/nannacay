@@ -15,6 +15,7 @@
       <img class="image" src="<?php the_sub_field( 'image'); ?>">
     <?php endwhile; ?>
   <?php else : endif ?>
+</ul>
   
 <?php 
 	get_footer();
