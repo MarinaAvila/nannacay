@@ -4,7 +4,7 @@
   get_header();
 ?>
 
-<div class="cover">
+<div class="cover" style="background-image:url(<?php echo the_field( 'cover' ); ?>)">
   <div class="section-info">
     <h1 class="section-name">campanhas</h1>
 

@@ -1,27 +1,34 @@
 @font-face {
-  font-family: 'Open Sans';
-  src: url($path-fonts + 'opensans-bold.ttf');
-  font-weight: bold;
+  font-family: 'Roboto-light';
+  src: url($path-fonts + 'roboto-light.woff'), url($path-fonts + 'roboto-light.woff2');
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url($path-fonts + 'opensans-bold-italic.ttf');
-  font-weight: bold;
-  font-style: italic;
+  font-family: 'Roboto-regular';
+  src: url($path-fonts + 'roboto-regular.woff'), url($path-fonts + 'roboto-regular.woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url($path-fonts + 'opensans-italic.ttf');
-  font-weight: normal;
-  font-style: italic;
+  font-family: 'Spectral-regular';
+  src: url($path-fonts + 'spectralsc-regular.woff'), url($path-fonts + 'spectralsc-regular.woff2');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url($path-fonts + 'opensans-regular.ttf');
-  font-weight: normal;
+  font-family: 'Spectral-medium';
+  src: url($path-fonts + 'spectralsc-medium.woff'), url($path-fonts + 'spectralsc-medium.woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spectral-bold';
+  src: url($path-fonts + 'spectralsc-bold.woff'), url($path-fonts + 'spectralsc-bold.woff2') ;
+  font-weight: 600;
   font-style: normal;
 }

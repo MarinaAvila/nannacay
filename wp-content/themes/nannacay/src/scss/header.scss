@@ -4,6 +4,9 @@
     z-index: 1;
     width: 100%;
 
+    font-family: 'Spectral-regular';
+    font-size: 12px;
+
     .menu-lines {
         right: 15px;
         top: 10px;
@@ -11,10 +14,10 @@
         z-index: 2;
 
         .line {
-            width: 35px;
-            height: 4px;
+            width: 30px;
+            height: 3px;
             background-color: black;
-            margin: 6px 0;
+            margin: 5px 0;
             transition: background-color .5s ease-in-out;
              
         }
@@ -64,8 +67,8 @@
         .facebook,
         .instagram {
             position: relative;
-            width: 20px;
-            height: 20px;
+            width: 12px;
+            height: 12px;
             margin: 0 5px 0 0;
             display: inline-block;
 
