@@ -61,10 +61,16 @@
       left: 0;
       transform: translateY(-50%);
 
+      width: 90%;
+
       color: white;
 
       .section-name {
         text-transform: uppercase;
+      }
+
+      .address {
+        font-family: "Roboto-regular";
       }
     }
   }

@@ -6,7 +6,7 @@
 
 <div class="cover">
   <div class="section-info">
-    <h1 class="section-name">Onde</h1>
+    <h1 class="section-name">visite nosso studio store</h1>
     <p class="address">Av Ataulfo de Paiva 658/402</br>Leblon, Rio de Janeiro - RJ</p>
   </div>
 </div>
