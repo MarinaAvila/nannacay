@@ -65,23 +65,30 @@
     }
   }
 
-  .title {
-    text-transform: uppercase;
-    font-size: 22px;
-    margin: 40px 7% 10px 7%;
-    //bold
-  }
+  
 
   .definition {
-    font-size: 20px;
-    margin: 0 7% $margin-bottom;
+
+    margin: $margin-bottom  8%;
     width: 70%;
+    line-height: 1.7;
+
+    .title {
+      text-transform: uppercase;
+      font-size: 22px;
+      font-family: 'Spectral-medium';
+      display: block;
+  
+      @media (min-width: 1000px) {
+        display: inline;
+      }
+    }
   }
 
   .image-subtitle {
 
-    margin: 0 7% $margin-bottom;
-    width: 86%;
+    margin: 0 8% $margin-bottom;
+    width: 84%;
 
     .image {
       width: 100%;
@@ -95,18 +102,21 @@
   }
 
   .text {
-    margin: 0 7% $margin-bottom;
+    margin: 0 8% $margin-bottom;
+    line-height: 1.7;
   }
 
   .quote-author {
-    margin: 0 7% $margin-bottom;
+    margin: 0 8% $margin-bottom;
 
     .quote {
-      //bold
+      font-family: 'Spectral-medium';
       font-size: $big-font-size;
+      text-transform: uppercase;
     }
     .author {
       font-size: $small-font-size;
+      margin: 5px 0 0;
     }
   }
 
@@ -119,7 +129,7 @@
 
   .full-image {
     width: 100%;
-    margin: 0 0 70px;
+    margin: 0 0 200px;
   }
 
   @media (min-width: 1000px) {
@@ -154,6 +164,7 @@
 
       .full-image {
         width: 25%;
+        height: 25%;
         margin: 0;
       }
 

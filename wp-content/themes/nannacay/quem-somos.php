@@ -9,10 +9,9 @@
 </div>
 
 <div class="first-page">
-  <p class="title">nannacay®</p>
 
   <p class="definition">
-    (Nãnãkay), nome de origem Quechua Aimara, que significa irmandade de mulheres.
+    <span class="title">nannacay®</span> (Nãnãkay), nome de origem Quechua Aimara, que significa irmandade de mulheres.
   </p>
 
   <div class="image-subtitle">
