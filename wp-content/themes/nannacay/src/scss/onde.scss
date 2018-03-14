@@ -79,7 +79,7 @@
     background-size: cover;
     background-position: 42% 50%;
     background-image: url(./../../assets/images/onde_img.jpg);
-    padding: 40px 0;
+    padding: 40px 0 200px;
     font-size: 12px;
 
     @media (min-width: 1000px) {
@@ -97,13 +97,15 @@
     .section {
       display: none;
       font-family: 'Spectral-regular';
+      letter-spacing: .3em;
+
 
       @media (min-width: 1000px) {
         display: block;
         padding: 0 5% 0 7%;
         color: white;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 25px;
         text-transform: uppercase;
         margin-top: 10%;
       }
