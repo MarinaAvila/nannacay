@@ -49,16 +49,16 @@
     font-family: 'Spectral-regular';
   
     .section-info {
-      height: 50px;
+      height: 75px;
       margin: auto;
       position: absolute;
       text-align: center;
      
-      top: 0%;
+      top: 0;
       bottom: 0;
       right: 0;
       left: 0;
-      transform: translateY(-50%);
+      //transform: translateY(-50%);
 
       width: 90%;
 
