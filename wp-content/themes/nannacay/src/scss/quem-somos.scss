@@ -49,17 +49,23 @@
     background-attachment: fixed;
     text-transform: uppercase;
     font-family: 'Spectral-regular';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     .section-name {
-      height: 50px;
-      margin: auto;
-      position: absolute;
+
       text-align: center;
-      top: 0%;
-      // transform: translateY(-50%);
-      bottom: 0;
-      right: 0;
-      left: 0;
+
+      // height: 50px;
+      // margin: auto;
+      // position: absolute;
+      // top: 0%;
+      // // transform: translateY(-50%);
+      // bottom: 0;
+      // right: 0;
+      // left: 0;
 
       color: white;
     }

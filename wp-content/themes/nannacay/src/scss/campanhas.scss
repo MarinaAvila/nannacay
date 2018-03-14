@@ -50,22 +50,24 @@
     background-attachment: fixed;
 
 
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     .section-info,
     .campaign-info {
-      margin: auto;
-      position: absolute;
-      text-align: center;
-      top: 45%;
+      // margin: auto;
+      // position: absolute;
+      // text-align: center;
+      // top: 45%;
       
-      bottom: 0;
-      right: 0;
-      left: 0;
+      // bottom: 0;
+      // right: 0;
+      // left: 0;
 
       color: white;
-
       width: 70%;
+      text-align: center;
 
       // transform: translateY(-25%);
 

@@ -47,17 +47,20 @@
     background-position: center center;
     background-attachment: fixed;
     font-family: 'Spectral-regular';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
     .section-info {
-      height: 75px;
-      margin: auto;
-      position: absolute;
       text-align: center;
      
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
+      // margin: auto;
+      // position: absolute;
+      // top: 0;
+      // bottom: 0;
+      // right: 0;
+      // left: 0;
       //transform: translateY(-50%);
 
       width: 90%;

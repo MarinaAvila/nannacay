@@ -53,19 +53,24 @@
     background-attachment: fixed;
     text-transform: uppercase;
     font-family: 'Spectral-regular';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     .section-name {
-      margin: auto;
-      position: absolute;
-      text-align: center;
-      top: 45%;
+      // margin: auto;
+      // position: absolute;
       
-      bottom: 0;
-      right: 0;
-      left: 0;
+      // top: 45%;
+      
+      // bottom: 0;
+      // right: 0;
+      // left: 0;
 
       color: black;
       text-transform: uppercase;
+      text-align: center;
     }
   }
 
