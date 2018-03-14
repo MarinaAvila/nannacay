@@ -19,7 +19,7 @@
     <ul class="campaigns">
       <?php if ( $post_query->have_posts() ) : ?>
         <?php while ( $post_query->have_posts() ) : $post_query->the_post(); ?>
-        <li class='jersey-card'>
+        <li class='campaign'>
           <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
         </li>
         <?php endwhile; ?>

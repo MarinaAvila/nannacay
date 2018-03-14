@@ -45,7 +45,6 @@
     background-size: cover;
     position: relative;
     background-position: center center;
-    background-image: url(./../../assets/images/onde_cover.jpg);
     background-attachment: fixed;
     font-family: 'Spectral-regular';
   
@@ -67,6 +66,7 @@
 
       .section-name {
         text-transform: uppercase;
+        
       }
 
       .address {
@@ -96,6 +96,7 @@
 
     .section {
       display: none;
+      font-family: 'Spectral-regular';
 
       @media (min-width: 1000px) {
         display: block;

@@ -4,7 +4,7 @@
 
 <div class="cover">
   <div class="campaign-info">
-    <h1 class="campaign-name"><?php the_title() ?></h1>
+    <h1 class="campaign-name section-name"><?php the_title() ?></h1>
     <p class="campaign-about"><?php echo get_field( 'about' ) ?></p>
   </div>
 </div>
