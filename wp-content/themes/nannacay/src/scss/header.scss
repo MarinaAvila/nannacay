@@ -49,11 +49,20 @@
         text-transform: uppercase;
 
         .menu-list {
+            //padding: 15px 0;
             
             .menu-item {
-                padding: 20px;
+                padding: 15px;
                 display: block;
-                border-bottom: .5px solid #ddd;
+                letter-spacing: 2px;
+                font-size: 14px;
+                background-color: white;
+                transition: background-color .5s ease-in-out, color .5s;
+
+                &:hover {
+                    background-color: rgb(214, 47, 115);
+                    color: white;
+                }
             }
         }
     }
