@@ -18,8 +18,7 @@
             height: 3px;
             background-color: black;
             margin: 5px 0;
-            transition: background-color .5s ease-in-out;
-             
+            transition: background-color .5s ease-in-out;      
         }
     }
 
@@ -157,7 +156,7 @@ body.menu-open {
 
         .menu-lines {
           .line {
-            background-color: black;
+            background-color: white;
           }
         }
             

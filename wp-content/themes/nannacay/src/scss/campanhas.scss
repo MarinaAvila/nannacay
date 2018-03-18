@@ -3,41 +3,10 @@
 .single-post {
 
   #header {
-    .logo-menu {
-      display: none;
-    }
-
-    .social-media {
-      display: none;
-    }
-
-    .menu-lines {
-      .line {
-        background-color: white;
-
-      }
-    }
   }
 
   @media (min-width: 1000px) {
     #header {
-      position: absolute;
-
-      .menu {
-        position: absolute;
-        top: 50vh;
-        display: none;
-      }
-
-      .logo-menu {
-        display: none;
-      }
-  
-      .social-media {
-        display: block;
-        position: absolute;
-        top: 6vh;
-      }
     }
   }
 
