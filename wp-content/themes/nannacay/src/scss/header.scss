@@ -78,6 +78,24 @@
                 }
             }
         }
+
+        &.black {
+
+            .menu-list {
+            
+                .menu-item {
+
+                    @media (min-width: 1000px) {
+                        color: black;
+
+                        &:hover {
+                            color: black;
+                        }
+                    }
+                    
+                }
+            }
+        }
     }
 
     .social-media {

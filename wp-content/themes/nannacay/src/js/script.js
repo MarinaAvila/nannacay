@@ -35,5 +35,22 @@
     });
   })( jQuery );
 
+  jQuery(function($) {
+
+    var $nav = $('.menu');
+    var $win = $(window);
+    var winH = $win.height()/2;   // Get the window height.
+
+    $win.on("scroll", function () {
+      if ($(this).scrollTop() > winH ) {
+        $nav.addClass("black");
+      } else {
+        $nav.removeClass("black");
+      }
+    }).on("resize", function(){ // If the user resizes the window
+      winH = $(this).height(); // you'll need the new height value
+    });
+
+});
 
 })();
