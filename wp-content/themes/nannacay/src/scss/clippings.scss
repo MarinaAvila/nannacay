@@ -2,44 +2,54 @@
 .page-template-clippings {
 
   #header {
-    .logo-menu {
-      display: none;
-    }
 
     .social-media {
-      display: none;
+      
+      .instagram {
+
+        &:before {
+            background-image: url(./../../assets/images/instagram_black.svg);
+            opacity: 1;
+        }
+      }
+
+      .facebook {
+
+        &:before {
+            background-image: url(./../../assets/images/facebook-black.svg);
+            opacity: 1;
+        }
+      }
+    }
+
+    .logo-menu {
+      display: block;
+      background-image: url(./../../assets/images/logo-nannacay-black.png);
+      width: 120px;
     }
 
     .menu-lines {
       .line {
-        background-color: white;
-
+        background-color: black;
       }
     }
   }
 
   @media (min-width: 1000px) {
     #header {
-       position: absolute;
-
+      
       .menu {
-        position: fixed;
         color: black;
-        top: 50vh;
-        display: block;
-      }
 
-      .logo-menu {
-        display: block;
-        position: fixed;
-        right: 0;
-        left: 0;
-      }
-  
-      .social-media {
-        display: block;
-        position: absolute;
-        top: 6vh;
+        .menu-list {
+          .menu-item {
+
+            &:hover {
+              color: black;
+            }
+
+          }
+        }
       }
     }
   }

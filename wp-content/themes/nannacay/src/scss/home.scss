@@ -5,29 +5,6 @@
     .logo-menu {
       display: none;
     }
-
-    .social-media {
-      display: none;
-    }
-
-    .menu-lines {
-      .line {
-        background-color: white;
-
-      }
-    }
-  }
-
-  @media (min-width: 1000px) {
-    #header {
-      .logo-menu {
-        display: none;
-      }
-  
-      .social-media {
-        display: block;
-      }
-    }
   }
 
   .cover {
@@ -47,12 +24,6 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center center;
-      // margin: auto;
-      // position: absolute;
-      // top: 0;
-      // bottom: 0;
-      // right: 0;
-      // left: 0;
 
     }
   }

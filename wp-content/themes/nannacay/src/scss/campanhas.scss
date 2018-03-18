@@ -2,48 +2,9 @@
 .page-template-campanhas-php,
 .single-post {
 
-  #header {
-    .logo-menu {
-      display: none;
-    }
-
-    .social-media {
-      display: none;
-    }
-
-    .menu-lines {
-      .line {
-        background-color: white;
-
-      }
-    }
-  }
-
-  @media (min-width: 1000px) {
-    #header {
-      position: absolute;
-
-      .menu {
-        position: absolute;
-        top: 50vh;
-        display: none;
-      }
-
-      .logo-menu {
-        display: none;
-      }
-  
-      .social-media {
-        display: block;
-        position: absolute;
-        top: 6vh;
-      }
-    }
-  }
-
   .cover {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     position: relative;
     background-position: center center;
@@ -56,14 +17,7 @@
     
     .section-info,
     .campaign-info {
-      // margin: auto;
-      // position: absolute;
-      // text-align: center;
-      // top: 45%;
-      
-      // bottom: 0;
-      // right: 0;
-      // left: 0;
+      padding: 50px 0;
 
       color: white;
       width: 70%;
@@ -73,6 +27,8 @@
 
       @media (min-width: 1000px) {
         width: 30%;
+
+        padding: 150px 0;
       }
       
       .section-name,
@@ -103,7 +59,7 @@
       }
 
       .campaigns {
-        font-size: 12px;
+        font-size: 17px;
         margin-top: 25px;
 
         .campaign {
@@ -116,7 +72,6 @@
 
     .campaign-info {
       color: black;
-      transform: translateY(-10%);
 
       .campaign-name {
         &:before,
@@ -134,3 +89,59 @@
     }
   }
 }
+
+
+.single-post {
+
+  #header {
+
+    .social-media {
+      
+      .instagram {
+
+        &:before {
+            background-image: url(./../../assets/images/instagram_black.svg);
+            opacity: 1;
+        }
+      }
+
+      .facebook {
+
+        &:before {
+            background-image: url(./../../assets/images/facebook-black.svg);
+            opacity: 1;
+        }
+      }
+    }
+
+    .logo-menu {
+      display: block;
+      background-image: url(./../../assets/images/logo-nannacay-black.png);
+      width: 120px;
+    }
+
+    .menu-lines {
+      .line {
+        background-color: black;
+      }
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    #header {
+      
+      .menu {
+        color: black;
+
+        .menu-list {
+          .menu-item {
+
+            &:hover {
+              color: black;
+            }
+          }   
+        }
+      }
+    }
+  }
+}    

@@ -16,23 +16,21 @@
         .line {
             width: 30px;
             height: 3px;
-            background-color: black;
+            background-color: white;
             margin: 5px 0;
-            transition: background-color .5s ease-in-out;
-             
+            transition: background-color .5s ease-in-out;      
         }
     }
 
-
     .logo-menu {
         display: block;
-        background-image: url(./../../assets/images/logo-nannacay-black.png);
+        background-image: url(./../../assets/images/logo_nannacay_white_top.png);
         width: 120px;
         height: 25px;
         background-position: center center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin: 2% auto;
+        margin: 15px auto;
         position: fixed;
         right: 0;
         left: 0;
@@ -51,9 +49,27 @@
         .menu-list {
             
             .menu-item {
-                padding: 20px;
+                padding: 15px;
                 display: block;
-                border-bottom: .5px solid #ddd;
+                letter-spacing: 2px;
+                font-size: 14px;
+                background-color: white;
+                transition: background-color .5s ease-in-out, color .5s;
+
+                @media (min-width: 1000px) {
+                    background-color: transparent;
+                    padding: 1px 0;
+                }
+
+                &:hover {
+                    background-color: rgb(214, 47, 115);
+                    color: white;
+
+                    @media (min-width: 1000px) {
+                        background-color: transparent;
+                        color: white;
+                    }
+                }
             }
         }
     }
@@ -61,7 +77,7 @@
     .social-media {
 
         position: fixed;
-        top: 6vh;
+        top: 20px;
         left: 5%;
 
         .facebook,
@@ -86,6 +102,7 @@
             }
             
         }
+
         .instagram {
 
             &:before {
@@ -121,22 +138,7 @@
             top: 50vh;
             left: 5%;
             transform: translateY(-50%);
-
-            // font-size: 
-            
-            .menu-list {
-                
-                .menu-item {
-                    padding: 1px 0;
-                    display: block;
-                    border-bottom: none;
-                    transition: padding 0.3s ease-in-out;
-
-                    &:hover {
-                        padding: 1px 10px;
-                    }
-                }
-            }
+           
         }
 
     }
@@ -154,7 +156,7 @@ body.menu-open {
 
         .menu-lines {
           .line {
-            background-color: black;
+            background-color: white;
           }
         }
             

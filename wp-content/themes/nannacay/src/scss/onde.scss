@@ -2,40 +2,12 @@
 .page-template-onde-php {
 
   #header {
-    .logo-menu {
-      display: none;
-    }
-
-    .social-media {
-      display: none;
-    }
-
-    .menu-lines {
-      .line {
-        background-color: white;
-
-      }
-    }
+    
   }
 
   @media (min-width: 1000px) {
     #header {
-      position: absolute;
 
-      .menu {
-        position: absolute;
-        top: 50vh;
-      }
-
-      .logo-menu {
-        display: none;
-      }
-  
-      .social-media {
-        display: block;
-        position: absolute;
-        top: 6vh;
-      }
     }
   }
 
@@ -54,17 +26,7 @@
   
     .section-info {
       text-align: center;
-     
-      // margin: auto;
-      // position: absolute;
-      // top: 0;
-      // bottom: 0;
-      // right: 0;
-      // left: 0;
-      //transform: translateY(-50%);
-
       width: 90%;
-
       color: white;
 
       .section-name {
@@ -110,9 +72,8 @@
         font-weight: bold;
         font-size: 25px;
         text-transform: uppercase;
-        margin-top: 10%;
+        margin-top: 7%;
       }
-
     }
 
     .wholesale-title {
