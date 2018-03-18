@@ -2,14 +2,6 @@
 .page-template-campanhas-php,
 .single-post {
 
-  #header {
-  }
-
-  @media (min-width: 1000px) {
-    #header {
-    }
-  }
-
   .cover {
     width: 100vw;
     min-height: 100vh;
@@ -98,3 +90,59 @@
     }
   }
 }
+
+
+.single-post {
+
+  #header {
+
+    .social-media {
+      
+      .instagram {
+
+        &:before {
+            background-image: url(./../../assets/images/instagram_black.svg);
+            opacity: 1;
+        }
+      }
+
+      .facebook {
+
+        &:before {
+            background-image: url(./../../assets/images/facebook-black.svg);
+            opacity: 1;
+        }
+      }
+    }
+
+    .logo-menu {
+      display: block;
+      background-image: url(./../../assets/images/logo-nannacay-black.png);
+      width: 120px;
+    }
+
+    .menu-lines {
+      .line {
+        background-color: black;
+      }
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    #header {
+      
+      .menu {
+        color: black;
+
+        .menu-list {
+          .menu-item {
+
+            &:hover {
+              color: black;
+            }
+          }   
+        }
+      }
+    }
+  }
+}    
