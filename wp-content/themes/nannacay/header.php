@@ -12,7 +12,7 @@
       <a class='instagram' href="https://www.instagram.com/nannacay/"></a>
       <a class="facebook" href="https://www.facebook.com/nannacay.creativehands/"></a>
     </div>
-    <div class="logo-menu"></div>
+    <a class="logo-menu" href="<?php echo get_home_url() ?>"></a>
     <div class="menu-lines">
       <div class="line one"></div>
       <div class="line two"></div>
