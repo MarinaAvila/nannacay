@@ -30,15 +30,6 @@
 
       text-align: center;
 
-      // height: 50px;
-      // margin: auto;
-      // position: absolute;
-      // top: 0%;
-      // // transform: translateY(-50%);
-      // bottom: 0;
-      // right: 0;
-      // left: 0;
-
       color: white;
     }
   }
@@ -134,8 +125,14 @@
     margin: 0 0 200px;
   }
 
+
+
   @media (min-width: 1000px) {
     .first-page {
+
+      margin: 100px 5% 100px 23%;
+      display: flex;
+      flex-direction: column;
 
       .image-subtitle {
         position: absolute;
@@ -144,11 +141,6 @@
         height: 20%;
         margin: 40px 0 0 0;
       }
-
-      margin: 100px 5% 100px 23%;
-      display: flex;
-      flex-direction: column;
-
     }
 
     .second-page {
@@ -183,6 +175,12 @@
           background-color: pink;
         }
       }
+    }
+  }
+
+  @media (min-width: 1920px) {
+    .first-page {
+      margin: 100px 5% 200px 23%;
     }
   }
 }
