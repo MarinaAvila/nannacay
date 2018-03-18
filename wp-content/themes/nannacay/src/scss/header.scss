@@ -7,6 +7,12 @@
     font-family: 'Spectral-regular';
     font-size: 12px;
 
+    transition: opacity .5s ease-in;
+
+    &.hide {
+        opacity: 0;
+    }
+
     .menu-lines {
         right: 15px;
         top: 10px;

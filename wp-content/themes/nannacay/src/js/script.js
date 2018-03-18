@@ -22,5 +22,18 @@
     
   });
 
+  (function( $ ) {
+    $(function() {
+        var $output = $( "#header" );
+          $( window ).scroll(function() {
+              $output.addClass( 'hide' );
+              clearTimeout( $.data( this, "scrollCheck" ) );
+              $.data( this, "scrollCheck", setTimeout(function() {
+                $output.removeClass( 'hide' );
+              }, 250) );
+          });
+    });
+  })( jQuery );
+
 
 })();
