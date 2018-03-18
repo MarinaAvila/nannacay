@@ -23,7 +23,6 @@
         }
     }
 
-
     .logo-menu {
         display: block;
         background-image: url(./../../assets/images/logo-nannacay-black.png);
@@ -49,7 +48,6 @@
         text-transform: uppercase;
 
         .menu-list {
-            //padding: 15px 0;
             
             .menu-item {
                 padding: 15px;
@@ -59,9 +57,19 @@
                 background-color: white;
                 transition: background-color .5s ease-in-out, color .5s;
 
+                @media (min-width: 1000px) {
+                    background-color: transparent;
+                    padding: 1px 0;
+                }
+
                 &:hover {
                     background-color: rgb(214, 47, 115);
                     color: white;
+
+                    @media (min-width: 1000px) {
+                        background-color: transparent;
+                        color: white;
+                    }
                 }
             }
         }
@@ -95,6 +103,7 @@
             }
             
         }
+
         .instagram {
 
             &:before {
@@ -130,22 +139,7 @@
             top: 50vh;
             left: 5%;
             transform: translateY(-50%);
-
-            // font-size: 
-            
-            .menu-list {
-                
-                .menu-item {
-                    padding: 1px 0;
-                    display: block;
-                    border-bottom: none;
-                    transition: padding 0.3s ease-in-out;
-
-                    &:hover {
-                        padding: 1px 10px;
-                    }
-                }
-            }
+           
         }
 
     }

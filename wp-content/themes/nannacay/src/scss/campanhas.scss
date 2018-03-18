@@ -43,7 +43,7 @@
 
   .cover {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     position: relative;
     background-position: center center;
@@ -56,14 +56,7 @@
     
     .section-info,
     .campaign-info {
-      // margin: auto;
-      // position: absolute;
-      // text-align: center;
-      // top: 45%;
-      
-      // bottom: 0;
-      // right: 0;
-      // left: 0;
+      padding: 50px 0;
 
       color: white;
       width: 70%;
@@ -73,6 +66,8 @@
 
       @media (min-width: 1000px) {
         width: 30%;
+
+        padding: 150px 0;
       }
       
       .section-name,
@@ -103,7 +98,7 @@
       }
 
       .campaigns {
-        font-size: 12px;
+        font-size: 17px;
         margin-top: 25px;
 
         .campaign {

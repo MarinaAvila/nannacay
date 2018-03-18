@@ -20,7 +20,7 @@
 
   @media (min-width: 1000px) {
     #header {
-       position: absolute;
+      position: absolute;
 
       .menu {
         position: fixed;
@@ -38,7 +38,7 @@
   
       .social-media {
         display: block;
-        position: absolute;
+        position: fixed;
         top: 6vh;
       }
     }
