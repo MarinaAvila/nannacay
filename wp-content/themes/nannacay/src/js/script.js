@@ -57,11 +57,16 @@
   //   autoplay: true,
   // });
 
-  $('.home-slider').slick({
+  $('.cover').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
+    fade: true,
+    infinite: true,
+    dots: false,
+    arrows: false,
+    cssEase: 'ease-in'
   });
 
 });
