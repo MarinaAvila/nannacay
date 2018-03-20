@@ -50,20 +50,33 @@
     @media (min-width: 1000px) {
       background-position: 50% 0%;
       display: flex;
+      
       padding: 100px 0;
       min-height: calc(100vh - 200px);
     }
+
+    @media (min-width: 1920px) {
+      align-items: center;
+    }
+
 
     ul {
       padding: 10px 5%;
       color: white;
     }
 
+
+    @media (min-width: 1920px) {
+      .other-stores,
+      .wholesale-list {
+        padding: 10px 5%;
+      }
+    }
+
     .section {
       display: none;
       font-family: 'Spectral-regular';
       letter-spacing: .3em;
-
 
       @media (min-width: 1000px) {
         display: block;
@@ -74,6 +87,11 @@
         text-transform: uppercase;
         margin-top: 7%;
       }
+
+      @media (min-width: 1920px) {
+        margin-top: -10%;
+      }
+
     }
 
     .wholesale-title {
