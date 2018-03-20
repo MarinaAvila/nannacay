@@ -16,7 +16,7 @@
 
   <div class="image-subtitle">
     <img class="image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_artesa.jpg">
-    <p class="subtitle">Vivamus id diam sit amet orci porta eleifend sit amet malesuada nisl.</p>
+    <p class="subtitle">Artesã no processo de fabricação da bolsa Zanzibar - Peru</p>
   </div>
 
   <p class="text">
@@ -24,8 +24,8 @@
   </p>
 
   <div class="quote-author">
-    <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id diam sit amet orci porta eleifend sit amet malesuada nisl. Vestibulum condimentum fringilla pharetra. Praesent vel condimentum felis."</p>
-    <p class="author">Consectetur Adipiscing</p>
+    <p class="quote">“Nannacay é para mulheres que gostam do belo e admiram a simplicidade da vida.”</p>
+    <p class="author">Márcia Kemp - Fundadora</p>
   </div>
 
   <p class="text">
@@ -38,10 +38,12 @@
     <img class="image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_1.jpg">
   </div>
   <div class="video-quote">
-    <div class="video">video</div>
+    <div class="video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vPB9ld8VqWs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
     <div class="quote-author">
-      <p class="quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id diam sit amet orci porta eleifend sit amet malesuada nisl. Vestibulum condimentum fringilla pharetra. Praesent vel condimentum felis."</p>
-      <p class="author">Consectetur Adipiscing</p>
+      <p class="quote">“Acompanho de perto a intensa dedicação da Marcia Kemp em fazer deste projeto social a transformação na vida dessas incríveis artesãs. O resultado de tudo isso é um produto diferenciado, único e de muito bom gosto.”</p>
+      <p class="author">Lenny Niemyer</p>
     </div>
   </div>
   <img class="full-image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_2.jpg">

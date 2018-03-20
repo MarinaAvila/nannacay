@@ -180,7 +180,7 @@
 
   @media (min-width: 1920px) {
     .first-page {
-      margin: 100px 5% 200px 23%;
+      margin: 100px 5% responsive( 300, 500, 1920, 2560) 23%;
     }
   }
 }

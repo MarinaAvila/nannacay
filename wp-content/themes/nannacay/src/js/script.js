@@ -49,7 +49,20 @@
       }
     }).on("resize", function(){ // If the user resizes the window
       winH = $(this).height(); // you'll need the new height value
-    });
+  });
+
+  // $('.home-slider').slick({
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  // });
+
+  $('.home-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
 
 });
 

@@ -7,7 +7,7 @@
 <div class="cover" style="background-image:url('<?php echo get_field('cover') ?>"> 
   <div class="section-info">
     <h1 class="section-name">visite nosso studio store</h1>
-    <p class="address">Av Ataulfo de Paiva 658/402</br>Leblon, Rio de Janeiro - RJ</p>
+    <p class="address">Av Ataulfo de Paiva 658/402 Leblon, Rio de Janeiro - RJ</p>
   </div>
 </div>
 
