@@ -31,7 +31,7 @@
 
       .section-name {
         text-transform: uppercase;
-        
+        font-weight: 300;
       }
 
       .address {
@@ -58,7 +58,6 @@
     @media (min-width: 1920px) {
       align-items: center;
     }
-
 
     ul {
       padding: 10px 5%;
