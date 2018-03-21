@@ -130,7 +130,7 @@
   @media (min-width: 1000px) {
     .first-page {
 
-      margin: 100px 5% 100px 25%;
+      margin: 100px 5% 150px 25%;
       display: flex;
       flex-direction: column;
 
@@ -172,7 +172,6 @@
           margin: 0 0 30px 0;
           width: 100%;
           height: 20vw;
-          background-color: pink;
         }
       }
     }
@@ -180,7 +179,7 @@
 
   @media (min-width: 1920px) {
     .first-page {
-      margin: 100px 5% responsive( 300, 500, 1920, 2560) 23%;
+      margin: 100px 5% responsive( 300, 500, 1920, 2560) 25%;
     }
   }
 }
