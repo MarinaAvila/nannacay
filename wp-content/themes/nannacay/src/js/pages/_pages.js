@@ -10,12 +10,13 @@
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2000,
     fade: true,
     infinite: true,
-    dots: false,
+    dots: true,
     arrows: false,
     cssEase: 'ease-in'
   });
+
 
 })();

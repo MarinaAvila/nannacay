@@ -1,6 +1,10 @@
 
 .page-template-index {
 
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
   #header {
     .logo-menu {
       display: none;
@@ -14,6 +18,16 @@
     // display: flex;
     // justify-content: center;
     // align-items: center;
+
+    .slick-dots {
+      position: absolute;
+      bottom: 8px;
+
+      li button:before{
+        font-size: 15px;
+        color: white;
+      }
+    }
 
     .image-item {
       height: 100vh;
