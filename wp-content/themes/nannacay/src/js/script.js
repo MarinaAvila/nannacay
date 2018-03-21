@@ -93,8 +93,7 @@
     $clipping = $(e.currentTarget).find( '.modal' );
     $clipping.addClass( 'show' );
 
-    
-
+    $( '.close' ).addClass( 'show' );
     // document.ontouchmove = function(e){ e.preventDefault(); };
     // disableScrolling();
     
@@ -102,6 +101,7 @@
 
   $( '.close' ).click(function() {
     $( '.modal' ).removeClass( 'show' );
+    $( '.close' ).removeClass( 'show' );
 
   });
 

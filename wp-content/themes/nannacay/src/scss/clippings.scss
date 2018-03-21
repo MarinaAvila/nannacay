@@ -102,6 +102,12 @@
       z-index: 999;
       position: fixed;
       top: 0;
+
+      display: none;
+
+      &.show {
+        display: block;
+      }
     }
 
     .clipping {
