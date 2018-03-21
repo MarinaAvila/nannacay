@@ -2,6 +2,8 @@
 .page-template-campanhas-php,
 .single-post {
 
+  
+
   .cover {
     //width: 100vw;
     min-height: 100vh;
@@ -14,6 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
     
     .section-info,
     .campaign-info {
@@ -66,6 +70,17 @@
 
         .campaign {
           margin-bottom: 5px;
+
+          a {
+            display: inline-block;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom .5s;
+        
+            &:hover {
+              border-bottom: 1px solid white;
+            }
+
+          }
         }
 
       }
@@ -146,4 +161,6 @@
       }
     }
   }
+
+   
 }    
