@@ -37,31 +37,40 @@
     });
   })( jQuery );
 
+  
+
   // menu change color
 
   jQuery(function($) {
 
     var $nav = $('.menu');
     var $win = $(window);
-    var winH = $win.height()/2;   // Get the window height.
+    var winMenu = $win.height()/2;   // Get the window height.
+
+    var $navBar = $('#header');
+    var $win = $(window);
+    var winHeader = $win.height();   // Get the window height.
 
     $win.on("scroll", function () {
-      if ($(this).scrollTop() > winH ) {
+      if ($(this).scrollTop() > winMenu ) {
         $nav.addClass("black");
       } else {
         $nav.removeClass("black");
       }
+
+      if ($(this).scrollTop() > winHeader ) {
+        $navBar.addClass("black");
+      } else {
+        $navBar.removeClass("black");
+      }
+
     }).on("resize", function(){ // If the user resizes the window
-      winH = $(this).height(); // you'll need the new height value
+      winMenu = $(this).height()/2; // you'll need the new height value
+      winHeader = $(this).height(); // you'll need the new height value
   });
 
-  // $('.home-slider').slick({
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  // });
 
-  
+  // menu change color
 
   // clipping open modal
 
