@@ -1,7 +1,7 @@
 ;(function(){
 
   console.log( 'script.js' )
-   var isMenuOpen = false;
+  var isMenuOpen = false;
 
   $( '.menu-lines' ).click(function() {
     if ( isMenuOpen ) {
@@ -77,8 +77,6 @@
 
   // clipping open modal
 
-  var isOpen = false;
-
   function disableScrolling(){
     var x=window.scrollX;
     var y=window.scrollY;
@@ -89,53 +87,23 @@
     window.onscroll=function(){};
   }
 
-  $( '.clipping' ).find( '.modal' ).on('click', function( e ) {
-    if ( isOpen ) {
-      close();
-    } else {
-      open();
-    }
+
+  $( '.clipping' ).click(function(e) {
+
+    $clipping = $(e.currentTarget).find( '.modal' );
+    $clipping.addClass( 'show' );
+
+    
+
+    // document.ontouchmove = function(e){ e.preventDefault(); };
+    // disableScrolling();
+    
   });
 
-  function open() {
-    isOpen = true;
+  $( '.close' ).click(function() {
+    $( '.modal' ).removeClass( 'show' );
 
-    $( '.clipping' ).find( '.modal' ).addClass( 'show' )
-  }
-
-  function close() {
-    isOpen = false;
-    
-    $( '.clipping' ).find( '.modal' ).removeClass( 'show' )
-  }
-
-
-  // $( '.clipping' ).click(function(e) {
-
-  //   $clipping = $(e.currentTarget).find( '.modal' );
-
-  //   $clipping.addClass( 'show' );
-
-  //   var isOpen = true;
-
-  //   if ( isOpen ) {
-  //     close();
-  //   } else {
-  //     open();
-  //   }
-
-  //   document.ontouchmove = function(e){ e.preventDefault(); };
-  //   disableScrolling();
-    
-  // });
-
-  // $( '.close' ).click(function(e) {
-  //   e.preventDefault();
-  //   //$clipping = $(e.currentTarget).find( '.modal' );
-  //   $( '.modal' ).removeClass( 'show' );
-  //   console.log( 'batata' )
-
-  // });
+  });
 
 });
 

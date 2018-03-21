@@ -95,6 +95,15 @@
       display: flex;
     }
 
+    .close {
+      width: 30px;
+      height: 30px;
+      background-color: blue;
+      z-index: 999;
+      position: fixed;
+      top: 0;
+    }
+
     .clipping {
       width: 100%;
       padding: responsive(30, 60) 0;
@@ -113,11 +122,7 @@
         background-color: rgba(0, 0, 0, 0.03);
 
         .info {
-          .close {
-            width: 30px;
-            height: 30px;
-            background-color: blue;
-          }
+          
         }
 
         &.show {

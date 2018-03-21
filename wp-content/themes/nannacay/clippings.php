@@ -9,6 +9,7 @@
 </div>
 
 <ul class="clippings">
+  <div class="close"></div>
   <?php if( have_rows('clippings')): ?>
     <?php while( have_rows('clippings')) : the_row(); ?>
       <li class="clipping">
@@ -19,7 +20,7 @@
         </div>
         <div class="modal"> 
           <div class="info">
-            <div class="close"></div>
+            
             <img class="clipping_image_modal" src="<?php the_sub_field( 'image'); ?>">
             <div class="clipping_text">
               <p class="magazine"><?php the_sub_field( 'magazine' ); ?></p>
