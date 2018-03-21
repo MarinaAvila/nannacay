@@ -145,7 +145,15 @@
         align-items: center;
 
         .info {
-          
+          width: 300px;
+
+          @media (min-width: 1920px) {
+            width: responsive(400, 700, 1920, 2560);
+          }
+
+          .clipping_image_modal {
+            width: 100%;
+          }
         }
 
         &.show {
