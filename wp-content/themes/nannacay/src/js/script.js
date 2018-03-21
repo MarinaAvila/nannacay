@@ -22,6 +22,8 @@
     
   });
 
+  // menu desapear on scroll
+
   (function( $ ) {
     $(function() {
         var $output = $( "#header" );
@@ -34,6 +36,8 @@
           });
     });
   })( jQuery );
+
+  // menu change color
 
   jQuery(function($) {
 
@@ -57,6 +61,8 @@
   //   autoplay: true,
   // });
 
+  // home
+
   $('.cover').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -68,6 +74,68 @@
     arrows: false,
     cssEase: 'ease-in'
   });
+
+  // clipping open modal
+
+  var isOpen = false;
+
+  function disableScrolling(){
+    var x=window.scrollX;
+    var y=window.scrollY;
+    window.onscroll=function(){window.scrollTo(x, y);};
+  }
+
+  function enableScrolling(){
+    window.onscroll=function(){};
+  }
+
+  $( '.clipping' ).find( '.modal' ).on('click', function( e ) {
+    if ( isOpen ) {
+      close();
+    } else {
+      open();
+    }
+  });
+
+  function open() {
+    isOpen = true;
+
+    $( '.clipping' ).find( '.modal' ).addClass( 'show' )
+  }
+
+  function close() {
+    isOpen = false;
+    
+    $( '.clipping' ).find( '.modal' ).removeClass( 'show' )
+  }
+
+
+  // $( '.clipping' ).click(function(e) {
+
+  //   $clipping = $(e.currentTarget).find( '.modal' );
+
+  //   $clipping.addClass( 'show' );
+
+  //   var isOpen = true;
+
+  //   if ( isOpen ) {
+  //     close();
+  //   } else {
+  //     open();
+  //   }
+
+  //   document.ontouchmove = function(e){ e.preventDefault(); };
+  //   disableScrolling();
+    
+  // });
+
+  // $( '.close' ).click(function(e) {
+  //   e.preventDefault();
+  //   //$clipping = $(e.currentTarget).find( '.modal' );
+  //   $( '.modal' ).removeClass( 'show' );
+  //   console.log( 'batata' )
+
+  // });
 
 });
 

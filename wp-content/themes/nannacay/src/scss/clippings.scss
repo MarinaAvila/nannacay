@@ -99,6 +99,33 @@
       width: 100%;
       padding: responsive(30, 60) 0;
 
+      .modal {
+
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.03);
+
+        .info {
+          .close {
+            width: 30px;
+            height: 30px;
+            background-color: blue;
+          }
+        }
+
+        &.show {
+          display: flex;
+          z-index: 5;
+        }
+      }
+
       @media (min-width: 1000px) {
         width: calc(20% - 60px);
         margin-left: 60px;
@@ -119,6 +146,8 @@
 
         }
       }
+
+     
     }
   }
 }

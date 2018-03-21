@@ -17,6 +17,16 @@
           <p class="magazine"><?php the_sub_field( 'magazine' ); ?></p>
           <p class="date"><?php the_sub_field( 'date' ); ?></p>
         </div>
+        <div class="modal"> 
+          <div class="info">
+            <div class="close"></div>
+            <img class="clipping_image_modal" src="<?php the_sub_field( 'image'); ?>">
+            <div class="clipping_text">
+              <p class="magazine"><?php the_sub_field( 'magazine' ); ?></p>
+              <p class="date"><?php the_sub_field( 'date' ); ?></p>
+            </div>
+          </div>
+        </div>
       </li>
     <?php endwhile; ?>
   <?php else : endif ?>
