@@ -9,7 +9,9 @@
 </div>
 
 <ul class="clippings">
-  <div class="close"></div>
+  <div class="close">
+    <div class="close_icon"></div>
+  </div>
   <?php if( have_rows('clippings')): ?>
     <?php while( have_rows('clippings')) : the_row(); ?>
       <li class="clipping">
