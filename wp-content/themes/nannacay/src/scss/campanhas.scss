@@ -17,7 +17,21 @@
     justify-content: center;
     align-items: center;
 
-    
+
+    .scroll-down {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 30px;
+      height: 30px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: black;
+      background-image: url(./../../assets/images/Scoll.png);
+      margin: auto;
+    }
+  
     
     .section-info,
     .campaign-info {
