@@ -66,6 +66,13 @@
                 @media (min-width: 1000px) {
                     background-color: transparent;
                     padding: 1px 0;
+                    display: inline-block;
+                    border-bottom: 1px solid transparent;
+                    transition: border-bottom .5s;
+
+                    &:hover {
+                        border-bottom: 1px solid white;
+                    }
                 }
 
                 &:hover {
