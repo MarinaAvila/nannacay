@@ -1,4 +1,9 @@
 <?php
+  /* 
+    Template Name: Campanha
+    Template Post Type: post, page, product
+  */
+  
   get_header();
 ?>
 
