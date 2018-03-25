@@ -18,7 +18,7 @@
     <div class="procuct-price"><?php echo get_field( 'price' ); ?></div>
 
     <?php if( get_field( 'plots' )) { ?>
-      <div>ou</div>
+      <div class="ou">ou</div>
       <div class="procuct-plots"><?php echo get_field( 'plots' ); ?></div>
     <?php } ?>
 
@@ -35,14 +35,14 @@
         <ul class="parameter-list">
           <?php if( have_rows('dimesions')): ?>
             <?php while( have_rows('dimesions')) : the_row(); ?>
-              <?php the_sub_field( 'parameter'); ?>
+              <li><?php the_sub_field( 'parameter'); ?></li>
             <?php endwhile; ?>
           <?php else : endif ?>
         </ul>
         <ul class="value-list">
           <?php if( have_rows('dimesions')): ?>
             <?php while( have_rows('dimesions')) : the_row(); ?>
-              <?php the_sub_field( 'value'); ?>
+              <li><?php the_sub_field( 'value'); ?></li>
             <?php endwhile; ?>
           <?php else : endif ?>
         </ul>
@@ -51,10 +51,10 @@
 
     <?php if( get_field( 'tips' )) { ?>
       <div class="info-title">Dicas de uso</div>
-      <ul class="value-list">
+      <ul class="tips">
         <?php if( have_rows('tips')): ?>
           <?php while( have_rows('tips')) : the_row(); ?>
-            <?php the_sub_field( 'tip'); ?>
+            <li><?php the_sub_field( 'tip'); ?></li>
           <?php endwhile; ?>
         <?php else : endif ?>
       </ul>
