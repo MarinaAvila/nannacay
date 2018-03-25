@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 25, 2018 at 11:08 PM
+-- Generation Time: Mar 26, 2018 at 01:45 AM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.2.0
 
@@ -216,10 +216,10 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (108, 'widget_tag_cloud', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (109, 'widget_nav_menu', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (110, 'widget_custom_html', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
-(111, 'cron', 'a:8:{i:1522017583;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1522017596;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1522017757;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1522022400;a:1:{s:27:\"woocommerce_scheduled_sales\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1522034591;a:1:{s:28:\"woocommerce_cleanup_sessions\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1522077791;a:1:{s:30:\"woocommerce_tracker_send_event\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1522713600;a:1:{s:25:\"woocommerce_geoip_updater\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:7:\"monthly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:2635200;}}}s:7:\"version\";i:2;}', 'yes'),
+(111, 'cron', 'a:8:{i:1522022400;a:1:{s:27:\"woocommerce_scheduled_sales\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1522034591;a:1:{s:28:\"woocommerce_cleanup_sessions\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1522060783;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1522077791;a:1:{s:30:\"woocommerce_tracker_send_event\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1522103996;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1522104157;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1522713600;a:1:{s:25:\"woocommerce_geoip_updater\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:7:\"monthly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:2635200;}}}s:7:\"version\";i:2;}', 'yes'),
 (112, 'theme_mods_twentyseventeen', 'a:2:{s:18:\"custom_css_post_id\";i:-1;s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1520722485;s:4:\"data\";a:4:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:9:\"sidebar-2\";a:0:{}s:9:\"sidebar-3\";a:0:{}}}}', 'yes'),
-(116, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.9.4.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.9.4.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-4.9.4-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-4.9.4-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.9.4\";s:7:\"version\";s:5:\"4.9.4\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1521984866;s:15:\"version_checked\";s:5:\"4.9.4\";s:12:\"translations\";a:0:{}}', 'no'),
-(121, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1522002397;s:7:\"checked\";a:4:{s:8:\"nannacay\";s:5:\"0.0.0\";s:13:\"twentyfifteen\";s:3:\"1.9\";s:15:\"twentyseventeen\";s:3:\"1.4\";s:13:\"twentysixteen\";s:3:\"1.4\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
+(116, '_site_transient_update_core', 'O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.9.4.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-4.9.4.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-4.9.4-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-4.9.4-new-bundled.zip\";s:7:\"partial\";b:0;s:8:\"rollback\";b:0;}s:7:\"current\";s:5:\"4.9.4\";s:7:\"version\";s:5:\"4.9.4\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"4.7\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1522017596;s:15:\"version_checked\";s:5:\"4.9.4\";s:12:\"translations\";a:0:{}}', 'no'),
+(121, '_site_transient_update_themes', 'O:8:\"stdClass\":4:{s:12:\"last_checked\";i:1522017600;s:7:\"checked\";a:4:{s:8:\"nannacay\";s:5:\"0.0.0\";s:13:\"twentyfifteen\";s:3:\"1.9\";s:15:\"twentyseventeen\";s:3:\"1.4\";s:13:\"twentysixteen\";s:3:\"1.4\";}s:8:\"response\";a:0:{}s:12:\"translations\";a:0:{}}', 'no'),
 (123, 'auth_key', ')NZ.D[*Zu@hCiV<;WPL%dy-#Omj^apbW_hI*XK&z1ZbJYHPB@wnV -su^oX$_f8q', 'no'),
 (124, 'auth_salt', '>ww1K^fPhrwYv2zG3mCs!=Q(wy}eNY$3%3x,?$ )P(U1raHmBfK3U)`?5LMmKF`z', 'no'),
 (125, 'logged_in_key', 'I`7vy2K.90^5:BBd.@Yih4PGvv*@8~uP^g]v%PDQ!=.<JI #_]?pS~Qk}Ra$3p/:', 'no'),
@@ -252,8 +252,6 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (305, '_transient_dash_v2_88ae138922fe95674369b1cb3d215a2b', '<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2018/03/the-month-in-wordpress-february-2018/\'>The Month in WordPress: February 2018</a></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/noteworthy-changes-coming-in-wordpress-4-9-5\'>WPTavern: Noteworthy Changes Coming in WordPress 4.9.5</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/wpweekly-episode-309-all-amped-up\'>WPTavern: WPWeekly Episode 309 – All AMPed Up</a></li><li><a class=\'rsswidget\' href=\'https://ma.tt/2018/03/dont-like-change/\'>Matt: Don’t Like Change</a></li></ul></div>', 'no'),
 (306, '_transient_timeout_plugin_slugs', '1522078577', 'no'),
 (307, '_transient_plugin_slugs', 'a:4:{i:0;s:34:\"advanced-custom-fields-pro/acf.php\";i:1;s:19:\"akismet/akismet.php\";i:2;s:9:\"hello.php\";i:3;s:27:\"woocommerce/woocommerce.php\";}', 'no'),
-(308, '_site_transient_timeout_poptags_40cd750bba9870f18aada2478b24840a', '1522001953', 'no'),
-(309, '_site_transient_poptags_40cd750bba9870f18aada2478b24840a', 'O:8:\"stdClass\":100:{s:6:\"widget\";a:3:{s:4:\"name\";s:6:\"widget\";s:4:\"slug\";s:6:\"widget\";s:5:\"count\";i:4441;}s:11:\"woocommerce\";a:3:{s:4:\"name\";s:11:\"woocommerce\";s:4:\"slug\";s:11:\"woocommerce\";s:5:\"count\";i:2671;}s:4:\"post\";a:3:{s:4:\"name\";s:4:\"post\";s:4:\"slug\";s:4:\"post\";s:5:\"count\";i:2546;}s:5:\"admin\";a:3:{s:4:\"name\";s:5:\"admin\";s:4:\"slug\";s:5:\"admin\";s:5:\"count\";i:2410;}s:5:\"posts\";a:3:{s:4:\"name\";s:5:\"posts\";s:4:\"slug\";s:5:\"posts\";s:5:\"count\";i:1861;}s:9:\"shortcode\";a:3:{s:4:\"name\";s:9:\"shortcode\";s:4:\"slug\";s:9:\"shortcode\";s:5:\"count\";i:1641;}s:8:\"comments\";a:3:{s:4:\"name\";s:8:\"comments\";s:4:\"slug\";s:8:\"comments\";s:5:\"count\";i:1636;}s:7:\"twitter\";a:3:{s:4:\"name\";s:7:\"twitter\";s:4:\"slug\";s:7:\"twitter\";s:5:\"count\";i:1449;}s:6:\"google\";a:3:{s:4:\"name\";s:6:\"google\";s:4:\"slug\";s:6:\"google\";s:5:\"count\";i:1384;}s:8:\"facebook\";a:3:{s:4:\"name\";s:8:\"facebook\";s:4:\"slug\";s:8:\"facebook\";s:5:\"count\";i:1381;}s:6:\"images\";a:3:{s:4:\"name\";s:6:\"images\";s:4:\"slug\";s:6:\"images\";s:5:\"count\";i:1380;}s:5:\"image\";a:3:{s:4:\"name\";s:5:\"image\";s:4:\"slug\";s:5:\"image\";s:5:\"count\";i:1305;}s:7:\"sidebar\";a:3:{s:4:\"name\";s:7:\"sidebar\";s:4:\"slug\";s:7:\"sidebar\";s:5:\"count\";i:1280;}s:3:\"seo\";a:3:{s:4:\"name\";s:3:\"seo\";s:4:\"slug\";s:3:\"seo\";s:5:\"count\";i:1188;}s:7:\"gallery\";a:3:{s:4:\"name\";s:7:\"gallery\";s:4:\"slug\";s:7:\"gallery\";s:5:\"count\";i:1090;}s:4:\"page\";a:3:{s:4:\"name\";s:4:\"page\";s:4:\"slug\";s:4:\"page\";s:5:\"count\";i:1056;}s:6:\"social\";a:3:{s:4:\"name\";s:6:\"social\";s:4:\"slug\";s:6:\"social\";s:5:\"count\";i:1015;}s:5:\"email\";a:3:{s:4:\"name\";s:5:\"email\";s:4:\"slug\";s:5:\"email\";s:5:\"count\";i:995;}s:9:\"ecommerce\";a:3:{s:4:\"name\";s:9:\"ecommerce\";s:4:\"slug\";s:9:\"ecommerce\";s:5:\"count\";i:872;}s:5:\"login\";a:3:{s:4:\"name\";s:5:\"login\";s:4:\"slug\";s:5:\"login\";s:5:\"count\";i:866;}s:5:\"links\";a:3:{s:4:\"name\";s:5:\"links\";s:4:\"slug\";s:5:\"links\";s:5:\"count\";i:823;}s:7:\"widgets\";a:3:{s:4:\"name\";s:7:\"widgets\";s:4:\"slug\";s:7:\"widgets\";s:5:\"count\";i:797;}s:5:\"video\";a:3:{s:4:\"name\";s:5:\"video\";s:4:\"slug\";s:5:\"video\";s:5:\"count\";i:794;}s:8:\"security\";a:3:{s:4:\"name\";s:8:\"security\";s:4:\"slug\";s:8:\"security\";s:5:\"count\";i:700;}s:7:\"content\";a:3:{s:4:\"name\";s:7:\"content\";s:4:\"slug\";s:7:\"content\";s:5:\"count\";i:690;}s:3:\"rss\";a:3:{s:4:\"name\";s:3:\"rss\";s:4:\"slug\";s:3:\"rss\";s:5:\"count\";i:683;}s:4:\"spam\";a:3:{s:4:\"name\";s:4:\"spam\";s:4:\"slug\";s:4:\"spam\";s:5:\"count\";i:674;}s:10:\"buddypress\";a:3:{s:4:\"name\";s:10:\"buddypress\";s:4:\"slug\";s:10:\"buddypress\";s:5:\"count\";i:674;}s:6:\"slider\";a:3:{s:4:\"name\";s:6:\"slider\";s:4:\"slug\";s:6:\"slider\";s:5:\"count\";i:656;}s:5:\"pages\";a:3:{s:4:\"name\";s:5:\"pages\";s:4:\"slug\";s:5:\"pages\";s:5:\"count\";i:654;}s:6:\"jquery\";a:3:{s:4:\"name\";s:6:\"jquery\";s:4:\"slug\";s:6:\"jquery\";s:5:\"count\";i:639;}s:9:\"analytics\";a:3:{s:4:\"name\";s:9:\"analytics\";s:4:\"slug\";s:9:\"analytics\";s:5:\"count\";i:637;}s:5:\"media\";a:3:{s:4:\"name\";s:5:\"media\";s:4:\"slug\";s:5:\"media\";s:5:\"count\";i:632;}s:10:\"e-commerce\";a:3:{s:4:\"name\";s:10:\"e-commerce\";s:4:\"slug\";s:10:\"e-commerce\";s:5:\"count\";i:613;}s:4:\"feed\";a:3:{s:4:\"name\";s:4:\"feed\";s:4:\"slug\";s:4:\"feed\";s:5:\"count\";i:610;}s:6:\"search\";a:3:{s:4:\"name\";s:6:\"search\";s:4:\"slug\";s:6:\"search\";s:5:\"count\";i:601;}s:4:\"ajax\";a:3:{s:4:\"name\";s:4:\"ajax\";s:4:\"slug\";s:4:\"ajax\";s:5:\"count\";i:600;}s:4:\"form\";a:3:{s:4:\"name\";s:4:\"form\";s:4:\"slug\";s:4:\"form\";s:5:\"count\";i:588;}s:4:\"menu\";a:3:{s:4:\"name\";s:4:\"menu\";s:4:\"slug\";s:4:\"menu\";s:5:\"count\";i:586;}s:8:\"category\";a:3:{s:4:\"name\";s:8:\"category\";s:4:\"slug\";s:8:\"category\";s:5:\"count\";i:585;}s:5:\"embed\";a:3:{s:4:\"name\";s:5:\"embed\";s:4:\"slug\";s:5:\"embed\";s:5:\"count\";i:557;}s:10:\"javascript\";a:3:{s:4:\"name\";s:10:\"javascript\";s:4:\"slug\";s:10:\"javascript\";s:5:\"count\";i:545;}s:4:\"link\";a:3:{s:4:\"name\";s:4:\"link\";s:4:\"slug\";s:4:\"link\";s:5:\"count\";i:535;}s:3:\"css\";a:3:{s:4:\"name\";s:3:\"css\";s:4:\"slug\";s:3:\"css\";s:5:\"count\";i:531;}s:5:\"share\";a:3:{s:4:\"name\";s:5:\"share\";s:4:\"slug\";s:5:\"share\";s:5:\"count\";i:521;}s:7:\"youtube\";a:3:{s:4:\"name\";s:7:\"youtube\";s:4:\"slug\";s:7:\"youtube\";s:5:\"count\";i:516;}s:7:\"comment\";a:3:{s:4:\"name\";s:7:\"comment\";s:4:\"slug\";s:7:\"comment\";s:5:\"count\";i:511;}s:5:\"theme\";a:3:{s:4:\"name\";s:5:\"theme\";s:4:\"slug\";s:5:\"theme\";s:5:\"count\";i:504;}s:9:\"dashboard\";a:3:{s:4:\"name\";s:9:\"dashboard\";s:4:\"slug\";s:9:\"dashboard\";s:5:\"count\";i:491;}s:10:\"responsive\";a:3:{s:4:\"name\";s:10:\"responsive\";s:4:\"slug\";s:10:\"responsive\";s:5:\"count\";i:487;}s:6:\"editor\";a:3:{s:4:\"name\";s:6:\"editor\";s:4:\"slug\";s:6:\"editor\";s:5:\"count\";i:486;}s:6:\"custom\";a:3:{s:4:\"name\";s:6:\"custom\";s:4:\"slug\";s:6:\"custom\";s:5:\"count\";i:483;}s:10:\"categories\";a:3:{s:4:\"name\";s:10:\"categories\";s:4:\"slug\";s:10:\"categories\";s:5:\"count\";i:479;}s:12:\"contact-form\";a:3:{s:4:\"name\";s:12:\"contact form\";s:4:\"slug\";s:12:\"contact-form\";s:5:\"count\";i:471;}s:3:\"ads\";a:3:{s:4:\"name\";s:3:\"ads\";s:4:\"slug\";s:3:\"ads\";s:5:\"count\";i:466;}s:9:\"affiliate\";a:3:{s:4:\"name\";s:9:\"affiliate\";s:4:\"slug\";s:9:\"affiliate\";s:5:\"count\";i:463;}s:6:\"button\";a:3:{s:4:\"name\";s:6:\"button\";s:4:\"slug\";s:6:\"button\";s:5:\"count\";i:457;}s:4:\"tags\";a:3:{s:4:\"name\";s:4:\"tags\";s:4:\"slug\";s:4:\"tags\";s:5:\"count\";i:451;}s:4:\"user\";a:3:{s:4:\"name\";s:4:\"user\";s:4:\"slug\";s:4:\"user\";s:5:\"count\";i:436;}s:7:\"contact\";a:3:{s:4:\"name\";s:7:\"contact\";s:4:\"slug\";s:7:\"contact\";s:5:\"count\";i:428;}s:6:\"mobile\";a:3:{s:4:\"name\";s:6:\"mobile\";s:4:\"slug\";s:6:\"mobile\";s:5:\"count\";i:423;}s:3:\"api\";a:3:{s:4:\"name\";s:3:\"api\";s:4:\"slug\";s:3:\"api\";s:5:\"count\";i:420;}s:5:\"photo\";a:3:{s:4:\"name\";s:5:\"photo\";s:4:\"slug\";s:5:\"photo\";s:5:\"count\";i:418;}s:5:\"users\";a:3:{s:4:\"name\";s:5:\"users\";s:4:\"slug\";s:5:\"users\";s:5:\"count\";i:416;}s:9:\"slideshow\";a:3:{s:4:\"name\";s:9:\"slideshow\";s:4:\"slug\";s:9:\"slideshow\";s:5:\"count\";i:412;}s:5:\"stats\";a:3:{s:4:\"name\";s:5:\"stats\";s:4:\"slug\";s:5:\"stats\";s:5:\"count\";i:411;}s:6:\"photos\";a:3:{s:4:\"name\";s:6:\"photos\";s:4:\"slug\";s:6:\"photos\";s:5:\"count\";i:402;}s:6:\"events\";a:3:{s:4:\"name\";s:6:\"events\";s:4:\"slug\";s:6:\"events\";s:5:\"count\";i:399;}s:10:\"statistics\";a:3:{s:4:\"name\";s:10:\"statistics\";s:4:\"slug\";s:10:\"statistics\";s:5:\"count\";i:390;}s:10:\"navigation\";a:3:{s:4:\"name\";s:10:\"navigation\";s:4:\"slug\";s:10:\"navigation\";s:5:\"count\";i:385;}s:7:\"payment\";a:3:{s:4:\"name\";s:7:\"payment\";s:4:\"slug\";s:7:\"payment\";s:5:\"count\";i:381;}s:4:\"news\";a:3:{s:4:\"name\";s:4:\"news\";s:4:\"slug\";s:4:\"news\";s:5:\"count\";i:362;}s:8:\"calendar\";a:3:{s:4:\"name\";s:8:\"calendar\";s:4:\"slug\";s:8:\"calendar\";s:5:\"count\";i:356;}s:10:\"shortcodes\";a:3:{s:4:\"name\";s:10:\"shortcodes\";s:4:\"slug\";s:10:\"shortcodes\";s:5:\"count\";i:353;}s:5:\"popup\";a:3:{s:4:\"name\";s:5:\"popup\";s:4:\"slug\";s:5:\"popup\";s:5:\"count\";i:350;}s:7:\"plugins\";a:3:{s:4:\"name\";s:7:\"plugins\";s:4:\"slug\";s:7:\"plugins\";s:5:\"count\";i:343;}s:12:\"social-media\";a:3:{s:4:\"name\";s:12:\"social media\";s:4:\"slug\";s:12:\"social-media\";s:5:\"count\";i:343;}s:9:\"marketing\";a:3:{s:4:\"name\";s:9:\"marketing\";s:4:\"slug\";s:9:\"marketing\";s:5:\"count\";i:340;}s:9:\"multisite\";a:3:{s:4:\"name\";s:9:\"multisite\";s:4:\"slug\";s:9:\"multisite\";s:5:\"count\";i:338;}s:4:\"chat\";a:3:{s:4:\"name\";s:4:\"chat\";s:4:\"slug\";s:4:\"chat\";s:5:\"count\";i:336;}s:10:\"newsletter\";a:3:{s:4:\"name\";s:10:\"newsletter\";s:4:\"slug\";s:10:\"newsletter\";s:5:\"count\";i:335;}s:4:\"code\";a:3:{s:4:\"name\";s:4:\"code\";s:4:\"slug\";s:4:\"code\";s:5:\"count\";i:334;}s:4:\"list\";a:3:{s:4:\"name\";s:4:\"list\";s:4:\"slug\";s:4:\"list\";s:5:\"count\";i:333;}s:3:\"url\";a:3:{s:4:\"name\";s:3:\"url\";s:4:\"slug\";s:3:\"url\";s:5:\"count\";i:329;}s:4:\"meta\";a:3:{s:4:\"name\";s:4:\"meta\";s:4:\"slug\";s:4:\"meta\";s:5:\"count\";i:328;}s:15:\"payment-gateway\";a:3:{s:4:\"name\";s:15:\"payment gateway\";s:4:\"slug\";s:15:\"payment-gateway\";s:5:\"count\";i:328;}s:8:\"redirect\";a:3:{s:4:\"name\";s:8:\"redirect\";s:4:\"slug\";s:8:\"redirect\";s:5:\"count\";i:319;}s:5:\"forms\";a:3:{s:4:\"name\";s:5:\"forms\";s:4:\"slug\";s:5:\"forms\";s:5:\"count\";i:310;}s:16:\"custom-post-type\";a:3:{s:4:\"name\";s:16:\"custom post type\";s:4:\"slug\";s:16:\"custom-post-type\";s:5:\"count\";i:305;}s:6:\"simple\";a:3:{s:4:\"name\";s:6:\"simple\";s:4:\"slug\";s:6:\"simple\";s:5:\"count\";i:302;}s:11:\"advertising\";a:3:{s:4:\"name\";s:11:\"advertising\";s:4:\"slug\";s:11:\"advertising\";s:5:\"count\";i:302;}s:3:\"tag\";a:3:{s:4:\"name\";s:3:\"tag\";s:4:\"slug\";s:3:\"tag\";s:5:\"count\";i:300;}s:7:\"adsense\";a:3:{s:4:\"name\";s:7:\"adsense\";s:4:\"slug\";s:7:\"adsense\";s:5:\"count\";i:295;}s:4:\"html\";a:3:{s:4:\"name\";s:4:\"html\";s:4:\"slug\";s:4:\"html\";s:5:\"count\";i:293;}s:12:\"notification\";a:3:{s:4:\"name\";s:12:\"notification\";s:4:\"slug\";s:12:\"notification\";s:5:\"count\";i:292;}s:8:\"tracking\";a:3:{s:4:\"name\";s:8:\"tracking\";s:4:\"slug\";s:8:\"tracking\";s:5:\"count\";i:291;}s:6:\"author\";a:3:{s:4:\"name\";s:6:\"author\";s:4:\"slug\";s:6:\"author\";s:5:\"count\";i:289;}s:16:\"google-analytics\";a:3:{s:4:\"name\";s:16:\"google analytics\";s:4:\"slug\";s:16:\"google-analytics\";s:5:\"count\";i:288;}s:11:\"performance\";a:3:{s:4:\"name\";s:11:\"performance\";s:4:\"slug\";s:11:\"performance\";s:5:\"count\";i:286;}s:8:\"lightbox\";a:3:{s:4:\"name\";s:8:\"lightbox\";s:4:\"slug\";s:8:\"lightbox\";s:5:\"count\";i:285;}}', 'no'),
 (312, 'woocommerce_store_address', 'Av Ataulfo de Paiva 658/402 - Leblon', 'yes'),
 (313, 'woocommerce_store_address_2', '', 'yes'),
 (314, 'woocommerce_store_city', 'Rio de Janeiro', 'yes'),
@@ -376,11 +374,8 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (437, 'woocommerce_admin_notice_jetpack_install_error', 'Jetpack could not be installed (Could not create directory.). <a href=\"http://localhost/nannacay/wp-admin/index.php?wc-install-plugin-redirect=jetpack\">Please install it manually by clicking here.</a>', 'yes'),
 (438, 'woocommerce_admin_notice_woocommerce-services_install_error', 'WooCommerce Services could not be installed (Could not create directory.). <a href=\"http://localhost/nannacay/wp-admin/index.php?wc-install-plugin-redirect=woocommerce-services\">Please install it manually by clicking here.</a>', 'yes'),
 (439, 'woocommerce_admin_notice_ppec_paypal_install_error', 'PayPal Express Checkout could not be installed (Could not create directory.). <a href=\"http://localhost/nannacay/wp-admin/index.php?wc-install-plugin-redirect=woocommerce-gateway-paypal-express-checkout\">Please install it manually by clicking here.</a>', 'yes'),
-(440, '_transient_timeout__woocommerce_helper_subscriptions', '1521992686', 'no'),
-(441, '_transient__woocommerce_helper_subscriptions', 'a:0:{}', 'no'),
 (444, '_transient_timeout__woocommerce_helper_updates', '1522034986', 'no'),
 (445, '_transient__woocommerce_helper_updates', 'a:4:{s:4:\"hash\";s:32:\"d751713988987e9331980363e24189ce\";s:7:\"updated\";i:1521991786;s:8:\"products\";a:0:{}s:6:\"errors\";a:1:{i:0;s:10:\"http-error\";}}', 'no'),
-(446, '_site_transient_update_plugins', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1521992169;s:7:\"checked\";a:4:{s:34:\"advanced-custom-fields-pro/acf.php\";s:5:\"5.6.9\";s:19:\"akismet/akismet.php\";s:5:\"4.0.2\";s:9:\"hello.php\";s:3:\"1.6\";s:27:\"woocommerce/woocommerce.php\";s:5:\"3.3.4\";}s:8:\"response\";a:1:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":11:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.0.3\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.0.3.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:7:\"default\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";s:7:\"default\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}s:6:\"tested\";s:5:\"4.9.4\";s:13:\"compatibility\";O:8:\"stdClass\":0:{}}}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:2:{s:9:\"hello.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=969907\";s:2:\"2x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";s:7:\"default\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";s:7:\"default\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";}s:11:\"banners_rtl\";a:0:{}}s:27:\"woocommerce/woocommerce.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/woocommerce\";s:4:\"slug\";s:11:\"woocommerce\";s:6:\"plugin\";s:27:\"woocommerce/woocommerce.php\";s:11:\"new_version\";s:5:\"3.3.4\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/woocommerce/\";s:7:\"package\";s:60:\"https://downloads.wordpress.org/plugin/woocommerce.3.3.4.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:64:\"https://ps.w.org/woocommerce/assets/icon-128x128.png?rev=1440831\";s:2:\"2x\";s:64:\"https://ps.w.org/woocommerce/assets/icon-256x256.png?rev=1440831\";s:7:\"default\";s:64:\"https://ps.w.org/woocommerce/assets/icon-256x256.png?rev=1440831\";}s:7:\"banners\";a:3:{s:2:\"2x\";s:67:\"https://ps.w.org/woocommerce/assets/banner-1544x500.png?rev=1629184\";s:2:\"1x\";s:66:\"https://ps.w.org/woocommerce/assets/banner-772x250.png?rev=1629184\";s:7:\"default\";s:67:\"https://ps.w.org/woocommerce/assets/banner-1544x500.png?rev=1629184\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no'),
 (447, '_transient_shipping-transient-version', '1521991789', 'yes'),
 (448, 'woocommerce_flat_rate_1_settings', 'a:3:{s:5:\"title\";s:9:\"Flat rate\";s:10:\"tax_status\";s:7:\"taxable\";s:4:\"cost\";s:5:\"50,00\";}', 'yes'),
 (449, 'woocommerce_flat_rate_2_settings', 'a:3:{s:5:\"title\";s:9:\"Flat rate\";s:10:\"tax_status\";s:7:\"taxable\";s:4:\"cost\";s:6:\"100,00\";}', 'yes'),
@@ -396,8 +391,13 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (459, '_transient_wc_low_stock_count', '0', 'no'),
 (460, '_transient_timeout_wc_outofstock_count', '1524584155', 'no'),
 (461, '_transient_wc_outofstock_count', '0', 'no'),
-(463, '_site_transient_timeout_theme_roots', '1522004196', 'no'),
-(464, '_site_transient_theme_roots', 'a:4:{s:8:\"nannacay\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no');
+(465, 'category_children', 'a:0:{}', 'yes'),
+(469, '_site_transient_timeout_available_translations', '1522025538', 'no');
+INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
+(470, '_site_transient_available_translations', 'a:113:{s:2:\"af\";a:8:{s:8:\"language\";s:2:\"af\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-06 13:56:09\";s:12:\"english_name\";s:9:\"Afrikaans\";s:11:\"native_name\";s:9:\"Afrikaans\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/af.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"af\";i:2;s:3:\"afr\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:10:\"Gaan voort\";}}s:2:\"ar\";a:8:{s:8:\"language\";s:2:\"ar\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 18:16:41\";s:12:\"english_name\";s:6:\"Arabic\";s:11:\"native_name\";s:14:\"العربية\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/ar.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ar\";i:2;s:3:\"ara\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:16:\"المتابعة\";}}s:3:\"ary\";a:8:{s:8:\"language\";s:3:\"ary\";s:7:\"version\";s:5:\"4.7.7\";s:7:\"updated\";s:19:\"2017-01-26 15:42:35\";s:12:\"english_name\";s:15:\"Moroccan Arabic\";s:11:\"native_name\";s:31:\"العربية المغربية\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.7.7/ary.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ar\";i:3;s:3:\"ary\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:16:\"المتابعة\";}}s:2:\"as\";a:8:{s:8:\"language\";s:2:\"as\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-11-22 18:59:07\";s:12:\"english_name\";s:8:\"Assamese\";s:11:\"native_name\";s:21:\"অসমীয়া\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.2/as.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"as\";i:2;s:3:\"asm\";i:3;s:3:\"asm\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:0:\"\";}}s:3:\"azb\";a:8:{s:8:\"language\";s:3:\"azb\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-09-12 20:34:31\";s:12:\"english_name\";s:17:\"South Azerbaijani\";s:11:\"native_name\";s:29:\"گؤنئی آذربایجان\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.7.2/azb.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"az\";i:3;s:3:\"azb\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Continue\";}}s:2:\"az\";a:8:{s:8:\"language\";s:2:\"az\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-11-06 00:09:27\";s:12:\"english_name\";s:11:\"Azerbaijani\";s:11:\"native_name\";s:16:\"Azərbaycan dili\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.2/az.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"az\";i:2;s:3:\"aze\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:5:\"Davam\";}}s:3:\"bel\";a:8:{s:8:\"language\";s:3:\"bel\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-01-25 21:29:53\";s:12:\"english_name\";s:10:\"Belarusian\";s:11:\"native_name\";s:29:\"Беларуская мова\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.9.4/bel.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"be\";i:2;s:3:\"bel\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:20:\"Працягнуць\";}}s:5:\"bg_BG\";a:8:{s:8:\"language\";s:5:\"bg_BG\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-22 13:41:14\";s:12:\"english_name\";s:9:\"Bulgarian\";s:11:\"native_name\";s:18:\"Български\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/bg_BG.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"bg\";i:2;s:3:\"bul\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:12:\"Напред\";}}s:5:\"bn_BD\";a:8:{s:8:\"language\";s:5:\"bn_BD\";s:7:\"version\";s:5:\"4.8.5\";s:7:\"updated\";s:19:\"2017-10-01 12:57:10\";s:12:\"english_name\";s:7:\"Bengali\";s:11:\"native_name\";s:15:\"বাংলা\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.8.5/bn_BD.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"bn\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:23:\"এগিয়ে চল.\";}}s:2:\"bo\";a:8:{s:8:\"language\";s:2:\"bo\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-22 03:44:52\";s:12:\"english_name\";s:7:\"Tibetan\";s:11:\"native_name\";s:21:\"བོད་ཡིག\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/bo.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"bo\";i:2;s:3:\"tib\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:24:\"མུ་མཐུད།\";}}s:5:\"bs_BA\";a:8:{s:8:\"language\";s:5:\"bs_BA\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-09-04 20:20:28\";s:12:\"english_name\";s:7:\"Bosnian\";s:11:\"native_name\";s:8:\"Bosanski\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.2/bs_BA.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"bs\";i:2;s:3:\"bos\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:7:\"Nastavi\";}}s:2:\"ca\";a:8:{s:8:\"language\";s:2:\"ca\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 20:33:12\";s:12:\"english_name\";s:7:\"Catalan\";s:11:\"native_name\";s:7:\"Català\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/ca.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ca\";i:2;s:3:\"cat\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Continua\";}}s:3:\"ceb\";a:8:{s:8:\"language\";s:3:\"ceb\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-03-02 17:25:51\";s:12:\"english_name\";s:7:\"Cebuano\";s:11:\"native_name\";s:7:\"Cebuano\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.7.2/ceb.zip\";s:3:\"iso\";a:2:{i:2;s:3:\"ceb\";i:3;s:3:\"ceb\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:7:\"Padayun\";}}s:5:\"cs_CZ\";a:8:{s:8:\"language\";s:5:\"cs_CZ\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-21 07:01:05\";s:12:\"english_name\";s:5:\"Czech\";s:11:\"native_name\";s:9:\"Čeština\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/cs_CZ.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"cs\";i:2;s:3:\"ces\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:11:\"Pokračovat\";}}s:2:\"cy\";a:8:{s:8:\"language\";s:2:\"cy\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-11 09:40:36\";s:12:\"english_name\";s:5:\"Welsh\";s:11:\"native_name\";s:7:\"Cymraeg\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/cy.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"cy\";i:2;s:3:\"cym\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Parhau\";}}s:5:\"da_DK\";a:8:{s:8:\"language\";s:5:\"da_DK\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-19 17:34:31\";s:12:\"english_name\";s:6:\"Danish\";s:11:\"native_name\";s:5:\"Dansk\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/da_DK.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"da\";i:2;s:3:\"dan\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Fortsæt\";}}s:12:\"de_DE_formal\";a:8:{s:8:\"language\";s:12:\"de_DE_formal\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-25 16:55:05\";s:12:\"english_name\";s:15:\"German (Formal)\";s:11:\"native_name\";s:13:\"Deutsch (Sie)\";s:7:\"package\";s:71:\"https://downloads.wordpress.org/translation/core/4.9.4/de_DE_formal.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"de\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Weiter\";}}s:5:\"de_DE\";a:8:{s:8:\"language\";s:5:\"de_DE\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-25 17:02:23\";s:12:\"english_name\";s:6:\"German\";s:11:\"native_name\";s:7:\"Deutsch\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/de_DE.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"de\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Weiter\";}}s:14:\"de_CH_informal\";a:8:{s:8:\"language\";s:14:\"de_CH_informal\";s:7:\"version\";s:5:\"4.9.2\";s:7:\"updated\";s:19:\"2017-11-22 15:43:53\";s:12:\"english_name\";s:30:\"German (Switzerland, Informal)\";s:11:\"native_name\";s:21:\"Deutsch (Schweiz, Du)\";s:7:\"package\";s:73:\"https://downloads.wordpress.org/translation/core/4.9.2/de_CH_informal.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"de\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Weiter\";}}s:5:\"de_CH\";a:8:{s:8:\"language\";s:5:\"de_CH\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-12 10:10:36\";s:12:\"english_name\";s:20:\"German (Switzerland)\";s:11:\"native_name\";s:17:\"Deutsch (Schweiz)\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/de_CH.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"de\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Weiter\";}}s:3:\"dzo\";a:8:{s:8:\"language\";s:3:\"dzo\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-06-29 08:59:03\";s:12:\"english_name\";s:8:\"Dzongkha\";s:11:\"native_name\";s:18:\"རྫོང་ཁ\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.7.2/dzo.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"dz\";i:2;s:3:\"dzo\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:0:\"\";}}s:2:\"el\";a:8:{s:8:\"language\";s:2:\"el\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-12 12:57:07\";s:12:\"english_name\";s:5:\"Greek\";s:11:\"native_name\";s:16:\"Ελληνικά\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/el.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"el\";i:2;s:3:\"ell\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:16:\"Συνέχεια\";}}s:5:\"en_GB\";a:8:{s:8:\"language\";s:5:\"en_GB\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 08:59:25\";s:12:\"english_name\";s:12:\"English (UK)\";s:11:\"native_name\";s:12:\"English (UK)\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/en_GB.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"en\";i:2;s:3:\"eng\";i:3;s:3:\"eng\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Continue\";}}s:5:\"en_AU\";a:8:{s:8:\"language\";s:5:\"en_AU\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-17 05:20:05\";s:12:\"english_name\";s:19:\"English (Australia)\";s:11:\"native_name\";s:19:\"English (Australia)\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/en_AU.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"en\";i:2;s:3:\"eng\";i:3;s:3:\"eng\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Continue\";}}s:5:\"en_NZ\";a:8:{s:8:\"language\";s:5:\"en_NZ\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-15 20:17:27\";s:12:\"english_name\";s:21:\"English (New Zealand)\";s:11:\"native_name\";s:21:\"English (New Zealand)\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/en_NZ.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"en\";i:2;s:3:\"eng\";i:3;s:3:\"eng\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Continue\";}}s:5:\"en_ZA\";a:8:{s:8:\"language\";s:5:\"en_ZA\";s:7:\"version\";s:5:\"4.9.2\";s:7:\"updated\";s:19:\"2017-11-15 09:54:30\";s:12:\"english_name\";s:22:\"English (South Africa)\";s:11:\"native_name\";s:22:\"English (South Africa)\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.2/en_ZA.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"en\";i:2;s:3:\"eng\";i:3;s:3:\"eng\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Continue\";}}s:5:\"en_CA\";a:8:{s:8:\"language\";s:5:\"en_CA\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-01-24 19:13:22\";s:12:\"english_name\";s:16:\"English (Canada)\";s:11:\"native_name\";s:16:\"English (Canada)\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/en_CA.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"en\";i:2;s:3:\"eng\";i:3;s:3:\"eng\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Continue\";}}s:2:\"eo\";a:8:{s:8:\"language\";s:2:\"eo\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-18 17:06:15\";s:12:\"english_name\";s:9:\"Esperanto\";s:11:\"native_name\";s:9:\"Esperanto\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/eo.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"eo\";i:2;s:3:\"epo\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Daŭrigi\";}}s:5:\"es_ES\";a:8:{s:8:\"language\";s:5:\"es_ES\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 16:21:50\";s:12:\"english_name\";s:15:\"Spanish (Spain)\";s:11:\"native_name\";s:8:\"Español\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/es_ES.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"es\";i:2;s:3:\"spa\";i:3;s:3:\"spa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:5:\"es_CO\";a:8:{s:8:\"language\";s:5:\"es_CO\";s:7:\"version\";s:5:\"4.9.2\";s:7:\"updated\";s:19:\"2017-11-15 23:17:08\";s:12:\"english_name\";s:18:\"Spanish (Colombia)\";s:11:\"native_name\";s:20:\"Español de Colombia\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.2/es_CO.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"es\";i:2;s:3:\"spa\";i:3;s:3:\"spa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:5:\"es_GT\";a:8:{s:8:\"language\";s:5:\"es_GT\";s:7:\"version\";s:5:\"4.9.2\";s:7:\"updated\";s:19:\"2017-11-15 15:03:42\";s:12:\"english_name\";s:19:\"Spanish (Guatemala)\";s:11:\"native_name\";s:21:\"Español de Guatemala\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.2/es_GT.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"es\";i:2;s:3:\"spa\";i:3;s:3:\"spa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:5:\"es_MX\";a:8:{s:8:\"language\";s:5:\"es_MX\";s:7:\"version\";s:5:\"4.8.5\";s:7:\"updated\";s:19:\"2017-07-31 15:12:02\";s:12:\"english_name\";s:16:\"Spanish (Mexico)\";s:11:\"native_name\";s:19:\"Español de México\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.8.5/es_MX.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"es\";i:2;s:3:\"spa\";i:3;s:3:\"spa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:5:\"es_CR\";a:8:{s:8:\"language\";s:5:\"es_CR\";s:7:\"version\";s:5:\"4.8.3\";s:7:\"updated\";s:19:\"2017-10-01 17:54:52\";s:12:\"english_name\";s:20:\"Spanish (Costa Rica)\";s:11:\"native_name\";s:22:\"Español de Costa Rica\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.8.3/es_CR.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"es\";i:2;s:3:\"spa\";i:3;s:3:\"spa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:5:\"es_CL\";a:8:{s:8:\"language\";s:5:\"es_CL\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-11-28 20:09:49\";s:12:\"english_name\";s:15:\"Spanish (Chile)\";s:11:\"native_name\";s:17:\"Español de Chile\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.2/es_CL.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"es\";i:2;s:3:\"spa\";i:3;s:3:\"spa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:5:\"es_PE\";a:8:{s:8:\"language\";s:5:\"es_PE\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-09-09 09:36:22\";s:12:\"english_name\";s:14:\"Spanish (Peru)\";s:11:\"native_name\";s:17:\"Español de Perú\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.2/es_PE.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"es\";i:2;s:3:\"spa\";i:3;s:3:\"spa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:5:\"es_VE\";a:8:{s:8:\"language\";s:5:\"es_VE\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-23 18:34:33\";s:12:\"english_name\";s:19:\"Spanish (Venezuela)\";s:11:\"native_name\";s:21:\"Español de Venezuela\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/es_VE.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"es\";i:2;s:3:\"spa\";i:3;s:3:\"spa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:5:\"es_AR\";a:8:{s:8:\"language\";s:5:\"es_AR\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-27 05:22:44\";s:12:\"english_name\";s:19:\"Spanish (Argentina)\";s:11:\"native_name\";s:21:\"Español de Argentina\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/es_AR.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"es\";i:2;s:3:\"spa\";i:3;s:3:\"spa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:2:\"et\";a:8:{s:8:\"language\";s:2:\"et\";s:7:\"version\";s:5:\"4.9.2\";s:7:\"updated\";s:19:\"2017-11-19 14:11:29\";s:12:\"english_name\";s:8:\"Estonian\";s:11:\"native_name\";s:5:\"Eesti\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.2/et.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"et\";i:2;s:3:\"est\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Jätka\";}}s:2:\"eu\";a:8:{s:8:\"language\";s:2:\"eu\";s:7:\"version\";s:5:\"4.9.2\";s:7:\"updated\";s:19:\"2017-12-09 21:12:23\";s:12:\"english_name\";s:6:\"Basque\";s:11:\"native_name\";s:7:\"Euskara\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.2/eu.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"eu\";i:2;s:3:\"eus\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Jarraitu\";}}s:5:\"fa_IR\";a:8:{s:8:\"language\";s:5:\"fa_IR\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-23 06:08:56\";s:12:\"english_name\";s:7:\"Persian\";s:11:\"native_name\";s:10:\"فارسی\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/fa_IR.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"fa\";i:2;s:3:\"fas\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:10:\"ادامه\";}}s:2:\"fi\";a:8:{s:8:\"language\";s:2:\"fi\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-12 17:00:17\";s:12:\"english_name\";s:7:\"Finnish\";s:11:\"native_name\";s:5:\"Suomi\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/fi.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"fi\";i:2;s:3:\"fin\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:5:\"Jatka\";}}s:5:\"fr_CA\";a:8:{s:8:\"language\";s:5:\"fr_CA\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 17:11:16\";s:12:\"english_name\";s:15:\"French (Canada)\";s:11:\"native_name\";s:19:\"Français du Canada\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/fr_CA.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"fr\";i:2;s:3:\"fra\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuer\";}}s:5:\"fr_BE\";a:8:{s:8:\"language\";s:5:\"fr_BE\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-01-31 11:16:06\";s:12:\"english_name\";s:16:\"French (Belgium)\";s:11:\"native_name\";s:21:\"Français de Belgique\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/fr_BE.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"fr\";i:2;s:3:\"fra\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuer\";}}s:5:\"fr_FR\";a:8:{s:8:\"language\";s:5:\"fr_FR\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-21 22:04:16\";s:12:\"english_name\";s:15:\"French (France)\";s:11:\"native_name\";s:9:\"Français\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/fr_FR.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"fr\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuer\";}}s:3:\"fur\";a:8:{s:8:\"language\";s:3:\"fur\";s:7:\"version\";s:5:\"4.8.5\";s:7:\"updated\";s:19:\"2018-01-29 17:32:35\";s:12:\"english_name\";s:8:\"Friulian\";s:11:\"native_name\";s:8:\"Friulian\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.8.5/fur.zip\";s:3:\"iso\";a:2:{i:2;s:3:\"fur\";i:3;s:3:\"fur\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Continue\";}}s:2:\"gd\";a:8:{s:8:\"language\";s:2:\"gd\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-08-23 17:41:37\";s:12:\"english_name\";s:15:\"Scottish Gaelic\";s:11:\"native_name\";s:9:\"Gàidhlig\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.2/gd.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"gd\";i:2;s:3:\"gla\";i:3;s:3:\"gla\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:15:\"Lean air adhart\";}}s:5:\"gl_ES\";a:8:{s:8:\"language\";s:5:\"gl_ES\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-10 18:19:59\";s:12:\"english_name\";s:8:\"Galician\";s:11:\"native_name\";s:6:\"Galego\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/gl_ES.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"gl\";i:2;s:3:\"glg\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:2:\"gu\";a:8:{s:8:\"language\";s:2:\"gu\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-14 06:16:04\";s:12:\"english_name\";s:8:\"Gujarati\";s:11:\"native_name\";s:21:\"ગુજરાતી\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/gu.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"gu\";i:2;s:3:\"guj\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:31:\"ચાલુ રાખવું\";}}s:3:\"haz\";a:8:{s:8:\"language\";s:3:\"haz\";s:7:\"version\";s:5:\"4.4.2\";s:7:\"updated\";s:19:\"2015-12-05 00:59:09\";s:12:\"english_name\";s:8:\"Hazaragi\";s:11:\"native_name\";s:15:\"هزاره گی\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.4.2/haz.zip\";s:3:\"iso\";a:1:{i:3;s:3:\"haz\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:10:\"ادامه\";}}s:5:\"he_IL\";a:8:{s:8:\"language\";s:5:\"he_IL\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-12 09:39:31\";s:12:\"english_name\";s:6:\"Hebrew\";s:11:\"native_name\";s:16:\"עִבְרִית\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/he_IL.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"he\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"המשך\";}}s:5:\"hi_IN\";a:8:{s:8:\"language\";s:5:\"hi_IN\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-13 12:30:42\";s:12:\"english_name\";s:5:\"Hindi\";s:11:\"native_name\";s:18:\"हिन्दी\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/hi_IN.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"hi\";i:2;s:3:\"hin\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:12:\"जारी\";}}s:2:\"hr\";a:8:{s:8:\"language\";s:2:\"hr\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 15:33:49\";s:12:\"english_name\";s:8:\"Croatian\";s:11:\"native_name\";s:8:\"Hrvatski\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/hr.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"hr\";i:2;s:3:\"hrv\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:7:\"Nastavi\";}}s:5:\"hu_HU\";a:8:{s:8:\"language\";s:5:\"hu_HU\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-01-29 19:54:36\";s:12:\"english_name\";s:9:\"Hungarian\";s:11:\"native_name\";s:6:\"Magyar\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/hu_HU.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"hu\";i:2;s:3:\"hun\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:10:\"Folytatás\";}}s:2:\"hy\";a:8:{s:8:\"language\";s:2:\"hy\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-12-03 16:21:10\";s:12:\"english_name\";s:8:\"Armenian\";s:11:\"native_name\";s:14:\"Հայերեն\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.2/hy.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"hy\";i:2;s:3:\"hye\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:20:\"Շարունակել\";}}s:5:\"id_ID\";a:8:{s:8:\"language\";s:5:\"id_ID\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-28 12:42:14\";s:12:\"english_name\";s:10:\"Indonesian\";s:11:\"native_name\";s:16:\"Bahasa Indonesia\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/id_ID.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"id\";i:2;s:3:\"ind\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Lanjutkan\";}}s:5:\"is_IS\";a:8:{s:8:\"language\";s:5:\"is_IS\";s:7:\"version\";s:5:\"4.7.7\";s:7:\"updated\";s:19:\"2017-04-13 13:55:54\";s:12:\"english_name\";s:9:\"Icelandic\";s:11:\"native_name\";s:9:\"Íslenska\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.7/is_IS.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"is\";i:2;s:3:\"isl\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Áfram\";}}s:5:\"it_IT\";a:8:{s:8:\"language\";s:5:\"it_IT\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 08:18:46\";s:12:\"english_name\";s:7:\"Italian\";s:11:\"native_name\";s:8:\"Italiano\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/it_IT.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"it\";i:2;s:3:\"ita\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Continua\";}}s:2:\"ja\";a:8:{s:8:\"language\";s:2:\"ja\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-16 18:46:39\";s:12:\"english_name\";s:8:\"Japanese\";s:11:\"native_name\";s:9:\"日本語\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/ja.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"ja\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"続ける\";}}s:5:\"jv_ID\";a:8:{s:8:\"language\";s:5:\"jv_ID\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-24 13:53:29\";s:12:\"english_name\";s:8:\"Javanese\";s:11:\"native_name\";s:9:\"Basa Jawa\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/jv_ID.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"jv\";i:2;s:3:\"jav\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Nerusaké\";}}s:5:\"ka_GE\";a:8:{s:8:\"language\";s:5:\"ka_GE\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-08 06:01:48\";s:12:\"english_name\";s:8:\"Georgian\";s:11:\"native_name\";s:21:\"ქართული\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/ka_GE.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ka\";i:2;s:3:\"kat\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:30:\"გაგრძელება\";}}s:3:\"kab\";a:8:{s:8:\"language\";s:3:\"kab\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-22 22:24:38\";s:12:\"english_name\";s:6:\"Kabyle\";s:11:\"native_name\";s:9:\"Taqbaylit\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.9.4/kab.zip\";s:3:\"iso\";a:2:{i:2;s:3:\"kab\";i:3;s:3:\"kab\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Kemmel\";}}s:2:\"kk\";a:8:{s:8:\"language\";s:2:\"kk\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-12 08:08:32\";s:12:\"english_name\";s:6:\"Kazakh\";s:11:\"native_name\";s:19:\"Қазақ тілі\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/kk.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"kk\";i:2;s:3:\"kaz\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:20:\"Жалғастыру\";}}s:2:\"km\";a:8:{s:8:\"language\";s:2:\"km\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-12-07 02:07:59\";s:12:\"english_name\";s:5:\"Khmer\";s:11:\"native_name\";s:27:\"ភាសាខ្មែរ\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.2/km.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"km\";i:2;s:3:\"khm\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:12:\"បន្ត\";}}s:5:\"ko_KR\";a:8:{s:8:\"language\";s:5:\"ko_KR\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-15 02:27:09\";s:12:\"english_name\";s:6:\"Korean\";s:11:\"native_name\";s:9:\"한국어\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/ko_KR.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ko\";i:2;s:3:\"kor\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"계속\";}}s:3:\"ckb\";a:8:{s:8:\"language\";s:3:\"ckb\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2017-01-26 15:48:25\";s:12:\"english_name\";s:16:\"Kurdish (Sorani)\";s:11:\"native_name\";s:13:\"كوردی‎\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.7.2/ckb.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ku\";i:3;s:3:\"ckb\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:30:\"به‌رده‌وام به‌\";}}s:2:\"lo\";a:8:{s:8:\"language\";s:2:\"lo\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-11-12 09:59:23\";s:12:\"english_name\";s:3:\"Lao\";s:11:\"native_name\";s:21:\"ພາສາລາວ\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.2/lo.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"lo\";i:2;s:3:\"lao\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:18:\"ຕໍ່​ໄປ\";}}s:5:\"lt_LT\";a:8:{s:8:\"language\";s:5:\"lt_LT\";s:7:\"version\";s:5:\"4.9.2\";s:7:\"updated\";s:19:\"2017-11-15 19:40:23\";s:12:\"english_name\";s:10:\"Lithuanian\";s:11:\"native_name\";s:15:\"Lietuvių kalba\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.2/lt_LT.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"lt\";i:2;s:3:\"lit\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Tęsti\";}}s:2:\"lv\";a:8:{s:8:\"language\";s:2:\"lv\";s:7:\"version\";s:5:\"4.7.7\";s:7:\"updated\";s:19:\"2017-03-17 20:40:40\";s:12:\"english_name\";s:7:\"Latvian\";s:11:\"native_name\";s:16:\"Latviešu valoda\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.7/lv.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"lv\";i:2;s:3:\"lav\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Turpināt\";}}s:5:\"mk_MK\";a:8:{s:8:\"language\";s:5:\"mk_MK\";s:7:\"version\";s:5:\"4.7.7\";s:7:\"updated\";s:19:\"2017-01-26 15:54:41\";s:12:\"english_name\";s:10:\"Macedonian\";s:11:\"native_name\";s:31:\"Македонски јазик\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.7/mk_MK.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"mk\";i:2;s:3:\"mkd\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:16:\"Продолжи\";}}s:5:\"ml_IN\";a:8:{s:8:\"language\";s:5:\"ml_IN\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2017-01-27 03:43:32\";s:12:\"english_name\";s:9:\"Malayalam\";s:11:\"native_name\";s:18:\"മലയാളം\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.2/ml_IN.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ml\";i:2;s:3:\"mal\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:18:\"തുടരുക\";}}s:2:\"mn\";a:8:{s:8:\"language\";s:2:\"mn\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2017-01-12 07:29:35\";s:12:\"english_name\";s:9:\"Mongolian\";s:11:\"native_name\";s:12:\"Монгол\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.2/mn.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"mn\";i:2;s:3:\"mon\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:24:\"Үргэлжлүүлэх\";}}s:2:\"mr\";a:8:{s:8:\"language\";s:2:\"mr\";s:7:\"version\";s:5:\"4.8.5\";s:7:\"updated\";s:19:\"2018-02-13 07:38:55\";s:12:\"english_name\";s:7:\"Marathi\";s:11:\"native_name\";s:15:\"मराठी\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.8.5/mr.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"mr\";i:2;s:3:\"mar\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:25:\"सुरु ठेवा\";}}s:5:\"ms_MY\";a:8:{s:8:\"language\";s:5:\"ms_MY\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-28 10:55:13\";s:12:\"english_name\";s:5:\"Malay\";s:11:\"native_name\";s:13:\"Bahasa Melayu\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/ms_MY.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ms\";i:2;s:3:\"msa\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Teruskan\";}}s:5:\"my_MM\";a:8:{s:8:\"language\";s:5:\"my_MM\";s:7:\"version\";s:6:\"4.1.20\";s:7:\"updated\";s:19:\"2015-03-26 15:57:42\";s:12:\"english_name\";s:17:\"Myanmar (Burmese)\";s:11:\"native_name\";s:15:\"ဗမာစာ\";s:7:\"package\";s:65:\"https://downloads.wordpress.org/translation/core/4.1.20/my_MM.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"my\";i:2;s:3:\"mya\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:54:\"ဆက်လက်လုပ်ဆောင်ပါ။\";}}s:5:\"nb_NO\";a:8:{s:8:\"language\";s:5:\"nb_NO\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-02 11:50:29\";s:12:\"english_name\";s:19:\"Norwegian (Bokmål)\";s:11:\"native_name\";s:13:\"Norsk bokmål\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/nb_NO.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"nb\";i:2;s:3:\"nob\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Fortsett\";}}s:5:\"ne_NP\";a:8:{s:8:\"language\";s:5:\"ne_NP\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-19 05:29:03\";s:12:\"english_name\";s:6:\"Nepali\";s:11:\"native_name\";s:18:\"नेपाली\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/ne_NP.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ne\";i:2;s:3:\"nep\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:43:\"जारी राख्नुहोस्\";}}s:12:\"nl_NL_formal\";a:8:{s:8:\"language\";s:12:\"nl_NL_formal\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 07:20:23\";s:12:\"english_name\";s:14:\"Dutch (Formal)\";s:11:\"native_name\";s:20:\"Nederlands (Formeel)\";s:7:\"package\";s:71:\"https://downloads.wordpress.org/translation/core/4.9.4/nl_NL_formal.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"nl\";i:2;s:3:\"nld\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Doorgaan\";}}s:5:\"nl_BE\";a:8:{s:8:\"language\";s:5:\"nl_BE\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-23 12:42:00\";s:12:\"english_name\";s:15:\"Dutch (Belgium)\";s:11:\"native_name\";s:20:\"Nederlands (België)\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/nl_BE.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"nl\";i:2;s:3:\"nld\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Doorgaan\";}}s:5:\"nl_NL\";a:8:{s:8:\"language\";s:5:\"nl_NL\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-23 10:18:52\";s:12:\"english_name\";s:5:\"Dutch\";s:11:\"native_name\";s:10:\"Nederlands\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/nl_NL.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"nl\";i:2;s:3:\"nld\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Doorgaan\";}}s:5:\"nn_NO\";a:8:{s:8:\"language\";s:5:\"nn_NO\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-22 09:27:50\";s:12:\"english_name\";s:19:\"Norwegian (Nynorsk)\";s:11:\"native_name\";s:13:\"Norsk nynorsk\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/nn_NO.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"nn\";i:2;s:3:\"nno\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Hald fram\";}}s:3:\"oci\";a:8:{s:8:\"language\";s:3:\"oci\";s:7:\"version\";s:5:\"4.8.3\";s:7:\"updated\";s:19:\"2017-08-25 10:03:08\";s:12:\"english_name\";s:7:\"Occitan\";s:11:\"native_name\";s:7:\"Occitan\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.8.3/oci.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"oc\";i:2;s:3:\"oci\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Contunhar\";}}s:5:\"pa_IN\";a:8:{s:8:\"language\";s:5:\"pa_IN\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2017-01-16 05:19:43\";s:12:\"english_name\";s:7:\"Punjabi\";s:11:\"native_name\";s:18:\"ਪੰਜਾਬੀ\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.2/pa_IN.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"pa\";i:2;s:3:\"pan\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:25:\"ਜਾਰੀ ਰੱਖੋ\";}}s:5:\"pl_PL\";a:8:{s:8:\"language\";s:5:\"pl_PL\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 08:32:20\";s:12:\"english_name\";s:6:\"Polish\";s:11:\"native_name\";s:6:\"Polski\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/pl_PL.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"pl\";i:2;s:3:\"pol\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Kontynuuj\";}}s:2:\"ps\";a:8:{s:8:\"language\";s:2:\"ps\";s:7:\"version\";s:6:\"4.1.20\";s:7:\"updated\";s:19:\"2015-03-29 22:19:48\";s:12:\"english_name\";s:6:\"Pashto\";s:11:\"native_name\";s:8:\"پښتو\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.1.20/ps.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ps\";i:2;s:3:\"pus\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:19:\"دوام ورکړه\";}}s:5:\"pt_PT\";a:8:{s:8:\"language\";s:5:\"pt_PT\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 09:37:35\";s:12:\"english_name\";s:21:\"Portuguese (Portugal)\";s:11:\"native_name\";s:10:\"Português\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/pt_PT.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"pt\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:10:\"pt_PT_ao90\";a:8:{s:8:\"language\";s:10:\"pt_PT_ao90\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 09:30:48\";s:12:\"english_name\";s:27:\"Portuguese (Portugal, AO90)\";s:11:\"native_name\";s:17:\"Português (AO90)\";s:7:\"package\";s:69:\"https://downloads.wordpress.org/translation/core/4.9.4/pt_PT_ao90.zip\";s:3:\"iso\";a:1:{i:1;s:2:\"pt\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:5:\"pt_BR\";a:8:{s:8:\"language\";s:5:\"pt_BR\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-22 18:30:41\";s:12:\"english_name\";s:19:\"Portuguese (Brazil)\";s:11:\"native_name\";s:20:\"Português do Brasil\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/pt_BR.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"pt\";i:2;s:3:\"por\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuar\";}}s:3:\"rhg\";a:8:{s:8:\"language\";s:3:\"rhg\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-03-16 13:03:18\";s:12:\"english_name\";s:8:\"Rohingya\";s:11:\"native_name\";s:8:\"Ruáinga\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.7.2/rhg.zip\";s:3:\"iso\";a:1:{i:3;s:3:\"rhg\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:0:\"\";}}s:5:\"ro_RO\";a:8:{s:8:\"language\";s:5:\"ro_RO\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 12:09:47\";s:12:\"english_name\";s:8:\"Romanian\";s:11:\"native_name\";s:8:\"Română\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/ro_RO.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ro\";i:2;s:3:\"ron\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Continuă\";}}s:5:\"ru_RU\";a:8:{s:8:\"language\";s:5:\"ru_RU\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-22 15:56:45\";s:12:\"english_name\";s:7:\"Russian\";s:11:\"native_name\";s:14:\"Русский\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/ru_RU.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ru\";i:2;s:3:\"rus\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:20:\"Продолжить\";}}s:3:\"sah\";a:8:{s:8:\"language\";s:3:\"sah\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2017-01-21 02:06:41\";s:12:\"english_name\";s:5:\"Sakha\";s:11:\"native_name\";s:14:\"Сахалыы\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.7.2/sah.zip\";s:3:\"iso\";a:2:{i:2;s:3:\"sah\";i:3;s:3:\"sah\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:12:\"Салҕаа\";}}s:5:\"si_LK\";a:8:{s:8:\"language\";s:5:\"si_LK\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-11-12 06:00:52\";s:12:\"english_name\";s:7:\"Sinhala\";s:11:\"native_name\";s:15:\"සිංහල\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.2/si_LK.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"si\";i:2;s:3:\"sin\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:44:\"දිගටම කරගෙන යන්න\";}}s:5:\"sk_SK\";a:8:{s:8:\"language\";s:5:\"sk_SK\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-22 08:50:10\";s:12:\"english_name\";s:6:\"Slovak\";s:11:\"native_name\";s:11:\"Slovenčina\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/sk_SK.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"sk\";i:2;s:3:\"slk\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:12:\"Pokračovať\";}}s:5:\"sl_SI\";a:8:{s:8:\"language\";s:5:\"sl_SI\";s:7:\"version\";s:5:\"4.9.2\";s:7:\"updated\";s:19:\"2018-01-04 13:33:13\";s:12:\"english_name\";s:9:\"Slovenian\";s:11:\"native_name\";s:13:\"Slovenščina\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.2/sl_SI.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"sl\";i:2;s:3:\"slv\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:8:\"Nadaljuj\";}}s:2:\"sq\";a:8:{s:8:\"language\";s:2:\"sq\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-25 10:30:04\";s:12:\"english_name\";s:8:\"Albanian\";s:11:\"native_name\";s:5:\"Shqip\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/sq.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"sq\";i:2;s:3:\"sqi\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"Vazhdo\";}}s:5:\"sr_RS\";a:8:{s:8:\"language\";s:5:\"sr_RS\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-05 20:37:27\";s:12:\"english_name\";s:7:\"Serbian\";s:11:\"native_name\";s:23:\"Српски језик\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/sr_RS.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"sr\";i:2;s:3:\"srp\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:14:\"Настави\";}}s:5:\"sv_SE\";a:8:{s:8:\"language\";s:5:\"sv_SE\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 12:42:33\";s:12:\"english_name\";s:7:\"Swedish\";s:11:\"native_name\";s:7:\"Svenska\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/sv_SE.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"sv\";i:2;s:3:\"swe\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:9:\"Fortsätt\";}}s:3:\"szl\";a:8:{s:8:\"language\";s:3:\"szl\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-09-24 19:58:14\";s:12:\"english_name\";s:8:\"Silesian\";s:11:\"native_name\";s:17:\"Ślōnskŏ gŏdka\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.7.2/szl.zip\";s:3:\"iso\";a:1:{i:3;s:3:\"szl\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:13:\"Kōntynuować\";}}s:5:\"ta_IN\";a:8:{s:8:\"language\";s:5:\"ta_IN\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2017-01-27 03:22:47\";s:12:\"english_name\";s:5:\"Tamil\";s:11:\"native_name\";s:15:\"தமிழ்\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.2/ta_IN.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ta\";i:2;s:3:\"tam\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:24:\"தொடரவும்\";}}s:2:\"te\";a:8:{s:8:\"language\";s:2:\"te\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2017-01-26 15:47:39\";s:12:\"english_name\";s:6:\"Telugu\";s:11:\"native_name\";s:18:\"తెలుగు\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.2/te.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"te\";i:2;s:3:\"tel\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:30:\"కొనసాగించు\";}}s:2:\"th\";a:8:{s:8:\"language\";s:2:\"th\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-02 17:08:41\";s:12:\"english_name\";s:4:\"Thai\";s:11:\"native_name\";s:9:\"ไทย\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/th.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"th\";i:2;s:3:\"tha\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:15:\"ต่อไป\";}}s:2:\"tl\";a:8:{s:8:\"language\";s:2:\"tl\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-12-30 02:38:08\";s:12:\"english_name\";s:7:\"Tagalog\";s:11:\"native_name\";s:7:\"Tagalog\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.7.2/tl.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"tl\";i:2;s:3:\"tgl\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:10:\"Magpatuloy\";}}s:5:\"tr_TR\";a:8:{s:8:\"language\";s:5:\"tr_TR\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-14 15:26:30\";s:12:\"english_name\";s:7:\"Turkish\";s:11:\"native_name\";s:8:\"Türkçe\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/tr_TR.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"tr\";i:2;s:3:\"tur\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:5:\"Devam\";}}s:5:\"tt_RU\";a:8:{s:8:\"language\";s:5:\"tt_RU\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-11-20 20:20:50\";s:12:\"english_name\";s:5:\"Tatar\";s:11:\"native_name\";s:19:\"Татар теле\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.2/tt_RU.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"tt\";i:2;s:3:\"tat\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:17:\"дәвам итү\";}}s:3:\"tah\";a:8:{s:8:\"language\";s:3:\"tah\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-03-06 18:39:39\";s:12:\"english_name\";s:8:\"Tahitian\";s:11:\"native_name\";s:10:\"Reo Tahiti\";s:7:\"package\";s:62:\"https://downloads.wordpress.org/translation/core/4.7.2/tah.zip\";s:3:\"iso\";a:3:{i:1;s:2:\"ty\";i:2;s:3:\"tah\";i:3;s:3:\"tah\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:0:\"\";}}s:5:\"ug_CN\";a:8:{s:8:\"language\";s:5:\"ug_CN\";s:7:\"version\";s:5:\"4.7.2\";s:7:\"updated\";s:19:\"2016-12-05 09:23:39\";s:12:\"english_name\";s:6:\"Uighur\";s:11:\"native_name\";s:9:\"Uyƣurqə\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.7.2/ug_CN.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ug\";i:2;s:3:\"uig\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:26:\"داۋاملاشتۇرۇش\";}}s:2:\"uk\";a:8:{s:8:\"language\";s:2:\"uk\";s:7:\"version\";s:5:\"4.8.3\";s:7:\"updated\";s:19:\"2017-11-02 17:05:02\";s:12:\"english_name\";s:9:\"Ukrainian\";s:11:\"native_name\";s:20:\"Українська\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.8.3/uk.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"uk\";i:2;s:3:\"ukr\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:20:\"Продовжити\";}}s:2:\"ur\";a:8:{s:8:\"language\";s:2:\"ur\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-13 08:24:25\";s:12:\"english_name\";s:4:\"Urdu\";s:11:\"native_name\";s:8:\"اردو\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/ur.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"ur\";i:2;s:3:\"urd\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:19:\"جاری رکھیں\";}}s:5:\"uz_UZ\";a:8:{s:8:\"language\";s:5:\"uz_UZ\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-09 10:37:43\";s:12:\"english_name\";s:5:\"Uzbek\";s:11:\"native_name\";s:11:\"O‘zbekcha\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/uz_UZ.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"uz\";i:2;s:3:\"uzb\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:11:\"Davom etish\";}}s:2:\"vi\";a:8:{s:8:\"language\";s:2:\"vi\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-03-19 14:34:44\";s:12:\"english_name\";s:10:\"Vietnamese\";s:11:\"native_name\";s:14:\"Tiếng Việt\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/translation/core/4.9.4/vi.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"vi\";i:2;s:3:\"vie\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:12:\"Tiếp tục\";}}s:5:\"zh_HK\";a:8:{s:8:\"language\";s:5:\"zh_HK\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-06 17:26:08\";s:12:\"english_name\";s:19:\"Chinese (Hong Kong)\";s:11:\"native_name\";s:16:\"香港中文版	\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/zh_HK.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"zh\";i:2;s:3:\"zho\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"繼續\";}}s:5:\"zh_CN\";a:8:{s:8:\"language\";s:5:\"zh_CN\";s:7:\"version\";s:5:\"4.9.2\";s:7:\"updated\";s:19:\"2017-11-17 22:20:52\";s:12:\"english_name\";s:15:\"Chinese (China)\";s:11:\"native_name\";s:12:\"简体中文\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.2/zh_CN.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"zh\";i:2;s:3:\"zho\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"继续\";}}s:5:\"zh_TW\";a:8:{s:8:\"language\";s:5:\"zh_TW\";s:7:\"version\";s:5:\"4.9.4\";s:7:\"updated\";s:19:\"2018-02-13 02:41:15\";s:12:\"english_name\";s:16:\"Chinese (Taiwan)\";s:11:\"native_name\";s:12:\"繁體中文\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/translation/core/4.9.4/zh_TW.zip\";s:3:\"iso\";a:2:{i:1;s:2:\"zh\";i:2;s:3:\"zho\";}s:7:\"strings\";a:1:{s:8:\"continue\";s:6:\"繼續\";}}}', 'no'),
+(478, '_site_transient_timeout_theme_roots', '1522019399', 'no'),
+(479, '_site_transient_theme_roots', 'a:4:{s:8:\"nannacay\";s:7:\"/themes\";s:13:\"twentyfifteen\";s:7:\"/themes\";s:15:\"twentyseventeen\";s:7:\"/themes\";s:13:\"twentysixteen\";s:7:\"/themes\";}', 'no'),
+(480, '_site_transient_update_plugins', 'O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1522017601;s:7:\"checked\";a:3:{s:34:\"advanced-custom-fields-pro/acf.php\";s:5:\"5.6.9\";s:19:\"akismet/akismet.php\";s:5:\"4.0.2\";s:9:\"hello.php\";s:3:\"1.6\";}s:8:\"response\";a:1:{s:19:\"akismet/akismet.php\";O:8:\"stdClass\":11:{s:2:\"id\";s:21:\"w.org/plugins/akismet\";s:4:\"slug\";s:7:\"akismet\";s:6:\"plugin\";s:19:\"akismet/akismet.php\";s:11:\"new_version\";s:5:\"4.0.3\";s:3:\"url\";s:38:\"https://wordpress.org/plugins/akismet/\";s:7:\"package\";s:56:\"https://downloads.wordpress.org/plugin/akismet.4.0.3.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:59:\"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272\";s:2:\"2x\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";s:7:\"default\";s:59:\"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";s:7:\"default\";s:61:\"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904\";}s:11:\"banners_rtl\";a:0:{}s:6:\"tested\";s:5:\"4.9.4\";s:13:\"compatibility\";O:8:\"stdClass\":0:{}}}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:1:{s:9:\"hello.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/hello-dolly\";s:4:\"slug\";s:11:\"hello-dolly\";s:6:\"plugin\";s:9:\"hello.php\";s:11:\"new_version\";s:3:\"1.6\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/hello-dolly/\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip\";s:5:\"icons\";a:3:{s:2:\"1x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=969907\";s:2:\"2x\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";s:7:\"default\";s:63:\"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907\";}s:7:\"banners\";a:2:{s:2:\"1x\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";s:7:\"default\";s:65:\"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342\";}s:11:\"banners_rtl\";a:0:{}}}}', 'no');
 
 -- --------------------------------------------------------
 
@@ -419,7 +419,7 @@ CREATE TABLE `wp_postmeta` (
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1, 2, '_wp_page_template', 'default'),
 (2, 4, '_edit_last', '1'),
-(3, 4, '_edit_lock', '1521650465:1'),
+(3, 4, '_edit_lock', '1522012703:1'),
 (4, 2, '_edit_lock', '1520722366:1'),
 (5, 10, '_wp_attached_file', '2018/03/logo_nannacay_big.png'),
 (6, 10, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:1027;s:6:\"height\";i:449;s:4:\"file\";s:29:\"2018/03/logo_nannacay_big.png\";s:5:\"sizes\";a:5:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:29:\"logo_nannacay_big-150x150.png\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:9:\"image/png\";}s:6:\"medium\";a:4:{s:4:\"file\";s:29:\"logo_nannacay_big-300x131.png\";s:5:\"width\";i:300;s:6:\"height\";i:131;s:9:\"mime-type\";s:9:\"image/png\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:29:\"logo_nannacay_big-768x336.png\";s:5:\"width\";i:768;s:6:\"height\";i:336;s:9:\"mime-type\";s:9:\"image/png\";}s:5:\"large\";a:4:{s:4:\"file\";s:30:\"logo_nannacay_big-1024x448.png\";s:5:\"width\";i:1024;s:6:\"height\";i:448;s:9:\"mime-type\";s:9:\"image/png\";}s:32:\"twentyseventeen-thumbnail-avatar\";a:4:{s:4:\"file\";s:29:\"logo_nannacay_big-100x100.png\";s:5:\"width\";i:100;s:6:\"height\";i:100;s:9:\"mime-type\";s:9:\"image/png\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
@@ -458,7 +458,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (41, 16, '_wp_trash_meta_time', '1520722693'),
 (42, 16, '_wp_desired_post_slug', 'home'),
 (43, 18, '_edit_last', '1'),
-(44, 18, '_edit_lock', '1522006064:1'),
+(44, 18, '_edit_lock', '1522012707:1'),
 (45, 18, '_wp_page_template', 'index.php'),
 (46, 18, 'logo', '10'),
 (47, 18, '_logo', 'field_5ab169e210941'),
@@ -519,7 +519,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (102, 42, '_edit_last', '1'),
 (105, 42, '_edit_lock', '1521148637:1'),
 (106, 44, '_edit_last', '1'),
-(107, 44, '_edit_lock', '1520826138:1'),
+(107, 44, '_edit_lock', '1522014603:1'),
 (108, 48, '_wp_attached_file', '2018/03/2.2-Image.jpg'),
 (109, 48, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:2846;s:6:\"height\";i:1600;s:4:\"file\";s:21:\"2018/03/2.2-Image.jpg\";s:5:\"sizes\";a:4:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:21:\"2.2-Image-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:21:\"2.2-Image-300x169.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:169;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:21:\"2.2-Image-768x432.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:432;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:22:\"2.2-Image-1024x576.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:576;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (110, 49, '_wp_attached_file', '2018/03/2.3-Image.jpg'),
@@ -1435,7 +1435,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (1055, 132, 'images', '3'),
 (1056, 132, '_images', 'field_5aa5f4cba9087'),
 (1057, 133, '_edit_last', '1'),
-(1058, 133, '_edit_lock', '1521507944:1'),
+(1058, 133, '_edit_lock', '1522013494:1'),
 (1059, 134, '_wp_attached_file', '2018/03/3.2-Image.jpg'),
 (1060, 134, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:2846;s:6:\"height\";i:1600;s:4:\"file\";s:21:\"2018/03/3.2-Image.jpg\";s:5:\"sizes\";a:4:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:21:\"3.2-Image-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:21:\"3.2-Image-300x169.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:169;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:21:\"3.2-Image-768x432.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:432;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:22:\"3.2-Image-1024x576.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:576;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (1061, 135, '_wp_attached_file', '2018/03/3.3-Image.jpg');
@@ -1473,7 +1473,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (1094, 107, '_wp_trash_meta_time', '1521508093'),
 (1095, 107, '_wp_desired_post_slug', 'buriti-clutch'),
 (1096, 139, '_edit_last', '1'),
-(1097, 139, '_edit_lock', '1521508232:1'),
+(1097, 139, '_edit_lock', '1522013468:1'),
 (1098, 140, '_wp_attached_file', '2018/03/2.2-Image-2.jpg'),
 (1099, 140, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:2846;s:6:\"height\";i:1600;s:4:\"file\";s:23:\"2018/03/2.2-Image-2.jpg\";s:5:\"sizes\";a:4:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:23:\"2.2-Image-2-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:23:\"2.2-Image-2-300x169.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:169;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:23:\"2.2-Image-2-768x432.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:432;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:24:\"2.2-Image-2-1024x576.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:576;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
 (1100, 141, '_wp_attached_file', '2018/03/2.3-Image-2.jpg'),
@@ -1717,7 +1717,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (1348, 165, '_product_version', '3.3.4'),
 (1349, 165, '_price', ''),
 (1350, 166, '_edit_last', '1'),
-(1351, 166, '_edit_lock', '1522003052:1'),
+(1351, 166, '_edit_lock', '1522012715:1'),
 (1352, 162, '_edit_lock', '1522001799:1'),
 (1353, 162, '_wp_trash_meta_status', 'publish'),
 (1354, 162, '_wp_trash_meta_time', '1522001952'),
@@ -1820,7 +1820,250 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (1450, 184, 'teste', 'teste'),
 (1451, 184, '_teste', 'field_5ab7ec63713c4'),
 (1452, 184, 'products_subfield_0_product_types', ''),
-(1453, 184, '_products_subfield_0_product_types', 'field_5ab7e69736a23');
+(1453, 184, '_products_subfield_0_product_types', 'field_5ab7e69736a23'),
+(1454, 91, '_wp_trash_meta_status', 'publish'),
+(1455, 91, '_wp_trash_meta_time', '1522012804'),
+(1456, 91, '_wp_desired_post_slug', 'group_5aaa6786c993b'),
+(1457, 92, '_wp_trash_meta_status', 'publish'),
+(1458, 92, '_wp_trash_meta_time', '1522012804'),
+(1459, 92, '_wp_desired_post_slug', 'field_5aaa679414829'),
+(1460, 94, '_wp_trash_meta_status', 'publish'),
+(1461, 94, '_wp_trash_meta_time', '1522012804'),
+(1462, 94, '_wp_desired_post_slug', 'field_5aaa67f51482b'),
+(1463, 166, '_wp_trash_meta_status', 'publish'),
+(1464, 166, '_wp_trash_meta_time', '1522012871'),
+(1465, 166, '_wp_desired_post_slug', 'group_5ab7e57186308'),
+(1466, 168, '_wp_trash_meta_status', 'publish'),
+(1467, 168, '_wp_trash_meta_time', '1522012871'),
+(1468, 168, '_wp_desired_post_slug', 'field_5ab7e62ad7630'),
+(1469, 169, '_wp_trash_meta_status', 'publish'),
+(1470, 169, '_wp_trash_meta_time', '1522012871'),
+(1471, 169, '_wp_desired_post_slug', 'field_5ab7e66036a22'),
+(1472, 176, '_wp_trash_meta_status', 'publish'),
+(1473, 176, '_wp_trash_meta_time', '1522012871'),
+(1474, 176, '_wp_desired_post_slug', 'field_5ab7ec63713c4'),
+(1477, 139, '_wp_page_template', 'campanha.php'),
+(1480, 185, '_edit_last', '1'),
+(1481, 185, '_edit_lock', '1522018226:1'),
+(1482, 199, '_edit_last', '1'),
+(1483, 199, '_edit_lock', '1522020521:1'),
+(1484, 199, '_wp_page_template', 'produto.php'),
+(1487, 199, 'about', ''),
+(1488, 199, '_about', 'field_5aa5f4be3841d'),
+(1489, 199, 'images', ''),
+(1490, 199, '_images', 'field_5aa5f4cba9087'),
+(1491, 199, 'product_image', '201'),
+(1492, 199, '_product_image', 'field_5ab8181e912b7'),
+(1493, 199, 'product_name', 'Maldives azul média'),
+(1494, 199, '_product_name', 'field_5ab816514c3c1'),
+(1495, 199, 'price', ' R$ 460'),
+(1496, 199, '_price', 'field_5ab816684c3c2'),
+(1497, 199, 'buy_button', '<div id=\'product-component-c05ceb988cd\'></div> <script type=\"text/javascript\"> /*<![CDATA[*/  (function () {   var scriptURL = \'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js\';   if (window.ShopifyBuy) {     if (window.ShopifyBuy.UI) {       ShopifyBuyInit();     } else {       loadScript();     }   } else {     loadScript();   }    function loadScript() {     var script = document.createElement(\'script\');     script.async = true;     script.src = scriptURL;     (document.getElementsByTagName(\'head\')[0] || document.getElementsByTagName(\'body\')[0]).appendChild(script);     script.onload = ShopifyBuyInit;   }    function ShopifyBuyInit() {     var client = ShopifyBuy.buildClient({       domain: \'nannacay-store.myshopify.com\',       apiKey: \'5f43090a6253884d5928f64a4be7b600\',       appId: \'6\',     });      ShopifyBuy.UI.onReady(client).then(function (ui) {       ui.createComponent(\'product\', {         id: [566129066030],         node: document.getElementById(\'product-component-c05ceb988cd\'),         moneyFormat: \'R%24%20%7B%7Bamount_with_comma_separator%7D%7D\',         options: {   \"product\": {     \"variantId\": \"all\",     \"width\": \"240px\",     \"contents\": {       \"img\": false,       \"imgWithCarousel\": false,       \"title\": false,       \"variantTitle\": false,       \"price\": false,       \"description\": false,       \"buttonWithQuantity\": false,       \"quantity\": false     },     \"text\": {       \"button\": \"COMPRAR\"     },     \"styles\": {       \"product\": {         \"text-align\": \"left\",         \"@media (min-width: 601px)\": {           \"max-width\": \"calc(25% - 20px)\",           \"margin-left\": \"20px\",           \"margin-bottom\": \"50px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"cart\": {     \"contents\": {       \"button\": true     },     \"text\": {       \"title\": \"Carrinho\",       \"button\": \"Finalizar Compra\"     },     \"styles\": {       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"footer\": {         \"background-color\": \"#ffffff\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"modalProduct\": {     \"contents\": {       \"img\": false,       \"imgWithCarousel\": true,       \"variantTitle\": false,       \"buttonWithQuantity\": true,       \"button\": false,       \"quantity\": false     },     \"styles\": {       \"product\": {         \"@media (min-width: 601px)\": {           \"max-width\": \"100%\",           \"margin-left\": \"0px\",           \"margin-bottom\": \"0px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"toggle\": {     \"styles\": {       \"toggle\": {         \"font-family\": \"Roboto, sans-serif\",         \"background-color\": \"#000000\",         \":hover\": {           \"background-color\": \"#000000\"         },         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"count\": {         \"font-size\": \"14px\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"option\": {     \"styles\": {       \"label\": {         \"font-family\": \"Roboto, sans-serif\"       },       \"select\": {         \"font-family\": \"Roboto, sans-serif\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\"     ]   },   \"productSet\": {     \"styles\": {       \"products\": {         \"@media (min-width: 601px)\": {           \"margin-left\": \"-20px\"         }       }     }   } }       });     });   } })(); /*]]>*/ </script>'),
+(1498, 199, '_buy_button', 'field_5ab816794c3c3'),
+(1499, 199, 'about_product', 'Bolsa de palha retangular estruturada tamanho médio colorida com borda laranja. Versátil, a bolsa Maldives transita perfeitamente da praia para o urbano. Toda Nannacay é feita à mão por artesãs sul-americanas, tornando cada peça única.'),
+(1500, 199, '_about_product', 'field_5ab816934c3c4'),
+(1501, 199, 'dimesions', '3'),
+(1502, 199, '_dimesions', 'field_5ab817494c3c7'),
+(1503, 199, 'tips', '3'),
+(1504, 199, '_tips', 'field_5ab818b362432'),
+(1505, 199, 'plots', '3x R$ 153  '),
+(1506, 199, '_plots', 'field_5ab8195d579df'),
+(1507, 200, 'about', ''),
+(1508, 200, '_about', 'field_5aa5f4be3841d'),
+(1509, 200, 'images', ''),
+(1510, 200, '_images', 'field_5aa5f4cba9087'),
+(1511, 200, 'product_image', ''),
+(1512, 200, '_product_image', 'field_5ab8181e912b7'),
+(1513, 200, 'product_name', ''),
+(1514, 200, '_product_name', 'field_5ab816514c3c1'),
+(1515, 200, 'price', ''),
+(1516, 200, '_price', 'field_5ab816684c3c2'),
+(1517, 200, 'buy_button', ''),
+(1518, 200, '_buy_button', 'field_5ab816794c3c3'),
+(1519, 200, 'about_product', ''),
+(1520, 200, '_about_product', 'field_5ab816934c3c4'),
+(1521, 200, 'dimesions', ''),
+(1522, 200, '_dimesions', 'field_5ab817494c3c7'),
+(1523, 200, 'tips', ''),
+(1524, 200, '_tips', 'field_5ab818b362432'),
+(1525, 200, 'plots', ''),
+(1526, 200, '_plots', 'field_5ab8195d579df'),
+(1527, 201, '_wp_attached_file', '2018/03/Screen-Shot-2018-03-25-at-18.53.30.png'),
+(1528, 201, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:872;s:6:\"height\";i:810;s:4:\"file\";s:46:\"2018/03/Screen-Shot-2018-03-25-at-18.53.30.png\";s:5:\"sizes\";a:3:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:46:\"Screen-Shot-2018-03-25-at-18.53.30-150x150.png\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:9:\"image/png\";}s:6:\"medium\";a:4:{s:4:\"file\";s:46:\"Screen-Shot-2018-03-25-at-18.53.30-300x279.png\";s:5:\"width\";i:300;s:6:\"height\";i:279;s:9:\"mime-type\";s:9:\"image/png\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:46:\"Screen-Shot-2018-03-25-at-18.53.30-768x713.png\";s:5:\"width\";i:768;s:6:\"height\";i:713;s:9:\"mime-type\";s:9:\"image/png\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(1531, 202, 'about', ''),
+(1532, 202, '_about', 'field_5aa5f4be3841d'),
+(1533, 202, 'images', ''),
+(1534, 202, '_images', 'field_5aa5f4cba9087'),
+(1535, 202, 'product_image', '201'),
+(1536, 202, '_product_image', 'field_5ab8181e912b7'),
+(1537, 202, 'product_name', 'Maldives azul média'),
+(1538, 202, '_product_name', 'field_5ab816514c3c1'),
+(1539, 202, 'price', ' R$ 460'),
+(1540, 202, '_price', 'field_5ab816684c3c2');
+INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
+(1541, 202, 'buy_button', '<div id=\'product-component-c05ceb988cd\'></div> <script type=\"text/javascript\"> /*<![CDATA[*/  (function () {   var scriptURL = \'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js\';   if (window.ShopifyBuy) {     if (window.ShopifyBuy.UI) {       ShopifyBuyInit();     } else {       loadScript();     }   } else {     loadScript();   }    function loadScript() {     var script = document.createElement(\'script\');     script.async = true;     script.src = scriptURL;     (document.getElementsByTagName(\'head\')[0] || document.getElementsByTagName(\'body\')[0]).appendChild(script);     script.onload = ShopifyBuyInit;   }    function ShopifyBuyInit() {     var client = ShopifyBuy.buildClient({       domain: \'nannacay-store.myshopify.com\',       apiKey: \'5f43090a6253884d5928f64a4be7b600\',       appId: \'6\',     });      ShopifyBuy.UI.onReady(client).then(function (ui) {       ui.createComponent(\'product\', {         id: [566129066030],         node: document.getElementById(\'product-component-c05ceb988cd\'),         moneyFormat: \'R%24%20%7B%7Bamount_with_comma_separator%7D%7D\',         options: {   \"product\": {     \"variantId\": \"all\",     \"width\": \"240px\",     \"contents\": {       \"img\": false,       \"imgWithCarousel\": false,       \"title\": false,       \"variantTitle\": false,       \"price\": false,       \"description\": false,       \"buttonWithQuantity\": false,       \"quantity\": false     },     \"text\": {       \"button\": \"COMPRAR\"     },     \"styles\": {       \"product\": {         \"text-align\": \"left\",         \"@media (min-width: 601px)\": {           \"max-width\": \"calc(25% - 20px)\",           \"margin-left\": \"20px\",           \"margin-bottom\": \"50px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"cart\": {     \"contents\": {       \"button\": true     },     \"text\": {       \"title\": \"Carrinho\",       \"button\": \"Finalizar Compra\"     },     \"styles\": {       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"footer\": {         \"background-color\": \"#ffffff\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"modalProduct\": {     \"contents\": {       \"img\": false,       \"imgWithCarousel\": true,       \"variantTitle\": false,       \"buttonWithQuantity\": true,       \"button\": false,       \"quantity\": false     },     \"styles\": {       \"product\": {         \"@media (min-width: 601px)\": {           \"max-width\": \"100%\",           \"margin-left\": \"0px\",           \"margin-bottom\": \"0px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"toggle\": {     \"styles\": {       \"toggle\": {         \"font-family\": \"Roboto, sans-serif\",         \"background-color\": \"#000000\",         \":hover\": {           \"background-color\": \"#000000\"         },         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"count\": {         \"font-size\": \"14px\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"option\": {     \"styles\": {       \"label\": {         \"font-family\": \"Roboto, sans-serif\"       },       \"select\": {         \"font-family\": \"Roboto, sans-serif\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\"     ]   },   \"productSet\": {     \"styles\": {       \"products\": {         \"@media (min-width: 601px)\": {           \"margin-left\": \"-20px\"         }       }     }   } }       });     });   } })(); /*]]>*/ </script>'),
+(1542, 202, '_buy_button', 'field_5ab816794c3c3'),
+(1543, 202, 'about_product', ''),
+(1544, 202, '_about_product', 'field_5ab816934c3c4'),
+(1545, 202, 'dimesions', ''),
+(1546, 202, '_dimesions', 'field_5ab817494c3c7'),
+(1547, 202, 'tips', ''),
+(1548, 202, '_tips', 'field_5ab818b362432'),
+(1549, 202, 'plots', '3x R$ 153  '),
+(1550, 202, '_plots', 'field_5ab8195d579df'),
+(1553, 203, 'about', ''),
+(1554, 203, '_about', 'field_5aa5f4be3841d'),
+(1555, 203, 'images', ''),
+(1556, 203, '_images', 'field_5aa5f4cba9087'),
+(1557, 203, 'product_image', '201'),
+(1558, 203, '_product_image', 'field_5ab8181e912b7'),
+(1559, 203, 'product_name', 'Maldives azul média'),
+(1560, 203, '_product_name', 'field_5ab816514c3c1'),
+(1561, 203, 'price', ' R$ 460'),
+(1562, 203, '_price', 'field_5ab816684c3c2'),
+(1563, 203, 'buy_button', '<div id=\'product-component-c05ceb988cd\'></div> <script type=\"text/javascript\"> /*<![CDATA[*/  (function () {   var scriptURL = \'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js\';   if (window.ShopifyBuy) {     if (window.ShopifyBuy.UI) {       ShopifyBuyInit();     } else {       loadScript();     }   } else {     loadScript();   }    function loadScript() {     var script = document.createElement(\'script\');     script.async = true;     script.src = scriptURL;     (document.getElementsByTagName(\'head\')[0] || document.getElementsByTagName(\'body\')[0]).appendChild(script);     script.onload = ShopifyBuyInit;   }    function ShopifyBuyInit() {     var client = ShopifyBuy.buildClient({       domain: \'nannacay-store.myshopify.com\',       apiKey: \'5f43090a6253884d5928f64a4be7b600\',       appId: \'6\',     });      ShopifyBuy.UI.onReady(client).then(function (ui) {       ui.createComponent(\'product\', {         id: [566129066030],         node: document.getElementById(\'product-component-c05ceb988cd\'),         moneyFormat: \'R%24%20%7B%7Bamount_with_comma_separator%7D%7D\',         options: {   \"product\": {     \"variantId\": \"all\",     \"width\": \"240px\",     \"contents\": {       \"img\": false,       \"imgWithCarousel\": false,       \"title\": false,       \"variantTitle\": false,       \"price\": false,       \"description\": false,       \"buttonWithQuantity\": false,       \"quantity\": false     },     \"text\": {       \"button\": \"COMPRAR\"     },     \"styles\": {       \"product\": {         \"text-align\": \"left\",         \"@media (min-width: 601px)\": {           \"max-width\": \"calc(25% - 20px)\",           \"margin-left\": \"20px\",           \"margin-bottom\": \"50px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"cart\": {     \"contents\": {       \"button\": true     },     \"text\": {       \"title\": \"Carrinho\",       \"button\": \"Finalizar Compra\"     },     \"styles\": {       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"footer\": {         \"background-color\": \"#ffffff\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"modalProduct\": {     \"contents\": {       \"img\": false,       \"imgWithCarousel\": true,       \"variantTitle\": false,       \"buttonWithQuantity\": true,       \"button\": false,       \"quantity\": false     },     \"styles\": {       \"product\": {         \"@media (min-width: 601px)\": {           \"max-width\": \"100%\",           \"margin-left\": \"0px\",           \"margin-bottom\": \"0px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"toggle\": {     \"styles\": {       \"toggle\": {         \"font-family\": \"Roboto, sans-serif\",         \"background-color\": \"#000000\",         \":hover\": {           \"background-color\": \"#000000\"         },         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"count\": {         \"font-size\": \"14px\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"option\": {     \"styles\": {       \"label\": {         \"font-family\": \"Roboto, sans-serif\"       },       \"select\": {         \"font-family\": \"Roboto, sans-serif\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\"     ]   },   \"productSet\": {     \"styles\": {       \"products\": {         \"@media (min-width: 601px)\": {           \"margin-left\": \"-20px\"         }       }     }   } }       });     });   } })(); /*]]>*/ </script>'),
+(1564, 203, '_buy_button', 'field_5ab816794c3c3'),
+(1565, 203, 'about_product', 'Bolsa de palha retangular estruturada tamanho médio colorida com borda laranja. Versátil, a bolsa Maldives transita perfeitamente da praia para o urbano. Toda Nannacay é feita à mão por artesãs sul-americanas, tornando cada peça única.'),
+(1566, 203, '_about_product', 'field_5ab816934c3c4'),
+(1567, 203, 'dimesions', ''),
+(1568, 203, '_dimesions', 'field_5ab817494c3c7'),
+(1569, 203, 'tips', ''),
+(1570, 203, '_tips', 'field_5ab818b362432'),
+(1571, 203, 'plots', '3x R$ 153  '),
+(1572, 203, '_plots', 'field_5ab8195d579df'),
+(1575, 199, 'dimesions_0_parameter', 'Altura'),
+(1576, 199, '_dimesions_0_parameter', 'field_5ab8178c4c3c8'),
+(1577, 199, 'dimesions_0_value', '22cm'),
+(1578, 199, '_dimesions_0_value', 'field_5ab817a44c3c9'),
+(1579, 199, 'dimesions_1_parameter', 'Altura'),
+(1580, 199, '_dimesions_1_parameter', 'field_5ab8178c4c3c8'),
+(1581, 199, 'dimesions_1_value', '25cm'),
+(1582, 199, '_dimesions_1_value', 'field_5ab817a44c3c9'),
+(1583, 199, 'dimesions_2_parameter', 'Altura'),
+(1584, 199, '_dimesions_2_parameter', 'field_5ab8178c4c3c8'),
+(1585, 199, 'dimesions_2_value', '30cm'),
+(1586, 199, '_dimesions_2_value', 'field_5ab817a44c3c9'),
+(1587, 199, 'tips_0_tip', 'Guardar em lugar seco e arejado'),
+(1588, 199, '_tips_0_tip', 'field_5ab818c662433'),
+(1589, 199, 'tips_1_tip', 'Aguenta até 10 kilos de peso'),
+(1590, 199, '_tips_1_tip', 'field_5ab818c662433'),
+(1591, 199, 'tips_2_tip', 'Ao lavar: Use água na temperatura ambiente e escovinha na direção da confecção da palha (é normal sair um pouco de tinta e colorir a água). Mantenha a peça sob água corrente até que a bolsa esteja completamente limpa. Em seguida deixe-a secar. Não use produtos químicos.'),
+(1592, 199, '_tips_2_tip', 'field_5ab818c662433'),
+(1593, 204, 'about', ''),
+(1594, 204, '_about', 'field_5aa5f4be3841d'),
+(1595, 204, 'images', ''),
+(1596, 204, '_images', 'field_5aa5f4cba9087'),
+(1597, 204, 'product_image', '201'),
+(1598, 204, '_product_image', 'field_5ab8181e912b7'),
+(1599, 204, 'product_name', 'Maldives azul média'),
+(1600, 204, '_product_name', 'field_5ab816514c3c1'),
+(1601, 204, 'price', ' R$ 460'),
+(1602, 204, '_price', 'field_5ab816684c3c2'),
+(1603, 204, 'buy_button', '<div id=\'product-component-c05ceb988cd\'></div> <script type=\"text/javascript\"> /*<![CDATA[*/  (function () {   var scriptURL = \'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js\';   if (window.ShopifyBuy) {     if (window.ShopifyBuy.UI) {       ShopifyBuyInit();     } else {       loadScript();     }   } else {     loadScript();   }    function loadScript() {     var script = document.createElement(\'script\');     script.async = true;     script.src = scriptURL;     (document.getElementsByTagName(\'head\')[0] || document.getElementsByTagName(\'body\')[0]).appendChild(script);     script.onload = ShopifyBuyInit;   }    function ShopifyBuyInit() {     var client = ShopifyBuy.buildClient({       domain: \'nannacay-store.myshopify.com\',       apiKey: \'5f43090a6253884d5928f64a4be7b600\',       appId: \'6\',     });      ShopifyBuy.UI.onReady(client).then(function (ui) {       ui.createComponent(\'product\', {         id: [566129066030],         node: document.getElementById(\'product-component-c05ceb988cd\'),         moneyFormat: \'R%24%20%7B%7Bamount_with_comma_separator%7D%7D\',         options: {   \"product\": {     \"variantId\": \"all\",     \"width\": \"240px\",     \"contents\": {       \"img\": false,       \"imgWithCarousel\": false,       \"title\": false,       \"variantTitle\": false,       \"price\": false,       \"description\": false,       \"buttonWithQuantity\": false,       \"quantity\": false     },     \"text\": {       \"button\": \"COMPRAR\"     },     \"styles\": {       \"product\": {         \"text-align\": \"left\",         \"@media (min-width: 601px)\": {           \"max-width\": \"calc(25% - 20px)\",           \"margin-left\": \"20px\",           \"margin-bottom\": \"50px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"cart\": {     \"contents\": {       \"button\": true     },     \"text\": {       \"title\": \"Carrinho\",       \"button\": \"Finalizar Compra\"     },     \"styles\": {       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"footer\": {         \"background-color\": \"#ffffff\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"modalProduct\": {     \"contents\": {       \"img\": false,       \"imgWithCarousel\": true,       \"variantTitle\": false,       \"buttonWithQuantity\": true,       \"button\": false,       \"quantity\": false     },     \"styles\": {       \"product\": {         \"@media (min-width: 601px)\": {           \"max-width\": \"100%\",           \"margin-left\": \"0px\",           \"margin-bottom\": \"0px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"toggle\": {     \"styles\": {       \"toggle\": {         \"font-family\": \"Roboto, sans-serif\",         \"background-color\": \"#000000\",         \":hover\": {           \"background-color\": \"#000000\"         },         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"count\": {         \"font-size\": \"14px\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"option\": {     \"styles\": {       \"label\": {         \"font-family\": \"Roboto, sans-serif\"       },       \"select\": {         \"font-family\": \"Roboto, sans-serif\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\"     ]   },   \"productSet\": {     \"styles\": {       \"products\": {         \"@media (min-width: 601px)\": {           \"margin-left\": \"-20px\"         }       }     }   } }       });     });   } })(); /*]]>*/ </script>'),
+(1604, 204, '_buy_button', 'field_5ab816794c3c3'),
+(1605, 204, 'about_product', 'Bolsa de palha retangular estruturada tamanho médio colorida com borda laranja. Versátil, a bolsa Maldives transita perfeitamente da praia para o urbano. Toda Nannacay é feita à mão por artesãs sul-americanas, tornando cada peça única.'),
+(1606, 204, '_about_product', 'field_5ab816934c3c4'),
+(1607, 204, 'dimesions', '3'),
+(1608, 204, '_dimesions', 'field_5ab817494c3c7'),
+(1609, 204, 'tips', '3'),
+(1610, 204, '_tips', 'field_5ab818b362432'),
+(1611, 204, 'plots', '3x R$ 153  '),
+(1612, 204, '_plots', 'field_5ab8195d579df'),
+(1613, 204, 'dimesions_0_parameter', 'Altura'),
+(1614, 204, '_dimesions_0_parameter', 'field_5ab8178c4c3c8'),
+(1615, 204, 'dimesions_0_value', '22cm'),
+(1616, 204, '_dimesions_0_value', 'field_5ab817a44c3c9'),
+(1617, 204, 'dimesions_1_parameter', 'Altura'),
+(1618, 204, '_dimesions_1_parameter', 'field_5ab8178c4c3c8'),
+(1619, 204, 'dimesions_1_value', '25cm'),
+(1620, 204, '_dimesions_1_value', 'field_5ab817a44c3c9'),
+(1621, 204, 'dimesions_2_parameter', 'Altura'),
+(1622, 204, '_dimesions_2_parameter', 'field_5ab8178c4c3c8'),
+(1623, 204, 'dimesions_2_value', '30cm'),
+(1624, 204, '_dimesions_2_value', 'field_5ab817a44c3c9'),
+(1625, 204, 'tips_0_tip', '- Guardar em lugar seco e arejado'),
+(1626, 204, '_tips_0_tip', 'field_5ab818c662433'),
+(1627, 204, 'tips_1_tip', '- Aguenta até 10 kilos de peso'),
+(1628, 204, '_tips_1_tip', 'field_5ab818c662433'),
+(1629, 204, 'tips_2_tip', '- Ao lavar: Use água na temperatura ambiente e escovinha na direção da confecção da palha (é normal sair um pouco de tinta e colorir a água). Mantenha a peça sob água corrente até que a bolsa esteja completamente limpa. Em seguida deixe-a secar. Não use produtos químicos.'),
+(1630, 204, '_tips_2_tip', 'field_5ab818c662433'),
+(1633, 199, '_wp_old_slug', 'bolsa-10-10'),
+(1634, 205, 'about', ''),
+(1635, 205, '_about', 'field_5aa5f4be3841d'),
+(1636, 205, 'images', ''),
+(1637, 205, '_images', 'field_5aa5f4cba9087'),
+(1638, 205, 'product_image', '201'),
+(1639, 205, '_product_image', 'field_5ab8181e912b7'),
+(1640, 205, 'product_name', 'Maldives azul média'),
+(1641, 205, '_product_name', 'field_5ab816514c3c1'),
+(1642, 205, 'price', ' R$ 460'),
+(1643, 205, '_price', 'field_5ab816684c3c2'),
+(1644, 205, 'buy_button', '<div id=\'product-component-c05ceb988cd\'></div> <script type=\"text/javascript\"> /*<![CDATA[*/  (function () {   var scriptURL = \'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js\';   if (window.ShopifyBuy) {     if (window.ShopifyBuy.UI) {       ShopifyBuyInit();     } else {       loadScript();     }   } else {     loadScript();   }    function loadScript() {     var script = document.createElement(\'script\');     script.async = true;     script.src = scriptURL;     (document.getElementsByTagName(\'head\')[0] || document.getElementsByTagName(\'body\')[0]).appendChild(script);     script.onload = ShopifyBuyInit;   }    function ShopifyBuyInit() {     var client = ShopifyBuy.buildClient({       domain: \'nannacay-store.myshopify.com\',       apiKey: \'5f43090a6253884d5928f64a4be7b600\',       appId: \'6\',     });      ShopifyBuy.UI.onReady(client).then(function (ui) {       ui.createComponent(\'product\', {         id: [566129066030],         node: document.getElementById(\'product-component-c05ceb988cd\'),         moneyFormat: \'R%24%20%7B%7Bamount_with_comma_separator%7D%7D\',         options: {   \"product\": {     \"variantId\": \"all\",     \"width\": \"240px\",     \"contents\": {       \"img\": false,       \"imgWithCarousel\": false,       \"title\": false,       \"variantTitle\": false,       \"price\": false,       \"description\": false,       \"buttonWithQuantity\": false,       \"quantity\": false     },     \"text\": {       \"button\": \"COMPRAR\"     },     \"styles\": {       \"product\": {         \"text-align\": \"left\",         \"@media (min-width: 601px)\": {           \"max-width\": \"calc(25% - 20px)\",           \"margin-left\": \"20px\",           \"margin-bottom\": \"50px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"cart\": {     \"contents\": {       \"button\": true     },     \"text\": {       \"title\": \"Carrinho\",       \"button\": \"Finalizar Compra\"     },     \"styles\": {       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"footer\": {         \"background-color\": \"#ffffff\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"modalProduct\": {     \"contents\": {       \"img\": false,       \"imgWithCarousel\": true,       \"variantTitle\": false,       \"buttonWithQuantity\": true,       \"button\": false,       \"quantity\": false     },     \"styles\": {       \"product\": {         \"@media (min-width: 601px)\": {           \"max-width\": \"100%\",           \"margin-left\": \"0px\",           \"margin-bottom\": \"0px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"toggle\": {     \"styles\": {       \"toggle\": {         \"font-family\": \"Roboto, sans-serif\",         \"background-color\": \"#000000\",         \":hover\": {           \"background-color\": \"#000000\"         },         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"count\": {         \"font-size\": \"14px\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"option\": {     \"styles\": {       \"label\": {         \"font-family\": \"Roboto, sans-serif\"       },       \"select\": {         \"font-family\": \"Roboto, sans-serif\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\"     ]   },   \"productSet\": {     \"styles\": {       \"products\": {         \"@media (min-width: 601px)\": {           \"margin-left\": \"-20px\"         }       }     }   } }       });     });   } })(); /*]]>*/ </script>'),
+(1645, 205, '_buy_button', 'field_5ab816794c3c3'),
+(1646, 205, 'about_product', 'Bolsa de palha retangular estruturada tamanho médio colorida com borda laranja. Versátil, a bolsa Maldives transita perfeitamente da praia para o urbano. Toda Nannacay é feita à mão por artesãs sul-americanas, tornando cada peça única.'),
+(1647, 205, '_about_product', 'field_5ab816934c3c4'),
+(1648, 205, 'dimesions', '3'),
+(1649, 205, '_dimesions', 'field_5ab817494c3c7'),
+(1650, 205, 'tips', '3'),
+(1651, 205, '_tips', 'field_5ab818b362432'),
+(1652, 205, 'plots', '3x R$ 153  '),
+(1653, 205, '_plots', 'field_5ab8195d579df'),
+(1654, 205, 'dimesions_0_parameter', 'Altura'),
+(1655, 205, '_dimesions_0_parameter', 'field_5ab8178c4c3c8'),
+(1656, 205, 'dimesions_0_value', '22cm'),
+(1657, 205, '_dimesions_0_value', 'field_5ab817a44c3c9'),
+(1658, 205, 'dimesions_1_parameter', 'Altura'),
+(1659, 205, '_dimesions_1_parameter', 'field_5ab8178c4c3c8'),
+(1660, 205, 'dimesions_1_value', '25cm'),
+(1661, 205, '_dimesions_1_value', 'field_5ab817a44c3c9'),
+(1662, 205, 'dimesions_2_parameter', 'Altura'),
+(1663, 205, '_dimesions_2_parameter', 'field_5ab8178c4c3c8'),
+(1664, 205, 'dimesions_2_value', '30cm'),
+(1665, 205, '_dimesions_2_value', 'field_5ab817a44c3c9'),
+(1666, 205, 'tips_0_tip', '- Guardar em lugar seco e arejado'),
+(1667, 205, '_tips_0_tip', 'field_5ab818c662433'),
+(1668, 205, 'tips_1_tip', '- Aguenta até 10 kilos de peso'),
+(1669, 205, '_tips_1_tip', 'field_5ab818c662433'),
+(1670, 205, 'tips_2_tip', '- Ao lavar: Use água na temperatura ambiente e escovinha na direção da confecção da palha (é normal sair um pouco de tinta e colorir a água). Mantenha a peça sob água corrente até que a bolsa esteja completamente limpa. Em seguida deixe-a secar. Não use produtos químicos.'),
+(1671, 205, '_tips_2_tip', 'field_5ab818c662433'),
+(1676, 206, 'about', ''),
+(1677, 206, '_about', 'field_5aa5f4be3841d'),
+(1678, 206, 'images', ''),
+(1679, 206, '_images', 'field_5aa5f4cba9087'),
+(1680, 206, 'product_image', '201'),
+(1681, 206, '_product_image', 'field_5ab8181e912b7'),
+(1682, 206, 'product_name', 'Maldives azul média'),
+(1683, 206, '_product_name', 'field_5ab816514c3c1'),
+(1684, 206, 'price', ' R$ 460'),
+(1685, 206, '_price', 'field_5ab816684c3c2'),
+(1686, 206, 'buy_button', '<div id=\'product-component-c05ceb988cd\'></div> <script type=\"text/javascript\"> /*<![CDATA[*/  (function () {   var scriptURL = \'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js\';   if (window.ShopifyBuy) {     if (window.ShopifyBuy.UI) {       ShopifyBuyInit();     } else {       loadScript();     }   } else {     loadScript();   }    function loadScript() {     var script = document.createElement(\'script\');     script.async = true;     script.src = scriptURL;     (document.getElementsByTagName(\'head\')[0] || document.getElementsByTagName(\'body\')[0]).appendChild(script);     script.onload = ShopifyBuyInit;   }    function ShopifyBuyInit() {     var client = ShopifyBuy.buildClient({       domain: \'nannacay-store.myshopify.com\',       apiKey: \'5f43090a6253884d5928f64a4be7b600\',       appId: \'6\',     });      ShopifyBuy.UI.onReady(client).then(function (ui) {       ui.createComponent(\'product\', {         id: [566129066030],         node: document.getElementById(\'product-component-c05ceb988cd\'),         moneyFormat: \'R%24%20%7B%7Bamount_with_comma_separator%7D%7D\',         options: {   \"product\": {     \"variantId\": \"all\",     \"width\": \"240px\",     \"contents\": {       \"img\": false,       \"imgWithCarousel\": false,       \"title\": false,       \"variantTitle\": false,       \"price\": false,       \"description\": false,       \"buttonWithQuantity\": false,       \"quantity\": false     },     \"text\": {       \"button\": \"COMPRAR\"     },     \"styles\": {       \"product\": {         \"text-align\": \"left\",         \"@media (min-width: 601px)\": {           \"max-width\": \"calc(25% - 20px)\",           \"margin-left\": \"20px\",           \"margin-bottom\": \"50px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"cart\": {     \"contents\": {       \"button\": true     },     \"text\": {       \"title\": \"Carrinho\",       \"button\": \"Finalizar Compra\"     },     \"styles\": {       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"footer\": {         \"background-color\": \"#ffffff\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"modalProduct\": {     \"contents\": {       \"img\": false,       \"imgWithCarousel\": true,       \"variantTitle\": false,       \"buttonWithQuantity\": true,       \"button\": false,       \"quantity\": false     },     \"styles\": {       \"product\": {         \"@media (min-width: 601px)\": {           \"max-width\": \"100%\",           \"margin-left\": \"0px\",           \"margin-bottom\": \"0px\"         }       },       \"button\": {         \"background-color\": \"#000000\",         \"font-family\": \"Roboto, sans-serif\",         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\",         \"padding-left\": \"px\",         \"padding-right\": \"px\",         \":hover\": {           \"background-color\": \"#000000\"         },         \"border-radius\": \"0px\",         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"variantTitle\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"title\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"description\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"price\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       },       \"quantityInput\": {         \"font-size\": \"14px\",         \"padding-top\": \"15px\",         \"padding-bottom\": \"15px\"       },       \"compareAt\": {         \"font-family\": \"Roboto, sans-serif\",         \"font-weight\": \"normal\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\",       \"Roboto\"     ]   },   \"toggle\": {     \"styles\": {       \"toggle\": {         \"font-family\": \"Roboto, sans-serif\",         \"background-color\": \"#000000\",         \":hover\": {           \"background-color\": \"#000000\"         },         \":focus\": {           \"background-color\": \"#000000\"         },         \"font-weight\": \"normal\"       },       \"count\": {         \"font-size\": \"14px\"       }     },     \"googleFonts\": [       \"Roboto\"     ]   },   \"option\": {     \"styles\": {       \"label\": {         \"font-family\": \"Roboto, sans-serif\"       },       \"select\": {         \"font-family\": \"Roboto, sans-serif\"       }     },     \"googleFonts\": [       \"Roboto\",       \"Roboto\"     ]   },   \"productSet\": {     \"styles\": {       \"products\": {         \"@media (min-width: 601px)\": {           \"margin-left\": \"-20px\"         }       }     }   } }       });     });   } })(); /*]]>*/ </script>'),
+(1687, 206, '_buy_button', 'field_5ab816794c3c3'),
+(1688, 206, 'about_product', 'Bolsa de palha retangular estruturada tamanho médio colorida com borda laranja. Versátil, a bolsa Maldives transita perfeitamente da praia para o urbano. Toda Nannacay é feita à mão por artesãs sul-americanas, tornando cada peça única.'),
+(1689, 206, '_about_product', 'field_5ab816934c3c4'),
+(1690, 206, 'dimesions', '3'),
+(1691, 206, '_dimesions', 'field_5ab817494c3c7'),
+(1692, 206, 'tips', '3'),
+(1693, 206, '_tips', 'field_5ab818b362432'),
+(1694, 206, 'plots', '3x R$ 153  '),
+(1695, 206, '_plots', 'field_5ab8195d579df'),
+(1696, 206, 'dimesions_0_parameter', 'Altura'),
+(1697, 206, '_dimesions_0_parameter', 'field_5ab8178c4c3c8'),
+(1698, 206, 'dimesions_0_value', '22cm'),
+(1699, 206, '_dimesions_0_value', 'field_5ab817a44c3c9'),
+(1700, 206, 'dimesions_1_parameter', 'Altura'),
+(1701, 206, '_dimesions_1_parameter', 'field_5ab8178c4c3c8'),
+(1702, 206, 'dimesions_1_value', '25cm'),
+(1703, 206, '_dimesions_1_value', 'field_5ab817a44c3c9'),
+(1704, 206, 'dimesions_2_parameter', 'Altura'),
+(1705, 206, '_dimesions_2_parameter', 'field_5ab8178c4c3c8'),
+(1706, 206, 'dimesions_2_value', '30cm'),
+(1707, 206, '_dimesions_2_value', 'field_5ab817a44c3c9'),
+(1708, 206, 'tips_0_tip', 'Guardar em lugar seco e arejado'),
+(1709, 206, '_tips_0_tip', 'field_5ab818c662433'),
+(1710, 206, 'tips_1_tip', 'Aguenta até 10 kilos de peso'),
+(1711, 206, '_tips_1_tip', 'field_5ab818c662433'),
+(1712, 206, 'tips_2_tip', 'Ao lavar: Use água na temperatura ambiente e escovinha na direção da confecção da palha (é normal sair um pouco de tinta e colorir a água). Mantenha a peça sob água corrente até que a bolsa esteja completamente limpa. Em seguida deixe-a secar. Não use produtos químicos.'),
+(1713, 206, '_tips_2_tip', 'field_5ab818c662433');
 
 -- --------------------------------------------------------
 
@@ -1895,7 +2138,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (41, 1, '2018-03-10 23:33:42', '2018-03-10 23:33:42', 'a:16:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"parent_layout\";s:13:\"5aa46b173d3b9\";s:13:\"return_format\";s:3:\"url\";s:12:\"preview_size\";s:4:\"full\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}', 'image-with-border', 'image-with-border', 'publish', 'closed', 'closed', '', 'field_5aa46b3c3d3ba', '', '', '2018-03-10 23:33:42', '2018-03-10 23:33:42', '', 34, 'http://localhost/nannacay/?post_type=acf-field&p=41', 0, 'acf-field', '', 0),
 (42, 1, '2018-03-12 02:50:55', '2018-03-12 02:50:55', '', 'Natal', '', 'trash', 'open', 'open', '', 'natal__trashed', '', '', '2018-03-20 00:54:22', '2018-03-20 00:54:22', '', 0, 'http://localhost/nannacay/?p=42', 0, 'post', '', 0),
 (43, 1, '2018-03-12 02:50:55', '2018-03-12 02:50:55', '', 'Natal', '', 'inherit', 'closed', 'closed', '', '42-revision-v1', '', '', '2018-03-12 02:50:55', '2018-03-12 02:50:55', '', 42, 'http://localhost/nannacay/42-revision-v1/', 0, 'revision', '', 0),
-(44, 1, '2018-03-12 03:32:12', '2018-03-12 03:32:12', 'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:4:\"post\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:3:{i:0;s:11:\"the_content\";i:1;s:10:\"discussion\";i:2;s:8:\"comments\";}s:11:\"description\";s:0:\"\";}', 'Campanha', 'campanha', 'publish', 'closed', 'closed', '', 'group_5aa5f4a57d1e8', '', '', '2018-03-12 03:44:41', '2018-03-12 03:44:41', '', 0, 'http://localhost/nannacay/?post_type=acf-field-group&#038;p=44', 0, 'acf-field-group', '', 0),
+(44, 1, '2018-03-12 03:32:12', '2018-03-12 03:32:12', 'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:13:\"post_template\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:12:\"campanha.php\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:3:{i:0;s:11:\"the_content\";i:1;s:10:\"discussion\";i:2;s:8:\"comments\";}s:11:\"description\";s:0:\"\";}', 'Campanha', 'campanha', 'publish', 'closed', 'closed', '', 'group_5aa5f4a57d1e8', '', '', '2018-03-25 21:51:26', '2018-03-25 21:51:26', '', 0, 'http://localhost/nannacay/?post_type=acf-field-group&#038;p=44', 0, 'acf-field-group', '', 0),
 (45, 1, '2018-03-12 03:32:25', '2018-03-12 03:32:25', 'a:10:{s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";s:4:\"rows\";s:0:\"\";s:9:\"new_lines\";s:0:\"\";}', 'about', 'about', 'publish', 'closed', 'closed', '', 'field_5aa5f4be3841d', '', '', '2018-03-12 03:44:41', '2018-03-12 03:44:41', '', 44, 'http://localhost/nannacay/?post_type=acf-field&#038;p=45', 0, 'acf-field', '', 0),
 (46, 1, '2018-03-12 03:33:46', '2018-03-12 03:33:46', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'images', 'images', 'publish', 'closed', 'closed', '', 'field_5aa5f4cba9087', '', '', '2018-03-12 03:33:46', '2018-03-12 03:33:46', '', 44, 'http://localhost/nannacay/?post_type=acf-field&p=46', 1, 'acf-field', '', 0),
 (47, 1, '2018-03-12 03:33:46', '2018-03-12 03:33:46', 'a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:3:\"url\";s:12:\"preview_size\";s:9:\"thumbnail\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}', 'image', 'image', 'publish', 'closed', 'closed', '', 'field_5aa5f4eda9088', '', '', '2018-03-12 03:33:46', '2018-03-12 03:33:46', '', 46, 'http://localhost/nannacay/?post_type=acf-field&p=47', 0, 'acf-field', '', 0),
@@ -1942,10 +2185,10 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (88, 1, '2018-03-14 04:08:43', '2018-03-14 04:08:43', 'a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:3:\"url\";s:12:\"preview_size\";s:4:\"full\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}', 'Foto de capa da seção', 'cover', 'publish', 'closed', 'closed', '', 'field_5aa8a046b56d6', '', '', '2018-03-14 04:11:27', '2018-03-14 04:11:27', '', 87, 'http://localhost/nannacay/?post_type=acf-field&#038;p=88', 0, 'acf-field', '', 0),
 (89, 1, '2018-03-14 04:12:09', '2018-03-14 04:12:09', '', 'onde_cover', '', 'inherit', 'open', 'closed', '', 'onde_cover', '', '', '2018-03-14 04:12:09', '2018-03-14 04:12:09', '', 21, 'http://localhost/nannacay/wp-content/uploads/2018/03/onde_cover.jpg', 0, 'attachment', 'image/jpeg', 0),
 (90, 1, '2018-03-14 04:12:17', '2018-03-14 04:12:17', '', 'Onde', '', 'inherit', 'closed', 'closed', '', '21-revision-v1', '', '', '2018-03-14 04:12:17', '2018-03-14 04:12:17', '', 21, 'http://localhost/nannacay/21-revision-v1/', 0, 'revision', '', 0),
-(91, 1, '2018-03-15 12:31:15', '2018-03-15 12:31:15', 'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:13:\"page_template\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:9:\"index.php\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:11:\"the_content\";}s:11:\"description\";s:0:\"\";}', 'Shopfy', 'shopfy', 'publish', 'closed', 'closed', '', 'group_5aaa6786c993b', '', '', '2018-03-15 12:33:22', '2018-03-15 12:33:22', '', 0, 'http://localhost/nannacay/?post_type=acf-field-group&#038;p=91', 0, 'acf-field-group', '', 0),
-(92, 1, '2018-03-15 12:33:22', '2018-03-15 12:33:22', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'Coleções', 'collections', 'publish', 'closed', 'closed', '', 'field_5aaa679414829', '', '', '2018-03-15 12:33:22', '2018-03-15 12:33:22', '', 91, 'http://localhost/nannacay/?post_type=acf-field&p=92', 0, 'acf-field', '', 0),
+(91, 1, '2018-03-15 12:31:15', '2018-03-15 12:31:15', 'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:13:\"page_template\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:9:\"index.php\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:11:\"the_content\";}s:11:\"description\";s:0:\"\";}', 'Shopfy', 'shopfy', 'trash', 'closed', 'closed', '', 'group_5aaa6786c993b__trashed', '', '', '2018-03-25 21:20:04', '2018-03-25 21:20:04', '', 0, 'http://localhost/nannacay/?post_type=acf-field-group&#038;p=91', 0, 'acf-field-group', '', 0),
+(92, 1, '2018-03-15 12:33:22', '2018-03-15 12:33:22', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'Coleções', 'collections', 'trash', 'closed', 'closed', '', 'field_5aaa679414829__trashed', '', '', '2018-03-25 21:20:04', '2018-03-25 21:20:04', '', 91, 'http://localhost/nannacay/?post_type=acf-field&#038;p=92', 0, 'acf-field', '', 0),
 (93, 1, '2018-03-15 12:33:22', '2018-03-15 12:33:22', 'a:10:{s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";s:4:\"rows\";s:0:\"\";s:9:\"new_lines\";s:0:\"\";}', 'Coleção', 'collection', 'publish', 'closed', 'closed', '', 'field_5aaa67c71482a', '', '', '2018-03-15 12:33:22', '2018-03-15 12:33:22', '', 92, 'http://localhost/nannacay/?post_type=acf-field&p=93', 0, 'acf-field', '', 0),
-(94, 1, '2018-03-15 12:33:22', '2018-03-15 12:33:22', 'a:10:{s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";s:4:\"rows\";s:0:\"\";s:9:\"new_lines\";s:0:\"\";}', 'coleção', 'colecao', 'publish', 'closed', 'closed', '', 'field_5aaa67f51482b', '', '', '2018-03-15 12:33:22', '2018-03-15 12:33:22', '', 91, 'http://localhost/nannacay/?post_type=acf-field&p=94', 1, 'acf-field', '', 0),
+(94, 1, '2018-03-15 12:33:22', '2018-03-15 12:33:22', 'a:10:{s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";s:4:\"rows\";s:0:\"\";s:9:\"new_lines\";s:0:\"\";}', 'coleção', 'colecao', 'trash', 'closed', 'closed', '', 'field_5aaa67f51482b__trashed', '', '', '2018-03-25 21:20:04', '2018-03-25 21:20:04', '', 91, 'http://localhost/nannacay/?post_type=acf-field&#038;p=94', 1, 'acf-field', '', 0),
 (95, 1, '2018-03-15 13:40:28', '2018-03-15 13:40:28', '', 'Home', '', 'inherit', 'closed', 'closed', '', '18-revision-v1', '', '', '2018-03-15 13:40:28', '2018-03-15 13:40:28', '', 18, 'http://localhost/nannacay/18-revision-v1/', 0, 'revision', '', 0),
 (98, 1, '2018-03-18 18:23:21', '2018-03-18 18:23:21', '', 'Home', '', 'inherit', 'closed', 'closed', '', '18-revision-v1', '', '', '2018-03-18 18:23:21', '2018-03-18 18:23:21', '', 18, 'http://localhost/nannacay/18-revision-v1/', 0, 'revision', '', 0),
 (99, 1, '2018-03-18 18:28:44', '2018-03-18 18:28:44', '', 'Teste 123', '', 'trash', 'open', 'open', '', 'teste-123__trashed', '', '', '2018-03-19 00:31:39', '2018-03-19 00:31:39', '', 0, 'http://localhost/nannacay/?p=99', 0, 'post', '', 0),
@@ -1988,7 +2231,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (137, 1, '2018-03-20 01:07:49', '2018-03-20 01:07:49', '', '3.5-Image', '', 'inherit', 'open', 'closed', '', '3-5-image', '', '', '2018-03-20 22:16:32', '2018-03-20 22:16:32', '', 133, 'http://localhost/nannacay/wp-content/uploads/2018/03/3.5-Image.jpg', 0, 'attachment', 'image/jpeg', 0),
 (138, 1, '2018-03-20 01:08:02', '2018-03-20 01:08:02', '', 'Buriti Bag', '', 'inherit', 'closed', 'closed', '', '133-revision-v1', '', '', '2018-03-20 01:08:02', '2018-03-20 01:08:02', '', 133, 'http://localhost/nannacay/133-revision-v1/', 0, 'revision', '', 0);
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
-(139, 1, '2018-03-20 01:09:06', '2018-03-20 01:09:06', '', 'Buriti Clutch', '', 'publish', 'open', 'open', '', 'buriti-clutch', '', '', '2018-03-20 01:09:06', '2018-03-20 01:09:06', '', 0, 'http://localhost/nannacay/?p=139', 0, 'post', '', 0),
+(139, 1, '2018-03-20 01:09:06', '2018-03-20 01:09:06', '', 'Buriti Clutch', '', 'publish', 'open', 'open', '', 'buriti-clutch', '', '', '2018-03-25 21:30:27', '2018-03-25 21:30:27', '', 0, 'http://localhost/nannacay/?p=139', 0, 'post', '', 0),
 (140, 1, '2018-03-20 01:08:58', '2018-03-20 01:08:58', '', '2.2-Image', '', 'inherit', 'open', 'closed', '', '2-2-image-3', '', '', '2018-03-20 01:09:02', '2018-03-20 01:09:02', '', 139, 'http://localhost/nannacay/wp-content/uploads/2018/03/2.2-Image-2.jpg', 0, 'attachment', 'image/jpeg', 0),
 (141, 1, '2018-03-20 01:08:59', '2018-03-20 01:08:59', '', '2.3-Image', '', 'inherit', 'open', 'closed', '', '2-3-image-3', '', '', '2018-03-20 22:16:41', '2018-03-20 22:16:41', '', 139, 'http://localhost/nannacay/wp-content/uploads/2018/03/2.3-Image-2.jpg', 0, 'attachment', 'image/jpeg', 0),
 (142, 1, '2018-03-20 01:08:59', '2018-03-20 01:08:59', '', '2.4-Image', '', 'inherit', 'open', 'closed', '', '2-4-image-3', '', '', '2018-03-20 01:08:59', '2018-03-20 01:08:59', '', 139, 'http://localhost/nannacay/wp-content/uploads/2018/03/2.4-Image-2.jpg', 0, 'attachment', 'image/jpeg', 0),
@@ -2014,16 +2257,16 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (163, 1, '2018-03-25 15:25:17', '2018-03-25 15:25:17', '[woocommerce_checkout]', 'Checkout', '', 'publish', 'closed', 'closed', '', 'checkout', '', '', '2018-03-25 15:25:17', '2018-03-25 15:25:17', '', 0, 'http://localhost/nannacay/checkout/', 0, 'page', '', 0),
 (164, 1, '2018-03-25 15:25:17', '2018-03-25 15:25:17', '[woocommerce_my_account]', 'My account', '', 'trash', 'closed', 'closed', '', 'my-account__trashed', '', '', '2018-03-25 18:19:35', '2018-03-25 18:19:35', '', 0, 'http://localhost/nannacay/my-account/', 0, 'page', '', 0),
 (165, 1, '2018-03-25 15:33:02', '2018-03-25 15:33:02', '<img class=\"alignnone size-medium wp-image-142\" src=\"http://localhost/nannacay/wp-content/uploads/2018/03/2.4-Image-2-300x169.jpg\" alt=\"\" width=\"300\" height=\"169\" />\r\n\r\nBolsa bonita', 'Bolsa', '', 'publish', 'open', 'closed', '', 'bolsa', '', '', '2018-03-25 15:34:18', '2018-03-25 15:34:18', '', 0, 'http://localhost/nannacay/?post_type=product&#038;p=165', 0, 'product', '', 0),
-(166, 1, '2018-03-25 18:07:53', '2018-03-25 18:07:53', 'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:13:\"page_template\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:12:\"products.php\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:11:\"the_content\";}s:11:\"description\";s:0:\"\";}', 'Produtos', 'produtos', 'publish', 'closed', 'closed', '', 'group_5ab7e57186308', '', '', '2018-03-25 18:37:32', '2018-03-25 18:37:32', '', 0, 'http://localhost/nannacay/?post_type=acf-field-group&#038;p=166', 0, 'acf-field-group', '', 0),
-(168, 1, '2018-03-25 18:11:35', '2018-03-25 18:11:35', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Galeria dos Produtos', 'product_gallery', 'publish', 'closed', 'closed', '', 'field_5ab7e62ad7630', '', '', '2018-03-25 18:18:06', '2018-03-25 18:18:06', '', 166, 'http://localhost/nannacay/?post_type=acf-field&#038;p=168', 0, 'acf-field', '', 0),
-(169, 1, '2018-03-25 18:17:17', '2018-03-25 18:17:17', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'Grupo de Produtos Relacionado', 'products_subfield', 'publish', 'closed', 'closed', '', 'field_5ab7e66036a22', '', '', '2018-03-25 18:18:06', '2018-03-25 18:18:06', '', 166, 'http://localhost/nannacay/?post_type=acf-field&#038;p=169', 1, 'acf-field', '', 0),
+(166, 1, '2018-03-25 18:07:53', '2018-03-25 18:07:53', 'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:13:\"page_template\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:12:\"products.php\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:11:\"the_content\";}s:11:\"description\";s:0:\"\";}', 'Produtos', 'produtos', 'trash', 'closed', 'closed', '', 'group_5ab7e57186308__trashed', '', '', '2018-03-25 21:21:11', '2018-03-25 21:21:11', '', 0, 'http://localhost/nannacay/?post_type=acf-field-group&#038;p=166', 0, 'acf-field-group', '', 0),
+(168, 1, '2018-03-25 18:11:35', '2018-03-25 18:11:35', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Galeria dos Produtos', 'product_gallery', 'trash', 'closed', 'closed', '', 'field_5ab7e62ad7630__trashed', '', '', '2018-03-25 21:21:11', '2018-03-25 21:21:11', '', 166, 'http://localhost/nannacay/?post_type=acf-field&#038;p=168', 0, 'acf-field', '', 0),
+(169, 1, '2018-03-25 18:17:17', '2018-03-25 18:17:17', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'Grupo de Produtos Relacionado', 'products_subfield', 'trash', 'closed', 'closed', '', 'field_5ab7e66036a22__trashed', '', '', '2018-03-25 21:21:11', '2018-03-25 21:21:11', '', 166, 'http://localhost/nannacay/?post_type=acf-field&#038;p=169', 1, 'acf-field', '', 0),
 (170, 1, '2018-03-25 18:17:17', '2018-03-25 18:17:17', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'Tipos do Produto', 'product_types', 'publish', 'closed', 'closed', '', 'field_5ab7e69736a23', '', '', '2018-03-25 18:17:17', '2018-03-25 18:17:17', '', 169, 'http://localhost/nannacay/?post_type=acf-field&p=170', 0, 'acf-field', '', 0),
 (171, 1, '2018-03-25 18:17:17', '2018-03-25 18:17:17', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Tipo do Produto', 'product_type', 'publish', 'closed', 'closed', '', 'field_5ab7e73136a24', '', '', '2018-03-25 18:17:17', '2018-03-25 18:17:17', '', 170, 'http://localhost/nannacay/?post_type=acf-field&p=171', 0, 'acf-field', '', 0),
 (172, 1, '2018-03-25 18:17:17', '2018-03-25 18:17:17', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Galeria do Tipo do produto', 'shopfy_gallery', 'publish', 'closed', 'closed', '', 'field_5ab7e76236a25', '', '', '2018-03-25 18:17:17', '2018-03-25 18:17:17', '', 170, 'http://localhost/nannacay/?post_type=acf-field&p=172', 1, 'acf-field', '', 0),
 (173, 1, '2018-03-25 18:19:12', '2018-03-25 18:19:12', '[woocommerce_cart]', 'Cart', '', 'inherit', 'closed', 'closed', '', '162-revision-v1', '', '', '2018-03-25 18:19:12', '2018-03-25 18:19:12', '', 162, 'http://localhost/nannacay/162-revision-v1/', 0, 'revision', '', 0),
 (174, 1, '2018-03-25 18:19:24', '2018-03-25 18:19:24', '', 'Shop', '', 'inherit', 'closed', 'closed', '', '161-revision-v1', '', '', '2018-03-25 18:19:24', '2018-03-25 18:19:24', '', 161, 'http://localhost/nannacay/161-revision-v1/', 0, 'revision', '', 0),
 (175, 1, '2018-03-25 18:19:35', '2018-03-25 18:19:35', '[woocommerce_my_account]', 'My account', '', 'inherit', 'closed', 'closed', '', '164-revision-v1', '', '', '2018-03-25 18:19:35', '2018-03-25 18:19:35', '', 164, 'http://localhost/nannacay/164-revision-v1/', 0, 'revision', '', 0),
-(176, 1, '2018-03-25 18:37:32', '2018-03-25 18:37:32', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'teste', 'teste', 'publish', 'closed', 'closed', '', 'field_5ab7ec63713c4', '', '', '2018-03-25 18:37:32', '2018-03-25 18:37:32', '', 166, 'http://localhost/nannacay/?post_type=acf-field&p=176', 2, 'acf-field', '', 0),
+(176, 1, '2018-03-25 18:37:32', '2018-03-25 18:37:32', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'teste', 'teste', 'trash', 'closed', 'closed', '', 'field_5ab7ec63713c4__trashed', '', '', '2018-03-25 21:21:11', '2018-03-25 21:21:11', '', 166, 'http://localhost/nannacay/?post_type=acf-field&#038;p=176', 2, 'acf-field', '', 0),
 (177, 1, '2018-03-25 18:37:46', '2018-03-25 18:37:46', 'Bolsa', 'Bolsa', '', 'inherit', 'closed', 'closed', '', '153-revision-v1', '', '', '2018-03-25 18:37:46', '2018-03-25 18:37:46', '', 153, 'http://localhost/nannacay/153-revision-v1/', 0, 'revision', '', 0),
 (178, 1, '2018-03-25 18:41:26', '2018-03-25 18:41:26', '', 'Home', '', 'inherit', 'closed', 'closed', '', '18-revision-v1', '', '', '2018-03-25 18:41:26', '2018-03-25 18:41:26', '', 18, 'http://localhost/nannacay/18-revision-v1/', 0, 'revision', '', 0),
 (179, 1, '2018-03-25 19:12:58', '2018-03-25 19:12:58', 'Bolsa', 'Bolsa', '', 'inherit', 'closed', 'closed', '', '153-revision-v1', '', '', '2018-03-25 19:12:58', '2018-03-25 19:12:58', '', 153, 'http://localhost/nannacay/153-revision-v1/', 0, 'revision', '', 0),
@@ -2031,7 +2274,26 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (181, 1, '2018-03-25 19:41:25', '2018-03-25 19:41:25', 'Bolsa', 'Bolsa', '', 'inherit', 'closed', 'closed', '', '153-revision-v1', '', '', '2018-03-25 19:41:25', '2018-03-25 19:41:25', '', 153, 'http://localhost/nannacay/153-revision-v1/', 0, 'revision', '', 0),
 (182, 1, '2018-03-25 19:46:50', '2018-03-25 19:46:50', 'Bolsa', 'Bolsa', '', 'inherit', 'closed', 'closed', '', '153-revision-v1', '', '', '2018-03-25 19:46:50', '2018-03-25 19:46:50', '', 153, 'http://localhost/nannacay/153-revision-v1/', 0, 'revision', '', 0),
 (183, 1, '2018-03-25 19:52:11', '2018-03-25 19:52:11', 'Bolsa', 'Bolsa', '', 'inherit', 'closed', 'closed', '', '153-revision-v1', '', '', '2018-03-25 19:52:11', '2018-03-25 19:52:11', '', 153, 'http://localhost/nannacay/153-revision-v1/', 0, 'revision', '', 0),
-(184, 1, '2018-03-25 19:55:51', '2018-03-25 19:55:51', 'Bolsa', 'Bolsa', '', 'inherit', 'closed', 'closed', '', '153-revision-v1', '', '', '2018-03-25 19:55:51', '2018-03-25 19:55:51', '', 153, 'http://localhost/nannacay/153-revision-v1/', 0, 'revision', '', 0);
+(184, 1, '2018-03-25 19:55:51', '2018-03-25 19:55:51', 'Bolsa', 'Bolsa', '', 'inherit', 'closed', 'closed', '', '153-revision-v1', '', '', '2018-03-25 19:55:51', '2018-03-25 19:55:51', '', 153, 'http://localhost/nannacay/153-revision-v1/', 0, 'revision', '', 0),
+(185, 1, '2018-03-25 21:35:55', '2018-03-25 21:35:55', 'a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:13:\"post_template\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:11:\"produto.php\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";a:1:{i:0;s:11:\"the_content\";}s:11:\"description\";s:0:\"\";}', 'Produto', 'produto', 'publish', 'closed', 'closed', '', 'group_5ab816359b7d0', '', '', '2018-03-25 22:02:12', '2018-03-25 22:02:12', '', 0, 'http://localhost/nannacay/?post_type=acf-field-group&#038;p=185', 0, 'acf-field-group', '', 0),
+(187, 1, '2018-03-25 21:43:51', '2018-03-25 21:43:51', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Preço', 'price', 'publish', 'closed', 'closed', '', 'field_5ab816684c3c2', '', '', '2018-03-25 22:02:12', '2018-03-25 22:02:12', '', 185, 'http://localhost/nannacay/?post_type=acf-field&#038;p=187', 1, 'acf-field', '', 0),
+(188, 1, '2018-03-25 21:43:51', '2018-03-25 21:43:51', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Botão Comprar', 'buy_button', 'publish', 'closed', 'closed', '', 'field_5ab816794c3c3', '', '', '2018-03-25 22:02:12', '2018-03-25 22:02:12', '', 185, 'http://localhost/nannacay/?post_type=acf-field&#038;p=188', 3, 'acf-field', '', 0),
+(189, 1, '2018-03-25 21:43:51', '2018-03-25 21:43:51', 'a:10:{s:4:\"type\";s:8:\"textarea\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";s:4:\"rows\";s:0:\"\";s:9:\"new_lines\";s:0:\"\";}', 'Texto da descrição', 'about_product', 'publish', 'closed', 'closed', '', 'field_5ab816934c3c4', '', '', '2018-03-25 22:02:12', '2018-03-25 22:02:12', '', 185, 'http://localhost/nannacay/?post_type=acf-field&#038;p=189', 4, 'acf-field', '', 0),
+(190, 1, '2018-03-25 21:43:51', '2018-03-25 21:43:51', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'Dimensões', 'dimesions', 'publish', 'closed', 'closed', '', 'field_5ab817494c3c7', '', '', '2018-03-25 22:02:12', '2018-03-25 22:02:12', '', 185, 'http://localhost/nannacay/?post_type=acf-field&#038;p=190', 5, 'acf-field', '', 0),
+(191, 1, '2018-03-25 21:43:51', '2018-03-25 21:43:51', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Paramêtro', 'parameter', 'publish', 'closed', 'closed', '', 'field_5ab8178c4c3c8', '', '', '2018-03-25 21:43:51', '2018-03-25 21:43:51', '', 190, 'http://localhost/nannacay/?post_type=acf-field&p=191', 0, 'acf-field', '', 0),
+(192, 1, '2018-03-25 21:43:51', '2018-03-25 21:43:51', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Valor do Parâmetro', 'value', 'publish', 'closed', 'closed', '', 'field_5ab817a44c3c9', '', '', '2018-03-25 21:43:51', '2018-03-25 21:43:51', '', 190, 'http://localhost/nannacay/?post_type=acf-field&p=192', 1, 'acf-field', '', 0),
+(195, 1, '2018-03-25 21:45:47', '2018-03-25 21:45:47', 'a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:3:\"url\";s:12:\"preview_size\";s:5:\"large\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}', 'Foto do Produto', 'product_image', 'publish', 'closed', 'closed', '', 'field_5ab8181e912b7', '', '', '2018-03-25 21:47:43', '2018-03-25 21:47:43', '', 185, 'http://localhost/nannacay/?post_type=acf-field&#038;p=195', 0, 'acf-field', '', 0),
+(196, 1, '2018-03-25 21:47:43', '2018-03-25 21:47:43', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'Dicas de uso', 'tips', 'publish', 'closed', 'closed', '', 'field_5ab818b362432', '', '', '2018-03-25 22:02:12', '2018-03-25 22:02:12', '', 185, 'http://localhost/nannacay/?post_type=acf-field&#038;p=196', 6, 'acf-field', '', 0),
+(197, 1, '2018-03-25 21:47:43', '2018-03-25 21:47:43', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Dica', 'tip', 'publish', 'closed', 'closed', '', 'field_5ab818c662433', '', '', '2018-03-25 21:47:43', '2018-03-25 21:47:43', '', 196, 'http://localhost/nannacay/?post_type=acf-field&p=197', 0, 'acf-field', '', 0),
+(198, 1, '2018-03-25 21:50:06', '2018-03-25 21:50:06', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Preço em x vezes', 'plots', 'publish', 'closed', 'closed', '', 'field_5ab8195d579df', '', '', '2018-03-25 22:02:12', '2018-03-25 22:02:12', '', 185, 'http://localhost/nannacay/?post_type=acf-field&#038;p=198', 2, 'acf-field', '', 0),
+(199, 1, '2018-03-25 21:51:05', '2018-03-25 21:51:05', '', 'Maldives azul média', '', 'publish', 'open', 'open', '', 'maldives-azul-media', '', '', '2018-03-25 23:28:40', '2018-03-25 23:28:40', '', 0, 'http://localhost/nannacay/?p=199', 0, 'post', '', 0),
+(200, 1, '2018-03-25 21:51:05', '2018-03-25 21:51:05', '', 'Bolsa 10/10', '', 'inherit', 'closed', 'closed', '', '199-revision-v1', '', '', '2018-03-25 21:51:05', '2018-03-25 21:51:05', '', 199, 'http://localhost/nannacay/199-revision-v1/', 0, 'revision', '', 0),
+(201, 1, '2018-03-25 21:54:08', '2018-03-25 21:54:08', '', 'Screen Shot 2018-03-25 at 18.53.30', '', 'inherit', 'open', 'closed', '', 'screen-shot-2018-03-25-at-18-53-30', '', '', '2018-03-25 21:54:08', '2018-03-25 21:54:08', '', 199, 'http://localhost/nannacay/wp-content/uploads/2018/03/Screen-Shot-2018-03-25-at-18.53.30.png', 0, 'attachment', 'image/png', 0),
+(202, 1, '2018-03-25 21:57:27', '2018-03-25 21:57:27', '', 'Bolsa 10/10', '', 'inherit', 'closed', 'closed', '', '199-revision-v1', '', '', '2018-03-25 21:57:27', '2018-03-25 21:57:27', '', 199, 'http://localhost/nannacay/199-revision-v1/', 0, 'revision', '', 0),
+(203, 1, '2018-03-25 21:58:52', '2018-03-25 21:58:52', '', 'Bolsa 10/10', '', 'inherit', 'closed', 'closed', '', '199-revision-v1', '', '', '2018-03-25 21:58:52', '2018-03-25 21:58:52', '', 199, 'http://localhost/nannacay/199-revision-v1/', 0, 'revision', '', 0),
+(204, 1, '2018-03-25 22:00:35', '2018-03-25 22:00:35', '', 'Bolsa 10/10', '', 'inherit', 'closed', 'closed', '', '199-revision-v1', '', '', '2018-03-25 22:00:35', '2018-03-25 22:00:35', '', 199, 'http://localhost/nannacay/199-revision-v1/', 0, 'revision', '', 0),
+(205, 1, '2018-03-25 22:01:06', '2018-03-25 22:01:06', '', 'Maldives azul média', '', 'inherit', 'closed', 'closed', '', '199-revision-v1', '', '', '2018-03-25 22:01:06', '2018-03-25 22:01:06', '', 199, 'http://localhost/nannacay/199-revision-v1/', 0, 'revision', '', 0),
+(206, 1, '2018-03-25 23:28:40', '2018-03-25 23:28:40', '', 'Maldives azul média', '', 'inherit', 'closed', 'closed', '', '199-revision-v1', '', '', '2018-03-25 23:28:40', '2018-03-25 23:28:40', '', 199, 'http://localhost/nannacay/199-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -2085,7 +2347,8 @@ INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (12, 'rated-3', 'rated-3', 0),
 (13, 'rated-4', 'rated-4', 0),
 (14, 'rated-5', 'rated-5', 0),
-(15, 'Uncategorized', 'uncategorized', 0);
+(15, 'Uncategorized', 'uncategorized', 0),
+(16, 'Campanha', 'campanha', 0);
 
 -- --------------------------------------------------------
 
@@ -2111,9 +2374,10 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (113, 1, 0),
 (128, 1, 0),
 (133, 1, 0),
-(139, 1, 0),
+(139, 16, 0),
 (165, 2, 0),
-(165, 15, 0);
+(165, 15, 0),
+(199, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -2149,7 +2413,8 @@ INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 (12, 12, 'product_visibility', '', 0, 0),
 (13, 13, 'product_visibility', '', 0, 0),
 (14, 14, 'product_visibility', '', 0, 0),
-(15, 15, 'product_cat', '', 0, 1);
+(15, 15, 'product_cat', '', 0, 1),
+(16, 16, 'category', '', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -2191,9 +2456,9 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (21, 1, 'closedpostboxes_page', 'a:0:{}'),
 (22, 1, 'metaboxhidden_page', 'a:9:{i:0;s:23:\"acf-group_5aa5f4a57d1e8\";i:1;s:23:\"acf-group_5aa7498a27b4e\";i:2;s:23:\"acf-group_5aa7283b81c1d\";i:3;s:23:\"acf-group_5aa8a03fa1d18\";i:4;s:23:\"acf-group_5aa466f2a37e1\";i:5;s:16:\"commentstatusdiv\";i:6;s:11:\"commentsdiv\";i:7;s:7:\"slugdiv\";i:8;s:9:\"authordiv\";}'),
 (23, 1, 'acf_user_settings', 'a:0:{}'),
-(24, 1, 'closedpostboxes_post', 'a:0:{}'),
-(25, 1, 'metaboxhidden_post', 'a:9:{i:0;s:23:\"acf-group_5aa45f5d4aaae\";i:1;s:23:\"acf-group_5aa466f2a37e1\";i:2;s:12:\"revisionsdiv\";i:3;s:11:\"postexcerpt\";i:4;s:13:\"trackbacksdiv\";i:5;s:16:\"commentstatusdiv\";i:6;s:11:\"commentsdiv\";i:7;s:7:\"slugdiv\";i:8;s:9:\"authordiv\";}'),
-(26, 1, 'session_tokens', 'a:1:{s:64:\"3b88b2d07b74bdb550d742ec8a75f5f80db096d2c06c1d32ecc6df4a6aa77f30\";a:4:{s:10:\"expiration\";i:1522164176;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36\";s:5:\"login\";i:1521991376;}}'),
+(24, 1, 'closedpostboxes_post', 'a:2:{i:0;s:11:\"categorydiv\";i:1;s:23:\"acf-group_5aa5f4a57d1e8\";}'),
+(25, 1, 'metaboxhidden_post', 'a:10:{i:0;s:23:\"acf-group_5aa7498a27b4e\";i:1;s:23:\"acf-group_5aa7283b81c1d\";i:2;s:23:\"acf-group_5aa45f5d4aaae\";i:3;s:23:\"acf-group_5aa8a03fa1d18\";i:4;s:23:\"acf-group_5aa466f2a37e1\";i:5;s:11:\"postexcerpt\";i:6;s:13:\"trackbacksdiv\";i:7;s:16:\"commentstatusdiv\";i:8;s:7:\"slugdiv\";i:9;s:9:\"authordiv\";}'),
+(26, 1, 'session_tokens', 'a:2:{s:64:\"3b88b2d07b74bdb550d742ec8a75f5f80db096d2c06c1d32ecc6df4a6aa77f30\";a:4:{s:10:\"expiration\";i:1522164176;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36\";s:5:\"login\";i:1521991376;}s:64:\"4a23c756a8697afb4427d24ffad10bc1ec9d2b5444e64735d40b753d9ff42725\";a:4:{s:10:\"expiration\";i:1522185398;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36\";s:5:\"login\";i:1522012598;}}'),
 (27, 1, '_woocommerce_persistent_cart_1', 'a:1:{s:4:\"cart\";a:0:{}}');
 
 -- --------------------------------------------------------
@@ -2221,278 +2486,6 @@ CREATE TABLE `wp_users` (
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1, 'nannacaydev', '$P$BvY6qfmb96dLFWD/elgBEwAAYLERNb.', 'nannacaydev', 'marina@grama.cc', '', '2018-03-10 22:39:43', '', 0, 'nannacaydev');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_wc_download_log`
---
-
-CREATE TABLE `wp_wc_download_log` (
-  `download_log_id` bigint(20) UNSIGNED NOT NULL,
-  `timestamp` datetime NOT NULL,
-  `permission_id` bigint(20) UNSIGNED NOT NULL,
-  `user_id` bigint(20) UNSIGNED DEFAULT NULL,
-  `user_ip_address` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT ''
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_wc_webhooks`
---
-
-CREATE TABLE `wp_wc_webhooks` (
-  `webhook_id` bigint(20) UNSIGNED NOT NULL,
-  `status` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `name` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `user_id` bigint(20) UNSIGNED NOT NULL,
-  `delivery_url` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `secret` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `topic` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_created_gmt` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `date_modified_gmt` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `api_version` smallint(4) NOT NULL,
-  `failure_count` smallint(10) NOT NULL DEFAULT '0',
-  `pending_delivery` tinyint(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_api_keys`
---
-
-CREATE TABLE `wp_woocommerce_api_keys` (
-  `key_id` bigint(20) UNSIGNED NOT NULL,
-  `user_id` bigint(20) UNSIGNED NOT NULL,
-  `description` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `permissions` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `consumer_key` char(64) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `consumer_secret` char(43) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `nonces` longtext COLLATE utf8mb4_unicode_ci,
-  `truncated_key` char(7) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `last_access` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_attribute_taxonomies`
---
-
-CREATE TABLE `wp_woocommerce_attribute_taxonomies` (
-  `attribute_id` bigint(20) UNSIGNED NOT NULL,
-  `attribute_name` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `attribute_label` varchar(200) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `attribute_type` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `attribute_orderby` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `attribute_public` int(1) NOT NULL DEFAULT '1'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_downloadable_product_permissions`
---
-
-CREATE TABLE `wp_woocommerce_downloadable_product_permissions` (
-  `permission_id` bigint(20) UNSIGNED NOT NULL,
-  `download_id` varchar(36) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `product_id` bigint(20) UNSIGNED NOT NULL,
-  `order_id` bigint(20) UNSIGNED NOT NULL DEFAULT '0',
-  `order_key` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `user_email` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `user_id` bigint(20) UNSIGNED DEFAULT NULL,
-  `downloads_remaining` varchar(9) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `access_granted` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
-  `access_expires` datetime DEFAULT NULL,
-  `download_count` bigint(20) UNSIGNED NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_log`
---
-
-CREATE TABLE `wp_woocommerce_log` (
-  `log_id` bigint(20) UNSIGNED NOT NULL,
-  `timestamp` datetime NOT NULL,
-  `level` smallint(4) NOT NULL,
-  `source` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `message` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
-  `context` longtext COLLATE utf8mb4_unicode_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_order_itemmeta`
---
-
-CREATE TABLE `wp_woocommerce_order_itemmeta` (
-  `meta_id` bigint(20) UNSIGNED NOT NULL,
-  `order_item_id` bigint(20) UNSIGNED NOT NULL,
-  `meta_key` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `meta_value` longtext COLLATE utf8mb4_unicode_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_order_items`
---
-
-CREATE TABLE `wp_woocommerce_order_items` (
-  `order_item_id` bigint(20) UNSIGNED NOT NULL,
-  `order_item_name` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `order_item_type` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
-  `order_id` bigint(20) UNSIGNED NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_payment_tokenmeta`
---
-
-CREATE TABLE `wp_woocommerce_payment_tokenmeta` (
-  `meta_id` bigint(20) UNSIGNED NOT NULL,
-  `payment_token_id` bigint(20) UNSIGNED NOT NULL,
-  `meta_key` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `meta_value` longtext COLLATE utf8mb4_unicode_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_payment_tokens`
---
-
-CREATE TABLE `wp_woocommerce_payment_tokens` (
-  `token_id` bigint(20) UNSIGNED NOT NULL,
-  `gateway_id` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `token` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  `user_id` bigint(20) UNSIGNED NOT NULL DEFAULT '0',
-  `type` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `is_default` tinyint(1) NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_sessions`
---
-
-CREATE TABLE `wp_woocommerce_sessions` (
-  `session_id` bigint(20) UNSIGNED NOT NULL,
-  `session_key` char(32) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `session_value` longtext COLLATE utf8mb4_unicode_ci NOT NULL,
-  `session_expiry` bigint(20) UNSIGNED NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `wp_woocommerce_sessions`
---
-
-INSERT INTO `wp_woocommerce_sessions` (`session_id`, `session_key`, `session_value`, `session_expiry`) VALUES
-(1, '1', 'a:7:{s:4:\"cart\";s:6:\"a:0:{}\";s:11:\"cart_totals\";s:367:\"a:15:{s:8:\"subtotal\";i:0;s:12:\"subtotal_tax\";i:0;s:14:\"shipping_total\";i:0;s:12:\"shipping_tax\";i:0;s:14:\"shipping_taxes\";a:0:{}s:14:\"discount_total\";i:0;s:12:\"discount_tax\";i:0;s:19:\"cart_contents_total\";i:0;s:17:\"cart_contents_tax\";i:0;s:19:\"cart_contents_taxes\";a:0:{}s:9:\"fee_total\";i:0;s:7:\"fee_tax\";i:0;s:9:\"fee_taxes\";a:0:{}s:5:\"total\";i:0;s:9:\"total_tax\";i:0;}\";s:15:\"applied_coupons\";s:6:\"a:0:{}\";s:22:\"coupon_discount_totals\";s:6:\"a:0:{}\";s:26:\"coupon_discount_tax_totals\";s:6:\"a:0:{}\";s:21:\"removed_cart_contents\";s:6:\"a:0:{}\";s:8:\"customer\";s:707:\"a:26:{s:2:\"id\";s:1:\"1\";s:13:\"date_modified\";s:0:\"\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:0:\"\";s:9:\"address_1\";s:0:\"\";s:7:\"address\";s:0:\"\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:2:\"RJ\";s:7:\"country\";s:2:\"BR\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:0:\"\";s:18:\"shipping_address_1\";s:0:\"\";s:16:\"shipping_address\";s:0:\"\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:2:\"RJ\";s:16:\"shipping_country\";s:2:\"BR\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:0:\"\";s:10:\"first_name\";s:0:\"\";s:9:\"last_name\";s:0:\"\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:0:\"\";s:5:\"email\";s:15:\"marina@grama.cc\";s:19:\"shipping_first_name\";s:0:\"\";s:18:\"shipping_last_name\";s:0:\"\";s:16:\"shipping_company\";s:0:\"\";}\";}', 1522164712);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_shipping_zones`
---
-
-CREATE TABLE `wp_woocommerce_shipping_zones` (
-  `zone_id` bigint(20) UNSIGNED NOT NULL,
-  `zone_name` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `zone_order` bigint(20) UNSIGNED NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `wp_woocommerce_shipping_zones`
---
-
-INSERT INTO `wp_woocommerce_shipping_zones` (`zone_id`, `zone_name`, `zone_order`) VALUES
-(1, 'Brazil', 0);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_shipping_zone_locations`
---
-
-CREATE TABLE `wp_woocommerce_shipping_zone_locations` (
-  `location_id` bigint(20) UNSIGNED NOT NULL,
-  `zone_id` bigint(20) UNSIGNED NOT NULL,
-  `location_code` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `location_type` varchar(40) COLLATE utf8mb4_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `wp_woocommerce_shipping_zone_locations`
---
-
-INSERT INTO `wp_woocommerce_shipping_zone_locations` (`location_id`, `zone_id`, `location_code`, `location_type`) VALUES
-(1, 1, 'BR', 'country');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_shipping_zone_methods`
---
-
-CREATE TABLE `wp_woocommerce_shipping_zone_methods` (
-  `zone_id` bigint(20) UNSIGNED NOT NULL,
-  `instance_id` bigint(20) UNSIGNED NOT NULL,
-  `method_id` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `method_order` bigint(20) UNSIGNED NOT NULL,
-  `is_enabled` tinyint(1) NOT NULL DEFAULT '1'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `wp_woocommerce_shipping_zone_methods`
---
-
-INSERT INTO `wp_woocommerce_shipping_zone_methods` (`zone_id`, `instance_id`, `method_id`, `method_order`, `is_enabled`) VALUES
-(1, 1, 'flat_rate', 1, 1),
-(0, 2, 'flat_rate', 1, 1);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_tax_rates`
---
-
-CREATE TABLE `wp_woocommerce_tax_rates` (
-  `tax_rate_id` bigint(20) UNSIGNED NOT NULL,
-  `tax_rate_country` varchar(2) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
-  `tax_rate_state` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
-  `tax_rate` varchar(8) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
-  `tax_rate_name` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',
-  `tax_rate_priority` bigint(20) UNSIGNED NOT NULL,
-  `tax_rate_compound` int(1) NOT NULL DEFAULT '0',
-  `tax_rate_shipping` int(1) NOT NULL DEFAULT '1',
-  `tax_rate_order` bigint(20) UNSIGNED NOT NULL,
-  `tax_rate_class` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT ''
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `wp_woocommerce_tax_rate_locations`
---
-
-CREATE TABLE `wp_woocommerce_tax_rate_locations` (
-  `location_id` bigint(20) UNSIGNED NOT NULL,
-  `location_code` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `tax_rate_id` bigint(20) UNSIGNED NOT NULL,
-  `location_type` varchar(40) COLLATE utf8mb4_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Indexes for dumped tables
@@ -2599,127 +2592,6 @@ ALTER TABLE `wp_users`
   ADD KEY `user_email` (`user_email`);
 
 --
--- Indexes for table `wp_wc_download_log`
---
-ALTER TABLE `wp_wc_download_log`
-  ADD PRIMARY KEY (`download_log_id`),
-  ADD KEY `permission_id` (`permission_id`),
-  ADD KEY `timestamp` (`timestamp`);
-
---
--- Indexes for table `wp_wc_webhooks`
---
-ALTER TABLE `wp_wc_webhooks`
-  ADD PRIMARY KEY (`webhook_id`),
-  ADD KEY `user_id` (`user_id`);
-
---
--- Indexes for table `wp_woocommerce_api_keys`
---
-ALTER TABLE `wp_woocommerce_api_keys`
-  ADD PRIMARY KEY (`key_id`),
-  ADD KEY `consumer_key` (`consumer_key`),
-  ADD KEY `consumer_secret` (`consumer_secret`);
-
---
--- Indexes for table `wp_woocommerce_attribute_taxonomies`
---
-ALTER TABLE `wp_woocommerce_attribute_taxonomies`
-  ADD PRIMARY KEY (`attribute_id`),
-  ADD KEY `attribute_name` (`attribute_name`(20));
-
---
--- Indexes for table `wp_woocommerce_downloadable_product_permissions`
---
-ALTER TABLE `wp_woocommerce_downloadable_product_permissions`
-  ADD PRIMARY KEY (`permission_id`),
-  ADD KEY `download_order_key_product` (`product_id`,`order_id`,`order_key`(16),`download_id`),
-  ADD KEY `download_order_product` (`download_id`,`order_id`,`product_id`),
-  ADD KEY `order_id` (`order_id`);
-
---
--- Indexes for table `wp_woocommerce_log`
---
-ALTER TABLE `wp_woocommerce_log`
-  ADD PRIMARY KEY (`log_id`),
-  ADD KEY `level` (`level`);
-
---
--- Indexes for table `wp_woocommerce_order_itemmeta`
---
-ALTER TABLE `wp_woocommerce_order_itemmeta`
-  ADD PRIMARY KEY (`meta_id`),
-  ADD KEY `order_item_id` (`order_item_id`),
-  ADD KEY `meta_key` (`meta_key`(32));
-
---
--- Indexes for table `wp_woocommerce_order_items`
---
-ALTER TABLE `wp_woocommerce_order_items`
-  ADD PRIMARY KEY (`order_item_id`),
-  ADD KEY `order_id` (`order_id`);
-
---
--- Indexes for table `wp_woocommerce_payment_tokenmeta`
---
-ALTER TABLE `wp_woocommerce_payment_tokenmeta`
-  ADD PRIMARY KEY (`meta_id`),
-  ADD KEY `payment_token_id` (`payment_token_id`),
-  ADD KEY `meta_key` (`meta_key`(32));
-
---
--- Indexes for table `wp_woocommerce_payment_tokens`
---
-ALTER TABLE `wp_woocommerce_payment_tokens`
-  ADD PRIMARY KEY (`token_id`),
-  ADD KEY `user_id` (`user_id`);
-
---
--- Indexes for table `wp_woocommerce_sessions`
---
-ALTER TABLE `wp_woocommerce_sessions`
-  ADD PRIMARY KEY (`session_key`),
-  ADD UNIQUE KEY `session_id` (`session_id`);
-
---
--- Indexes for table `wp_woocommerce_shipping_zones`
---
-ALTER TABLE `wp_woocommerce_shipping_zones`
-  ADD PRIMARY KEY (`zone_id`);
-
---
--- Indexes for table `wp_woocommerce_shipping_zone_locations`
---
-ALTER TABLE `wp_woocommerce_shipping_zone_locations`
-  ADD PRIMARY KEY (`location_id`),
-  ADD KEY `location_id` (`location_id`),
-  ADD KEY `location_type_code` (`location_type`(10),`location_code`(20));
-
---
--- Indexes for table `wp_woocommerce_shipping_zone_methods`
---
-ALTER TABLE `wp_woocommerce_shipping_zone_methods`
-  ADD PRIMARY KEY (`instance_id`);
-
---
--- Indexes for table `wp_woocommerce_tax_rates`
---
-ALTER TABLE `wp_woocommerce_tax_rates`
-  ADD PRIMARY KEY (`tax_rate_id`),
-  ADD KEY `tax_rate_country` (`tax_rate_country`),
-  ADD KEY `tax_rate_state` (`tax_rate_state`(2)),
-  ADD KEY `tax_rate_class` (`tax_rate_class`(10)),
-  ADD KEY `tax_rate_priority` (`tax_rate_priority`);
-
---
--- Indexes for table `wp_woocommerce_tax_rate_locations`
---
-ALTER TABLE `wp_woocommerce_tax_rate_locations`
-  ADD PRIMARY KEY (`location_id`),
-  ADD KEY `tax_rate_id` (`tax_rate_id`),
-  ADD KEY `location_type_code` (`location_type`(10),`location_code`(20));
-
---
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -2745,19 +2617,19 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=465;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=484;
 
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1454;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1714;
 
 --
 -- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=185;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=207;
 
 --
 -- AUTO_INCREMENT for table `wp_termmeta`
@@ -2769,13 +2641,13 @@ ALTER TABLE `wp_termmeta`
 -- AUTO_INCREMENT for table `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `wp_usermeta`
@@ -2788,102 +2660,6 @@ ALTER TABLE `wp_usermeta`
 --
 ALTER TABLE `wp_users`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `wp_wc_download_log`
---
-ALTER TABLE `wp_wc_download_log`
-  MODIFY `download_log_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_wc_webhooks`
---
-ALTER TABLE `wp_wc_webhooks`
-  MODIFY `webhook_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_api_keys`
---
-ALTER TABLE `wp_woocommerce_api_keys`
-  MODIFY `key_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_attribute_taxonomies`
---
-ALTER TABLE `wp_woocommerce_attribute_taxonomies`
-  MODIFY `attribute_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_downloadable_product_permissions`
---
-ALTER TABLE `wp_woocommerce_downloadable_product_permissions`
-  MODIFY `permission_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_log`
---
-ALTER TABLE `wp_woocommerce_log`
-  MODIFY `log_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_order_itemmeta`
---
-ALTER TABLE `wp_woocommerce_order_itemmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_order_items`
---
-ALTER TABLE `wp_woocommerce_order_items`
-  MODIFY `order_item_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_payment_tokenmeta`
---
-ALTER TABLE `wp_woocommerce_payment_tokenmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_payment_tokens`
---
-ALTER TABLE `wp_woocommerce_payment_tokens`
-  MODIFY `token_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_sessions`
---
-ALTER TABLE `wp_woocommerce_sessions`
-  MODIFY `session_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_shipping_zones`
---
-ALTER TABLE `wp_woocommerce_shipping_zones`
-  MODIFY `zone_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_shipping_zone_locations`
---
-ALTER TABLE `wp_woocommerce_shipping_zone_locations`
-  MODIFY `location_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_shipping_zone_methods`
---
-ALTER TABLE `wp_woocommerce_shipping_zone_methods`
-  MODIFY `instance_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_tax_rates`
---
-ALTER TABLE `wp_woocommerce_tax_rates`
-  MODIFY `tax_rate_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT for table `wp_woocommerce_tax_rate_locations`
---
-ALTER TABLE `wp_woocommerce_tax_rate_locations`
-  MODIFY `location_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
