@@ -88,6 +88,7 @@
       .product-name {
         text-transform: uppercase;
         font-family: 'Spectral-regular';
+        letter-spacing: 2px;
         font-weight: 600;
         width: 50%;
         font-size: 17px;
@@ -97,18 +98,15 @@
         font-family: "Roboto-regular";
         &:before {
           content: '-';
+          margin-bottom: 15px;
           display: block;
         }
-      }
-
-      .ou {
-        text-transform: uppercase;
-        font-size: 12px;
       }
 
       .procuct-plots {
         font-family: "Roboto-regular";
         font-weight: bold;
+        margin-bottom: 10px;
       }
 
       .shopfy-button {
@@ -118,6 +116,13 @@
       .info-title {
         text-transform: uppercase;
         margin: 20px 0;
+        font-family: 'Spectral-regular';
+        font-weight: 600;
+        letter-spacing: 2px;
+      }
+
+      .description {
+        margin: 22px 0 20px 0;
       }
 
       .dimensions {

@@ -63,6 +63,14 @@
                 background-color: white;
                 transition: background-color .5s ease-in-out, color .5s;
 
+                &.product-menu {
+                    font-weight: 600;
+
+                    @media (min-width: 1000px) {
+                        font-weight: 300;
+                    }
+                }
+
                 @media (min-width: 1000px) {
                     background-color: transparent;
                     padding: 1px 0;
@@ -76,7 +84,7 @@
                 }
 
                 &:hover {
-                    background-color: rgb(214, 47, 115);
+                    background-color: black;
                     color: white;
 
                     @media (min-width: 1000px) {

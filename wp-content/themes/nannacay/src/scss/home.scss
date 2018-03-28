@@ -21,9 +21,10 @@
       bottom: 8px;
 
       button:before{
-        font-size: 20px;
+        font-size: 26px;
+        opacity: 1;
         color: white;
-        opacity: 0.5;
+        opacity: 1;
       }
       
       .slick-active button:before {

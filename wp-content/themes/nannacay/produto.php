@@ -18,7 +18,6 @@
     <div class="procuct-price"><?php echo get_field( 'price' ); ?></div>
 
     <?php if( get_field( 'plots' )) { ?>
-      <div class="ou">ou</div>
       <div class="procuct-plots"><?php echo get_field( 'plots' ); ?></div>
     <?php } ?>
 
@@ -30,7 +29,7 @@
     <?php } ?>
 
     <?php if( get_field( 'dimesions' )) { ?>
-      <div class="info-title">Dimensões</div>
+      <div class="info-title description">Dimensões</div>
       <div class="dimensions">
         <ul class="parameter-list">
           <?php if( have_rows('dimesions')): ?>
@@ -61,6 +60,7 @@
     <?php } ?>
 
   </div>
+  
 </div>
   
 <?php 
