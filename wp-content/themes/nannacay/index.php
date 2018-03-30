@@ -13,6 +13,19 @@
     </div>
   <?php endif; ?>
 
+  <div class="window">
+
+    <?php if (get_field('window')): ?>
+      <div class="window-items"> 
+        <?php while (have_rows('window')) : the_row(); ?>
+          <div class='window-item' style='background-image:url(<?php echo get_sub_field('background') ?>)'>
+          </div>
+        <?php endwhile; ?>
+      </div>
+    <?php endif; ?>
+
+  </div>
+
 <?php
 	get_footer();
 ?>
