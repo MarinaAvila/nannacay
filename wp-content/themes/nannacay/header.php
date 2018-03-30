@@ -22,9 +22,7 @@
     <div class="menu">
       <ul class="menu-list">
         <li><a class="menu-item" href="<?php echo site_url( 'home' ); ?>">home</a></li>
-        <li><a class="menu-item product-menu" href="<?php echo site_url( 'bolsas' ); ?>">bolsas</a></li>
-        <li><a class="menu-item product-menu" href="<?php echo site_url( 'acessorios' ); ?>">acessórios</a></li>
-        <li><a class="menu-item product-menu" href="<?php echo site_url( 'chapeus' ); ?>">chapéus</a></li>
+        <li><a class="menu-item product-menu" href="">shop</a></li>
         <li><a class="menu-item" href="<?php echo site_url( 'quem-somos' ); ?>">quem somos</a></li>
         <li><a class="menu-item"  href="<?php echo site_url( 'onde' ); ?>">onde</a></li>
         <li><a class="menu-item" href="<?php echo site_url( 'clippings' ); ?>">clippings</a></li>
