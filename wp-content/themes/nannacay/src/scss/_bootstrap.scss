@@ -32,6 +32,8 @@ body {
     .section-name {
       font-size: 23px;
       font-weight: 300;
+      color: white;
+      text-align: center;
     }
 
     .call-to-action {
@@ -39,10 +41,10 @@ body {
       bottom: 0;
       right: 0;
       left: 0;
-      padding: 30px;
+      padding: responsive(20, 30);
       
       .cta_text {
-        
+        text-align: center;
         color: white;
         font-weight: 600;
         font-size: 16px;
@@ -55,6 +57,16 @@ body {
         width: 100px;
         margin: auto;
         height: 30px;
+      }
+
+      &.black {
+        .cta_text {
+          color: black;
+        }
+
+        .cta_arrow {
+          background-image: url(./../../assets/images/arrow_down_black.svg);
+        }
       }
     }
   }
