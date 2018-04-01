@@ -55,15 +55,16 @@
 
     .terms {
 
-        padding: 40px 15px 600px;
+        padding: 40px 5% 600px;
 
         @media (min-width: 1000px) {
-            padding: 8% 10% 42% 30%;
+            padding: 5% 10% 42% 30%;
         }
 
         .title {
             text-transform: uppercase;
             padding: 50px 0 30px;
+            font-weight: 600;
         }
     }
 
