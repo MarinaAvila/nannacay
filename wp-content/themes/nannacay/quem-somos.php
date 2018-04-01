@@ -18,7 +18,7 @@
     <span class="title">nannacay®</span> (Nãnãkay), nome de origem Quechua Aimara, que significa irmandade de mulheres.
   </p>
 
-  <div class="image-subtitle">
+  <div class="image-subtitle old-lady">
     <img class="image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_artesa.jpg">
     <p class="subtitle">Artesã no processo de fabricação da bolsa Zanzibar - Peru</p>
   </div>
@@ -32,18 +32,23 @@
     <p class="author">Pedro Werneck - Presidente do Instituto da Criança</p>
   </div>
 
-  <div class="quote-author">
-    <p class="quote">“Acompanho de perto a intensa dedicação da Marcia Kemp em fazer deste projeto social a transformação na vida dessas incríveis artesãs. O resultado de tudo isso é um produto diferenciado, único e de muito bom gosto.”</p>
-    <p class="author">Lenny Niemyer</p>
+  <div class="image-subtitle mobile-image">
+    <img class="image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_1.jpg">
   </div>
 
   <p class="text">
     Determinada a escrever outra história, resolveu arregaçar as mangas e correr atrás de seu sonho! Nasceu então a Nannacay® (Nãnãkay), nome de origem Quechua Aimara, que significa irmandade de mulheres. Muito mais do que uma marca, trata-se de um novo projeto de moda social; Creative Hands Transforming Lives. Sua missão é ajudar pessoas a desenvolver potenciais criativos, servindo de ponte entre povos que precisam de ajuda e pessoas que queiram ajudar. A primeira linha de produtos que já circula entre fashionistas, é produzida por uma comunidade de artesãs do Peru. São bolsas e objetos em junco em junco com raízes tribais que refletem o colorido, o desenho e formas vibrantes do país. Handmade e despojadas, as peças são únicas, já que um modelo nunca é igual ao outro. Todo o desenvolvimento, padronagem de cores e controle de qualidade é coordenado por Marcia, que empresta sua expertise à comunidade. Indagada sobre o perfil de quem usa Nannacay®, Marcia não hesita em responder: mulheres que gostam do belo e admiram a simplicidade da vida.
   </p>
+
+  <div class="quote-author">
+    <p class="quote">“Acompanho de perto a intensa dedicação da Marcia Kemp em fazer deste projeto social a transformação na vida dessas incríveis artesãs. O resultado de tudo isso é um produto diferenciado, único e de muito bom gosto.”</p>
+    <p class="author">Lenny Niemyer</p>
+  </div>
+
 </div>
 
 <div class="second-page">
-  <div class="image-subtitle">
+  <div class="image-subtitle desktop-image">
     <img class="image" src="./../wp-content/themes/nannacay/assets/images/quem_somos_img_1.jpg">
   </div>
   <div class="video-quote">
