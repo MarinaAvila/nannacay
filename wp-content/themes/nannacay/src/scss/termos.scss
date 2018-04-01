@@ -54,12 +54,16 @@
     }
 
     .terms {
-        padding: 9% 10% 10% 30%;
+
+        padding: 40px 15px;
+
+        @media (min-width: 1000px) {
+            padding: 9% 10% 10% 30%;
+        }
 
         .title {
             text-transform: uppercase;
             margin: 40px 0 25px;
-
         }
     }
 

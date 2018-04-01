@@ -4,8 +4,6 @@
     return;
   }
 
-  console.log('clippings');
-
   $(".call-to-action").click(function() {
     $('html, body').animate({
         scrollTop: $(".clippings").offset().top
@@ -19,8 +17,6 @@
   if (!$('.page-template-onde-php').length) {
     return;
   }
-
-  console.log('onde')
 
   $(".call-to-action").click(function() {
     $('html, body').animate({
@@ -36,8 +32,6 @@
   if (!$('.page-template-quem-somos').length) {
     return;
   }
-
-  console.log('quem')
 
   $(".call-to-action").click(function() {
     $('html, body').animate({
