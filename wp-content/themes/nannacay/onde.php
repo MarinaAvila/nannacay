@@ -8,6 +8,10 @@
   <div class="section-info">
     <h1 class="section-name">visite nosso studio store</h1>
     <p class="address">Av Ataulfo de Paiva 658/402 Leblon, Rio de Janeiro - RJ</p>
+    <div class="call-to-action">
+      <div class="cta_text"><?php echo the_field( 'cta_text' ); ?></div>
+      <div class="cta_arrow"></div>
+    </div>
   </div>
 </div>
 

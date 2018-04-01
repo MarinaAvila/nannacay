@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nannacay</title>
+  <link rel='shortcut icon' href='<?php echo IMG; ?>favicon_nannacay.png'>
   <link rel="stylesheet" type="text/css" href="<?php echo CSS; ?>style.css" />
 </head>
 <body <?php body_class(); ?>>
@@ -21,9 +22,7 @@
     <div class="menu">
       <ul class="menu-list">
         <li><a class="menu-item" href="<?php echo site_url( 'home' ); ?>">home</a></li>
-        <li><a class="menu-item product-menu" href="<?php echo site_url( 'bolsas' ); ?>">bolsas</a></li>
-        <li><a class="menu-item product-menu" href="<?php echo site_url( 'acessorios' ); ?>">acessórios</a></li>
-        <li><a class="menu-item product-menu" href="<?php echo site_url( 'chapeus' ); ?>">chapéus</a></li>
+        <li><a class="menu-item product-menu" href="">shop</a></li>
         <li><a class="menu-item" href="<?php echo site_url( 'quem-somos' ); ?>">quem somos</a></li>
         <li><a class="menu-item"  href="<?php echo site_url( 'onde' ); ?>">onde</a></li>
         <li><a class="menu-item" href="<?php echo site_url( 'clippings' ); ?>">clippings</a></li>

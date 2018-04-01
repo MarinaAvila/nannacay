@@ -11,31 +11,6 @@
     }
   }
 
-  .cover {
-    //width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    position: relative;
-    background-position: center center;
-    background-image: url(./../../assets/images/quem_somos_img__topo.jpg);
-    background-attachment: fixed;
-    text-transform: uppercase;
-    font-family: 'Spectral-regular';
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    .section-name {
-
-      text-align: center;
-      font-weight: 300;
-      color: white;
-    }
-  }
-
-  
-
   .definition {
 
     margin: $margin-bottom  8%;
@@ -130,7 +105,7 @@
   @media (min-width: 1000px) {
     .first-page {
 
-      margin: 100px 5% 150px 25%;
+      padding: 100px 5% 150px 25%;
       display: flex;
       flex-direction: column;
 

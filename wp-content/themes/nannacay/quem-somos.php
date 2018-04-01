@@ -4,8 +4,12 @@
   get_header();
 ?>
 
-<div class="cover">
-  <h1 class="section-name">Quem somos</h1>
+<div class="cover" style="background-image:url(<?php echo the_field( 'cover' ); ?>)">
+  <h1 class="section-name"><?php the_title(); ?></h1>
+  <div class="call-to-action">
+    <div class="cta_text"><?php echo the_field( 'cta_text' ); ?></div>
+    <div class="cta_arrow"></div>
+  </div>
 </div>
 
 <div class="first-page">
