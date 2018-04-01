@@ -6,10 +6,11 @@
   <div class="campaign-info">
     <h1 class="campaign-name section-name"><?php the_title() ?></h1>
     <p class="campaign-about"><?php echo get_field( 'about' ) ?></p>
+    <div class="call-to-action black">
+      <div class="cta_text"><?php echo the_field( 'cta_text' ); ?></div>
+      <div class="cta_arrow"></div>
+    </div>
   </div>
-  
-  <div class="scroll-down"></div>
-  
     
 </div>
 
