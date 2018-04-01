@@ -127,6 +127,31 @@
         height: 20%;
         margin: 40px 0 0 0;
       }
+
+      .mobile-quote {
+        @media (min-width: 1000px) {
+          display: none;
+        }
+      }
+
+      .collumn-quotes {
+
+        display: none;
+       
+        .desktop-quote {
+          display: none;
+          @media (min-width: 1000px) {
+            display: block;
+          }
+        }
+
+        @media (min-width: 1000px) {
+          display: flex;
+          .quote-author {
+            width: 40%;
+          }
+        }
+      }
     }
 
     .second-page {
