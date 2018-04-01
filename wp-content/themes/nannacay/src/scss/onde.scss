@@ -101,7 +101,11 @@
 
       .first-group {
         margin-top: 25px;
-        padding: 0 7%;
+        padding: 0 5%;
+
+        @media (min-width: 1000px) {
+          padding: 0 7%;
+        }
 
         @media (min-width: 1920px) {
           padding: 0 5%;
@@ -117,7 +121,7 @@
       }
 
       .extra-list {
-        margin-top: 45  px;
+        margin-top: 45px;
       }
 
       .coutry,
