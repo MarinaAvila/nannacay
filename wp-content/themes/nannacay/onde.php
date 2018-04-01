@@ -21,9 +21,8 @@
 
   <div class="stores-lists">
     <div class="section">Onde</div>
-
+    
     <div class="lists">
-
       <div class="first-group">
 
         <?php if (get_field('list')): ?>
@@ -48,22 +47,20 @@
           </div>
         <?php endif; ?>
 
-        <div class="wholesale-list">
+        <?php if (get_field('extra_info')): ?>
+          <div class="extra-list"> 
+            <?php while (have_rows('extra_info')) : the_row(); ?>
+              <div class="extra-title"><?php echo get_sub_field( 'title' ); ?></div>
+              <?php echo get_sub_field( 'info' ); ?>
+            <?php endwhile; ?>
+          </div>
+        <?php endif; ?>
 
-          <?php if (get_field('extra_info')): ?>
-            <div class="extra-list"> 
-              <?php while (have_rows('extra_info')) : the_row(); ?>
-                <div class="extra-title"><?php echo get_sub_field( 'title' ); ?></div>
-                <?php echo get_sub_field( 'info' ); ?>
-              <?php endwhile; ?>
-            </div>
-          <?php endif; ?>
-
-        </div>
       </div>
     </div>
     
   </div>
+</div>
   
 <?php 
 	get_footer();
