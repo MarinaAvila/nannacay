@@ -40,3 +40,17 @@
   });
 
 })();
+
+;(function(){
+  
+  if (!$('.single').length) {
+    return;
+  }
+
+  $(".call-to-action").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".images").offset().top
+    }, 1000);
+  });
+
+})();
