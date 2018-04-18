@@ -66,16 +66,18 @@ body {
         text-align: center;
         color: white;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 13px;
         margin: 0 0 15px;
       }
+
       .cta_arrow {
-        background-image: url(./../../assets/images/arrow_down.svg);
+        background-image: url(./../../assets/images/arrow_down_narrow.svg);
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
         width: 100px;
         margin: auto;
-        height: 30px;
+        height: 20px;
       }
 
       &.black {

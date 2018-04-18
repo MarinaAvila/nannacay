@@ -13,7 +13,7 @@
     </div>
   <?php endif; ?>
 
-  <div class="window">
+  <div id="window">
 
     <?php if (get_field('window')): ?>
       <div class="window-items"> 

@@ -27,6 +27,7 @@
         <li><a class="menu-item"  href="<?php echo site_url( 'onde' ); ?>">onde</a></li>
         <li><a class="menu-item" href="<?php echo site_url( 'clippings' ); ?>">clippings</a></li>
         <li><a class="menu-item" href="<?php echo site_url( 'campanhas' ); ?>">campanhas</a></li>
+        <li><a class="menu-item" href="<?php echo site_url( 'home' ); ?>/#window">novidades</a></li>
       </ul> 
     </div>
   </header>
