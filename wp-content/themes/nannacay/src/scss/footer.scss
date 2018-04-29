@@ -2,10 +2,32 @@
 .footer {
     padding: 12px;
     text-align: center;
-    border-top: 1px solid black;
-    text-transform: lowercase;
+    text-transform: uppercase;
+    font-size: 10px;
 
     li {
         padding: 7px;
+    }
+
+    .right {
+        display: none;
+    }
+
+    @media (min-width: 1000px) {
+        display: flex;
+        justify-content: space-between;
+
+        .right, .left {
+            display: flex;
+
+            li {
+                padding: 15px;
+            }
+        }
+
+        .ltda {
+            color: #6b6b6b;
+        }
+        
     }
 }
