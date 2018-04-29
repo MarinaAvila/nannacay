@@ -4,13 +4,13 @@
   get_header();
 ?>
 
-<div class="cover" style="background-image:url('<?php echo get_field('cover') ?>"> 
+<!-- <div class="cover" style="background-image:url('<?php echo get_field('cover') ?>"> 
   <h1 class="section-name"><?php the_title(); ?></h1>
   <div class="call-to-action black">
     <div class="cta_text"><?php echo the_field( 'cta_text' ); ?></div>
     <div class="cta_arrow"></div>
   </div>
-</div>
+</div> -->
 
 <ul class="clippings">
   <div class="close">

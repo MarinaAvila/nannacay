@@ -22,12 +22,12 @@
     <div class="menu">
       <ul class="menu-list">
         <li><a class="menu-item" href="<?php echo site_url( 'home' ); ?>">home</a></li>
-        <li><a class="menu-item product-menu" href="">shop</a></li>
+        <li><a class="menu-item product-menu" href="https://nannacay-store.myshopify.com/">shop</a></li>
         <li><a class="menu-item" href="<?php echo site_url( 'quem-somos' ); ?>">quem somos</a></li>
         <li><a class="menu-item"  href="<?php echo site_url( 'onde' ); ?>">onde</a></li>
         <li><a class="menu-item" href="<?php echo site_url( 'clippings' ); ?>">clippings</a></li>
         <li><a class="menu-item" href="<?php echo site_url( 'campanhas' ); ?>">campanhas</a></li>
-        <li><a class="menu-item" href="<?php echo site_url( 'home' ); ?>/#window">novidades</a></li>
+        <li><a class="menu-item" href="<?php echo get_home_url(); ?>/#window">novidades</a></li>
       </ul> 
     </div>
   </header>
