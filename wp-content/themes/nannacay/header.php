@@ -3,7 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nannacay</title>
+  
+  <?php
+    $theTitle = '';
+    $blogName = get_bloginfo( 'name');
+    $pageTitle = get_the_title();
+    
+    if ( strlen( $pageTitle ) && $pageTitle !== 'Home') {
+      $theTitle = $pageTitle . ' - ' . $blogName; 
+    } else {
+      $theTitle = $blogName;
+    }
+  ?>
+  
+  <title><?php echo $theTitle ?></title>
   <link rel='shortcut icon' href='<?php echo IMG; ?>favicon_nannacay.png'>
   <link rel="stylesheet" type="text/css" href="<?php echo CSS; ?>style.css" />
 </head>
