@@ -23,29 +23,42 @@
     <div class="section">Onde</div>
     
     <div class="lists">
-      <div class="first-group">
+      <div class="clients-wrap">
 
-        <?php if (get_field('list')): ?>
-          <div class="stores-list"> 
-            <?php while (have_rows('list')) : the_row(); ?>
-              <div class="coutry"><?php echo get_sub_field( 'country' ); ?></div>
-              <?php echo get_sub_field( 'address' ); ?>
-            <?php endwhile; ?>
+        <p class="title">Clients</p>
+
+        <div class="clients-list-wrap">
+
+          <div class="first-group">
+
+            <?php if (get_field('list')): ?>
+              <div class="stores-list"> 
+                <?php while (have_rows('list')) : the_row(); ?>
+                  <div class="coutry"><?php echo get_sub_field( 'country' ); ?></div>
+                  <?php echo get_sub_field( 'address' ); ?>
+                <?php endwhile; ?>
+              </div>
+            <?php endif; ?>
+
           </div>
-        <?php endif; ?>
 
+          <div class="second-group">
+
+            <?php if (get_field('list_other')): ?>
+              <div class="stores-list"> 
+                <?php while (have_rows('list_other')) : the_row(); ?>
+                  <div class="coutry"><?php echo get_sub_field( 'country_other' ); ?></div>
+                  <?php echo get_sub_field( 'address_other' ); ?>
+                <?php endwhile; ?>
+              </div>
+            <?php endif; ?>
+          </div>
+        </div>
       </div>
+    
+      <div class="third-group">
 
-      <div class="second-group">
-
-        <?php if (get_field('list_other')): ?>
-          <div class="stores-list"> 
-            <?php while (have_rows('list_other')) : the_row(); ?>
-              <div class="coutry"><?php echo get_sub_field( 'country_other' ); ?></div>
-              <?php echo get_sub_field( 'address_other' ); ?>
-            <?php endwhile; ?>
-          </div>
-        <?php endif; ?>
+        <p class="title">Contatos</p>
 
         <?php if (get_field('extra_info')): ?>
           <div class="extra-list"> 
@@ -56,7 +69,18 @@
           </div>
         <?php endif; ?>
 
+        <p class="title">Imprensa</p>
+
+        <?php if (get_field('extra_press')): ?>
+          <div class="extra-list"> 
+            <?php while (have_rows('extra_press')) : the_row(); ?>
+              <div class="extra-title"><?php echo get_sub_field( 'title' ); ?></div>
+              <?php echo get_sub_field( 'info' ); ?>
+            <?php endwhile; ?>
+          </div>
+        <?php endif; ?>
       </div>
+       
     </div>
     
   </div>

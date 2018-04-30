@@ -40,25 +40,36 @@
 
       @media (min-width: 1000px) {
         width: calc(50% - 30px);
-        margin: 30px 0 30px 30px;
+        max-height: responsive(550, 850, 1280, 1980);
+        margin: 65px 0 30px 65px;
         background-size: cover;
         background-position: center center;
         background-image: url(./../../assets/images/onde_img.jpg);
       }
     }
 
-    .stores-lists {
-      padding: 40px 5% 200px;
-      font-size: 11px;
+    .title {
+      border-bottom: 1px solid black;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 5px 0;
 
       @media (min-width: 1000px) {
-        width: 50%;
-        padding: 4% 0 5% 8%;
       }
+    }
+
+    .stores-lists {
+      padding: 40px 5% 200px;
+      font-size: 10px;
+
+      @media (min-width: 1000px) {
+        width: 60%;
+        margin-top: 30px;
+      }
+
       .lists {
         @media (min-width: 1000px) {
           display: flex;
-
         }
       }
 
@@ -69,27 +80,56 @@
 
         @media (min-width: 1000px) {
           display: block;
-          padding: 0 5% 0 68px;
           color: black;
           font-weight: bold;
           font-size: 25px;
           text-transform: uppercase;
-          margin: 7% 0 10px;
           position: relative;
+        }
+      }
+
+      
+
+      .clients-wrap {
+        .title {
+          margin: 0 5%;
+          @media (min-width: 1000px) {
+            margin: 0;
+            width: 85%;
+          }
+        }
+        @media (min-width: 1000px) {
+          margin: 35px 0 0 0;
+          width: 55%;
 
         }
       }
 
+      .clients-list-wrap {
+        @media (min-width: 1000px) {
+          display: flex;
+          .title {
+            margin-top: 25px;
+          }
+        }
+      }
+
       .first-group {
-        margin-top: 25px;
+        //margin-top: 25px;
         padding: 0 5%;
+        
 
         @media (min-width: 1000px) {
-          padding: 0 7%;
+          padding: 0 5% 0 0;
+          width: 45%;
+
+          .stores-list {
+            //margin-top: 30px;
+          }
         }
 
         @media (min-width: 1920px) {
-          padding: 0 5%;
+
         }
       }
       
@@ -97,18 +137,38 @@
         padding: 0 5%;
 
         @media (min-width: 1000px) {
-          margin-top: 25px;
+          //margin-top: 25px;
+          padding: 0 5% 0 0;
+          width: 45%;
+
+          .stores-list {
+            //margin-top: 30px;
+          }
         }
       }
 
-      .extra-list {
-        margin-top: 45px;
+      .third-group {
+        padding: 0 5%;
+
+        .title {
+          margin: 35px 0 10px;
+        }
+
+        @media (min-width: 1000px) {
+          width: 45%;
+          padding: 0 1% 0 0;
+          //margin-top: 25px;
+          .extra-list {
+            margin-top: 0;
+          }
+        }
       }
 
       .coutry,
       .extra-title {
         margin: 15px 0 5px;
         text-transform: uppercase;
+        font-weight: 600;
       }
     }
   }
